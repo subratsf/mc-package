@@ -1,0 +1,3480 @@
+{
+	"a": {
+		"title": "Intro to Marketing Cloud APIs",
+		"url": "index-api.htm",
+		"api-security": {
+			"title": "API Integration Security",
+			"url": "api-security.htm"
+		},
+		"your-subdomain-tenant-specific-endpoints": {
+			"title": "Your Subdomain and Your Tenant's Endpoints",
+			"url": "your-subdomain-tenant-specific-endpoints.htm"
+		}
+  },
+	"b": {
+		"title": "REST API",
+		"url": "rest-api",
+		"content-API": {
+			"title": "Content Builder API",
+			"url": "content-api.htm",
+			"a": {
+				"title": "Asset Model Reference",
+				"url": "asset-model.htm",
+				"a": {
+					"title": "Asset Type",
+					"url": "asset_type.htm"
+				},
+				"b": {
+					"title": "File Upload",
+					"url": "file_upload.htm"
+				},
+				"c": {
+					"title": "Customer Key",
+					"url": "customer_key.htm"
+				},
+				"d": {
+					"title": "Categories",
+					"url": "categories.htm"
+				},
+				"e": {
+					"title": "Channels",
+					"url": "channels.htm"
+				},
+				"f": {
+					"title": "Views",
+					"url": "views.htm"
+				},
+				"g": {
+					"title": "Content",
+					"url": "content.htm"
+				},
+				"h": {
+					"title": "Slots",
+					"url": "slots.htm"
+				},
+				"i": {
+					"title": "Blocks",
+					"url": "blocks.htm"
+				},
+				"j": {
+					"title": "Design and Super Content",
+					"url": "design_super_content.htm"
+				},
+				"k": {
+					"title": "Data",
+					"url": "data.htm"
+				},
+				"l": {
+					"title": "Meta",
+					"url": "meta.htm"
+				},
+				"m": {
+					"title": "Sharing",
+					"url": "sharing.htm",
+				"m1": {
+						"title": "Create Local Copy of a Shared Asset",
+						"url": "create-local-copy-sharing.htm"
+						}
+					},
+				"m2": {
+						"title": "Shared Categories",
+						"url": "shared-categories.htm"
+				},
+				"n": {
+					"title": "Template",
+					"url": "asset_template.htm"
+				},
+				"o": {
+					"title": "Asset Model Examples",
+					"url": "asset_model_examples.htm"
+				}
+			},
+			"b": {
+				"title": "List of Asset Attributes",
+				"url": "asset-attribute-list.htm"
+			},
+			"c": {
+				"title": "List of Asset Types",
+				"url": "base-asset-types.htm"
+			},
+			"d": {
+				"title": "Considerations for Compiling and Rendering the Asset Model",
+				"url": "compiling-asset-model.htm"
+			}
+		},
+		"eventnotificationservice": {
+			"title": "Event Notification Service",
+			"url": "ens.htm",
+			"a": {
+				"title": "Get Started with Event Notification Service",
+				"url": "ens-get-started.htm"
+			},
+			"b": {
+				"title": "Event Notification Service Activites",
+				"url": "ens-activities.htm"
+			},
+			"c": {
+				"title": "Supported Notification Events",
+				"url": "ens-supported-events.htm"
+			},
+			"d": {
+				"title": "Relate ENS Sent Events to Engagement Events",
+				"url": "ens-sent-to-engagement.htm"
+			},
+			"e": {
+				"title": "Subscription Filters",
+				"url": "ens-subscription-filters.htm"
+			},
+			"f": {
+				"title": "Notification Signing",
+				"url": "ens-notification-signing.htm"
+			},
+			"g": {
+				"title": "Retries and Callback Suspensions",
+				"url": "ens-retries-suspensions.htm"
+			}
+		},
+		"a": {
+			"title": "Journey Builder API",
+			"url": "journey-builder-api-overview.htm",
+			"a": {
+				"title": "Get Started with the Journey Builder API",
+				"url": "get-started-jb.htm"
+			},
+			"b": {
+				"title": "Journey Builder Glossary",
+				"url": "glossary.htm"
+			},
+			"bb": {
+				"title": "API Specification",
+				"url": "jb-api-specification.htm"
+			},
+			"c": {
+				"title": "Event Definition Overview",
+				"url": "event-definition-key.htm",
+				"a": {
+					"title": "Event Definition Schema",
+					"url": "event-definition-schema.htm"
+				},
+				"b": {
+					"title": "Event Definition Schedule",
+					"url": "event-definition-schedule.htm"
+				}
+			},
+			"d": {
+				"title": "Build Journey",
+				"url": "getting-started-spec.htm",
+				"b": {
+					"title": "Journey Specification Example",
+					"url": "reference.htm"
+				},
+				"c": {
+					"title": "Validation Checks to Publish a Journey",
+					"url": "interaction-operating-states.htm"
+				},
+				"d": {
+					"title": "How Data Binding Works",
+					"url": "how-data-binding-works.htm"
+				},
+				"e": {
+					"title": "Tag your Journeys",
+					"url": "journey-tags.htm"
+				}
+			},
+				"ea": {
+					"title": "Contact Event",
+					"url": "contact-event.htm"
+				},
+				"eb": {
+					"title": "Goals Event Formats",
+					"url": "goals.htm"
+			},
+				"fa": {
+					"title": "Multi Criteria Decision Split Format",
+					"url": "decision-split.htm"
+				},
+				"fb": {
+					"title": "Data Extension Update Activity Format",
+					"url": "data-extension-update.htm"
+				},
+				"fc": {
+					"title": "Send Email Format",
+					"url": "send-email.htm"
+				},
+				"fd": {
+					"title": "Engagement Split Format",
+					"url": "engagement-split.htm"
+				},
+				"fe": {
+					"title": "Random Split Format",
+					"url": "random-split.htm"
+				},
+				"ff": {
+					"title": "Join Activity Format",
+					"url": "join.htm"
+				},
+				"fg": {
+					"title": "Rest Activity Format",
+					"url": "rest.htm"
+				},
+				"fh": {
+					"title": "Wait Format",
+					"url": "wait.htm"
+				}
+			},
+			"fg": {
+				"title": "Fire an Entry Event",
+				"url": "how-to-fire-an-event.htm"
+			},
+			"fh": {
+				"title": "Single-Send Journeys",
+				"url": "single-send-journeys.htm"
+		},
+		"groupconnect": {
+			"title": "GroupConnect Chat Messaging API",
+			"url": "gc-chat-messaging-api.htm",
+			"a": {
+				"title": "Set Up Your GroupConnect Chat Messaging API",
+				"url": "setup-gc-chat-messaging-api.htm"
+			}
+		},
+		"b": {
+			"title": "MobileConnect API",
+			"url": "using-the-mobileconnect-api.htm",
+			"a": {
+				"title": "SMS Status Codes",
+				"url": "sms-status-codes.htm"
+			}
+		},
+		"pb-API": {
+			"title": "Einstein Recommendations API",
+			"url": "pb-api.htm",
+			"a": {
+				"title": "Privacy Batch API",
+				"url": "pb-privacy-api.htm",
+				"a": {
+					"title": "Create a Batch",
+					"url": "pb-create-batch.htm"
+				},
+				"b": {
+					"title": "Get Batch Status",
+					"url": "pb-get-batch-status.htm"
+				}
+			},
+			"b": {
+				"title": "Download Email Recommendation Log",
+				"url": "pb-email-rec-log.htm"
+			},
+			"c": {
+				"title": "Einstein Recommendations Collect Tracking API",
+				"url": "pb-collect-tracking.htm"
+			}
+		},
+		"transactionalmessaging": {
+			"title": "Transactional Messaging API",
+			"url": "transactional-messaging-api.htm",
+			"a": {
+				"title": "Get Started with Transactional Messaging API",
+				"url": "transactional-messaging-get-started.htm"
+			},
+			"b": {
+				"title": "Transactional Messaging API Activities",
+				"url": "transactional-messaging-activities.htm"
+			},
+			"c": {
+				"title": "Transactional Send Response Level Error Codes",
+				"url": "transactional-send-response.htm"
+			},
+			"d": {
+				"title": "Transactional Send Subscriber Error Codes",
+				"url": "transactional-send-subscriber.htm"
+			}
+		},
+		"c": {
+			"title": "REST Reference",
+			"url": "routes.htm",
+				"address": {
+					"title": "Address: Validate Email",
+					"url": "validateEmail.htm"
+				},
+				"Assets1": {
+					"title": "Assets: Simple Query",
+					"url": "assetSimpleQuery.htm"
+				},
+				"Assets2": {
+					"title": "Assets: Advanced Query",
+					"url": "assetAdvancedQuery.htm"
+				},
+				"Assets3": {
+					"title": "Assets: Use Case Examples for Enhanced Content Search",
+					"url": "use-case-enhanced-content-search.htm"
+				},
+				"Assets4": {
+					"title": "Assets: Create Category",
+					"url": "createCategory.htm"
+				},
+				"Assets5": {
+					"title": "Assets: Get Categories",
+					"url": "getCategories.htm"
+				},
+				"Assets6": {
+					"title": "Assets: Delete Asset",
+					"url": "deleteAsset.htm"
+				},
+				"Assets7": {
+					"title": "Assets: Get Category by ID",
+					"url": "getCategory.htm"
+				},
+				"Assets8": {
+					"title": "Assets: Update Category by ID",
+					"url": "updateCategory.htm"
+				},
+				"Assets9": {
+					"title": "Assets: Delete Category by ID",
+					"url": "deleteCategory.htm"
+			},
+				"audit1": {
+					"title": "Audit: Get Audit Events",
+					"url": "getAuditEvents.htm"
+				},
+				"audit2": {
+					"title": "Audit: Get Security Events",
+					"url": "getSecurityEvents.htm"
+			},
+				"auth1": {
+					"title": "Auth: Get Base URLs",
+					"url": "getBaseURLs.htm"
+				},
+				"auth2": {
+					"title": "Auth: Get User Info",
+					"url": "getUserInfo.htm"
+			},
+				"campaigns1": {
+					"title": "Campaigns: Create Campaign",
+					"url": "createCampaign.htm"
+				},
+				"campaigns2": {
+					"title": "Campaigns: Get Campaign Collection",
+					"url": "getCampaignCollection.htm"
+				},
+				"campaigns3": {
+					"title": "Campaigns: Get Campaign",
+					"url": "getCampaign.htm"
+				},
+				"campaigns4": {
+					"title": "Campaigns: Delete Campaign",
+					"url": "deleteCampaign.htm"
+				},
+				"campaigns5": {
+					"title": "Campaigns: Associate Asset to Campaign",
+					"url": "associateAssetToCampaign.htm"
+				},
+				"campaigns6": {
+					"title": "Campaigns: Get Collection of Campaign Assets",
+					"url": "getCampaignAssetCollection.htm"
+				},
+				"campaigns7": {
+					"title": "Campaigns: Get Campaign Asset",
+					"url": "getCampaignAsset.htm"
+				},
+				"campaigns8": {
+					"title": "Campaigns: Unassociate Asset from Campaign",
+					"url": "unassociateAssetToCampaign.htm"
+			},
+				"chat-messaging1": {
+					"title": "Chat Messaging: Send Message to Recipient",
+					"url": "OTTsendMessageToRecipient.htm"
+				},
+				"chat-messaging2": {
+					"title": "Chat Messaging: Retrieve Sent Message by MessageId",
+					"url": "OTTretrieveSentMessage.htm"
+				},
+				"chat-messaging3": {
+					"title": "Chat Messaging: Register OTT Property",
+					"url": "OTTregisterProperty.htm"
+				},
+				"chat-messaging4": {
+					"title": "Chat Messaging: Retrieve Registration Property by Platform and Id",
+					"url": "OTTretrieveRegistrationProperty.htm"
+				},
+				"chat-messaging5": {
+					"title": "Chat Messaging: Retrieve Registration Collection by Platform",
+					"url": "OTTretrieveRegistrationCollection.htm"
+			},
+				"contacts1": {
+					"title": "Contacts: Get Schemas Collection",
+					"url": "schemasCollection.htm"
+				},
+				"contacts2": {
+					"title": "Contacts: Create Contacts",
+					"url": "createContacts.htm"
+				},
+				"contacts3": {
+					"title": "Contacts: Update Contacts",
+					"url": "updateContacts.htm"
+				},
+				"contacts4": {
+					"title": "Contacts: Insert Attribute Values by ID",
+					"url": "attributeSetsDataIDInsert.htm"
+				},
+				"contacts5": {
+					"title": "Contacts: Update Attribute Values by ID",
+					"url": "attributeSetsDataIDUpdate.htm"
+				},
+				"contacts6": {
+					"title": "Contacts: Get Contact Key for Email Addresses",
+					"url": "retrieveContactKey.htm"
+				},
+				"contacts7": {
+					"title": "Contacts: Search Attribute Sets by Name",
+					"url": "attributeSetsDataName.htm"
+				},
+				"contacts8": {
+					"title": "Contacts: Search Attribute Groups by Schema",
+					"url": "retrieveAttributeGroups.htm"
+				},
+				"contacts9": {
+					"title": "Contacts: Get Custom Object Info",
+					"url": "getCustomObject.htm"
+				},
+				"contacts10": {
+					"title": "Contacts: Search Attribute Group ID by Schema",
+					"url": "retrieveAttributeGroupsID.htm"
+				},
+				"contacts11": {
+					"title": "Contacts: Search Attribute Set Definitions",
+					"url": "retrieveAttributeSetDefinitions.htm"
+				},
+				"contacts12": {
+					"title": "Contacts: Get or Create Contacts by Key and Type",
+					"url": "establish-contacts-detail.htm"
+				},
+				"contacts13": {
+					"title": "Contacts: Configure Settings for Deleting Contacts",
+					"url": "ContactsDeleteConfigStatus.htm"
+				},
+				"contacts14": {
+					"title": "Contacts: Delete Contacts by ID",
+					"url": "DeleteByContactIDs.htm"
+				},
+				"contacts15": {
+					"title": "Contacts: Delete Contacts by Key",
+					"url": "DeleteByContactKeys.htm"
+				},
+				"contacts16": {
+					"title": "Contacts: Delete Contacts by List Reference",
+					"url": "DeleteByListReference.htm"
+				},
+				"contacts17": {
+					"title": "Contacts: Get Status of the Contact Delete Operation",
+					"url": "ContactsDeleteStatus.htm"
+				},
+				"contacts18": {
+					"title": "Contacts: Get Contact Delete Requests Details",
+					"url": "ContactsDeleteRequestsDetails.htm"
+				},
+				"contacts19": {
+					"title": "Contacts: Get Contact Delete Requests Summary",
+					"url": "ContactsDeleteRequestsSummary.htm"
+				},
+				"contacts20": {
+					"title": "Contacts: Retry Failed Delete Request",
+					"url": "RetryContactDelete.htm"
+				},
+				"contacts21": {
+					"title": "Contacts: Restrict Contacts by ID",
+					"url": "restrict-contact-id.htm"
+				},
+				"contacts22": {
+					"title": "Contacts: Restrict Contacts by Key",
+					"url": "restrict-contact-key.htm"
+				},
+				"contacts23": {
+					"title": "Contacts: Restrict Contacts by List Reference",
+					"url": "restrict-contact-listreference.htm"
+				},
+				"contacts24": {
+					"title": "Contacts: Get Status of the Contact Restrict Operation",
+					"url": "ContactsRestrictStatus.htm"
+				},
+				"contacts25": {
+					"title": "Contacts: Retry Failed Restrict Request",
+					"url": "RetryContactRestrict.htm"
+				},
+				"contacts26": {
+					"title": "Contacts: Remove Contact from a Journey",
+					"url": "contactExitRequest.htm"
+				},
+				"contacts27": {
+					"title": "Contacts: Get Contact's Exit Status from a Journey",
+					"url": "contactExitStatus.htm"
+				},
+				"contacts28": {
+					"title": "Contacts: Get List of Journeys the Contact is in",
+					"url": "contactMembershipRequest.htm"
+				},
+				"contacts29": {
+					"title": "Contacts: Add Contact Preferences",
+					"url": "addContactPreferences.htm"
+				},
+				"contacts30": {
+					"title": "Contacts: Add Contact Preferences by Contact ID",
+					"url": "addContactPreferencesById.htm"
+				},
+				"contacts31": {
+					"title": "Contacts: Get Contact Preferences by Contact ID",
+					"url": "getContactPreferencesById.htm"
+				},
+				"contacts32": {
+					"title": "Contacts: Search Contact Preferences by Reference Type",
+					"url": "searchContactPreferencesByReferenceType.htm"
+				},
+				"contacts33": {
+					"title": "Contacts: Get Contact Preferences by Contact Key",
+					"url": "getContactPreferencesByKey.htm"
+			},
+			"data-events1": {
+					"title": "Data Events: When to Use Asynchronous Processing",
+					"url": "asynchronous_processing_scenarios.htm",
+				"async-API": {
+					"title": "Asynchronous APIs",
+					"url": "data-extensions-api.htm",
+					"async-API1": {
+						"title": "Asynchronously Insert Data Extension",
+						"url": "insertDataExtensionIDAsync.htm"
+					},
+					"async-API2": {
+						"title": "Asynchronously Upsert Data Extension",
+						"url": "updateDataExtensionIDAsync.htm"
+					},
+					"async-API3": {
+						"title": "Retrieve Status of Asynchronous Request",
+						"url": "getStatusDataExtensionAsync.htm"
+					},
+					"async-API4": {
+						"title": "Retrieve Result of Asynchronous Request",
+						"url": "getResultsDataExtensionAsync.htm"
+					}
+				},
+				"sync-api": {
+					"title": "Synchronous APIs",
+					"url": "data-extensions-api-synch.htm",
+					"a": {
+						"title": "Insert Data Extension Rows by Key",
+						"url": "postDataExtensionRowsetByKey.htm"
+					},
+					"b": {
+						"title": "Insert Data Extension Row by Key",
+						"url": "putDataExtensionRowByKey.htm"
+					},
+					"c": {
+						"title": "Increment Column Value by Data Extension Key",
+						"url": "putIncrementColumnValueByKey.htm"
+					}
+				}
+			},
+
+				"domain-verification1": {
+					"title": "Domain Verification: Domain Verification Bulk Insert",
+					"url": "insertDomainVerification.htm"
+				},
+				"domain-verification2": {
+					"title": "Domain Verification: Retrieve List of Verified Domains",
+					"url": "domainVerificationGetDetail.htm"
+				},
+				"domain-verification3": {
+					"title": "Domain Verification: Create Record in an Authenticated Domain",
+					"url": "domainVerificationCreateDetail.htm"
+				},
+				"domain-verification4": {
+					"title": "Domain Verification: Update Record in an Authenticated Domain",
+					"url": "domainVerificationUpdateDetail.htm"
+				},
+				"domain-verification5": {
+					"title": "Domain Verification: Delete User Domain From Addresses",
+					"url": "domainVerificationDeleteDetail.htm"
+				},
+				"domain-verification6": {
+					"title": "Domain Verification: Check if Domain Exists",
+					"url": "domainVerificationVerifyDomain.htm"
+				},
+				"domain-verification7": {
+					"title": "Domain Verification: Register Domain for Validation",
+					"url": "domainVerificationRegister.htm"
+				},
+				"domain-verification8": {
+					"title": "Domain Verification: Registered Domain Inheritance",
+					"url": "domainVerificationPushDomain.htm"
+			},
+				"event-notification-service": {
+					"title": "Event Notification: Create Callback",
+					"url": "createCallback.htm"
+				},
+				"event-notification-service1": {
+					"title": "Event Notification: Verify Callback",
+					"url": "verifyCallback.htm"
+				},
+				"event-notification-service2": {
+					"title": "Event Notification: Get Callback",
+					"url": "getCallback.htm"
+				},
+				"event-notification-service3": {
+					"title": "Event Notification: Update Callback",
+					"url": "updateCallback.htm"
+				},
+				"event-notification-service4": {
+					"title": "Event Notification: Delete Callback",
+					"url": "deleteCallback.htm"
+				},
+				"event-notification-service5": {
+					"title": "Event Notification: Get All Callbacks",
+					"url": "getAllCallbacks.htm"
+				},
+				"event-notification-service6": {
+					"title": "Event Notification: Create Subscription",
+					"url": "createSubscription.htm"
+				},
+				"event-notification-service7": {
+					"title": "Event Notification: Delete Subscription",
+					"url": "deleteSubscription.htm"
+				},
+				"event-notification-service8": {
+					"title": "Event Notification: Get Subscription",
+					"url": "getSubscription.htm"
+				},
+				"event-notification-service9": {
+					"title": "Event Notification: Get All Subscriptions for a Callback",
+					"url": "getAllSubscriptionsForCallback.htm"
+				},
+				"event-notification-service10": {
+					"title": "Event Notification: Update Subscription",
+					"url": "updateSubscription.htm"
+				},
+				"event-notification-service11": {
+					"title": "Event Notification: Regenerate Signature Key",
+					"url": "regenerateSignatureKey.htm"
+			},
+				"interaction": {
+					"title": "Interaction: Retrieve REST Discovery Document",
+					"url": "restDiscovery.htm"
+				},
+				"interaction1": {
+					"title": "Interaction: Insert Journey",
+					"url": "postCreateInteraction.htm"
+				},
+				"interaction2": {
+					"title": "Interaction: Search Journeys",
+					"url": "getInteractionCollection.htm"
+				},
+				"interaction3": {
+					"title": "Interaction: Update Journey Version",
+					"url": "putUpdateInteraction.htm"
+				},
+				"interaction4": {
+					"title": "Interaction: Create Event Definition",
+					"url": "createEventDefinition.htm"
+				},
+				"interaction5": {
+					"title": "Interaction: Fire the Event",
+					"url": "postEvent.htm"
+				},
+				"interaction6": {
+					"title": "Interaction: Get Journey",
+					"url": "getInteractionById.htm"
+				},
+				"interaction7": {
+					"title": "Interaction: Delete Journey",
+					"url": "deleteInteractionById.htm"
+				},
+				"interaction8": {
+					"title": "Interaction: Get Journey Audit Log",
+					"url": "getInteractionAuditLog.htm"
+				},
+				"interaction9": {
+					"title": "Interaction: Get Publish Status",
+					"url": "getPublishStatus.htm"
+				},
+				"interaction10": {
+					"title": "Interaction: Stop a Journey",
+					"url": "postStopInteractionById.htm"
+				},
+				"interaction11": {
+					"title": "Interaction: Pause a Journey by Definition ID",
+					"url": "JourneyPauseByDefinitionId.htm"
+				},
+				"interaction12": {
+					"title": "Interaction: Pause a Journey by Definition Key",
+					"url": "JourneyPauseByDefinitionKey.htm"
+				},
+				"interaction13": {
+					"title": "Interaction: Resume a Journey by Definition ID",
+					"url": "JourneyResumeByDefinitionId.htm"
+				},
+				"interaction14": {
+					"title": "Interaction: Resume a Journey by Definition Key",
+					"url": "JourneyResumeByDefinitionKey.htm"
+				},
+				"interaction15": {
+					"title": "Interaction: Publish a Journey Version",
+					"url": "postPublishInteractionById.htm"
+				},
+				"interaction16": {
+					"title": "Interaction: Remove Contact from a Journey",
+					"url": "contactExitRequest.htm"
+				},
+				"interaction17": {
+					"title": "Interaction: Get the Status of Removing a Contact from a Journey",
+					"url": "contactExitStatus.htm"
+			},
+				"messaging1": {
+					"title": "Messaging: Send Email",
+					"url": "messageDefinitionSends.htm"
+				},
+				"messaging2": {
+					"title": "Messaging: Get Email Delivery Details",
+					"url": "messageDefinitionSendsDeliveryRecords.htm"
+			},
+				"objects1": {
+					"title": "Objects: Create Nested Tags",
+					"url": "createNestedTags.htm"
+				},
+				"objects2": {
+					"title": "Objects: Get Nested Tags",
+					"url": "getNestedTags.htm"
+				},
+				"objects3": {
+					"title": "Objects: Get Nested Tag By ID",
+					"url": "getNestedTagById.htm"
+				},
+				"objects4": {
+					"title": "Objects: Update Nested Tags",
+					"url": "updateNestedTags.htm"
+				},
+				"objects5": {
+					"title": "Objects: Patch Nested Tags",
+					"url": "patchNestedTags.htm"
+				},
+				"objects6": {
+					"title": "Objects: Delete Nested Tags",
+					"url": "deleteNestedTags.htm"
+				},
+				"objects7": {
+					"title": "Objects: Create Tags",
+					"url": "createTags.htm"
+				},
+				"objects8": {
+					"title": "Objects: Delete Tags",
+					"url": "deleteTags.htm"
+			},
+				"platform": {
+					"title": "Platform: Get Endpoints",
+					"url": "getendpoints.htm"
+				},
+				"platform1": {
+					"title": "Platform: Get Token Context",
+					"url": "gettokencontext.htm"
+				},
+				"platform2": {
+					"title": "Platform: Get Endpoint",
+					"url": "getendpoint.htm"
+				},
+				"platform3": {
+					"title": "Platform: Get Keys",
+					"url": "getKeys.htm"
+				},
+				"platform4": {
+					"title": "Platform: Create or Import Key",
+					"url": "createOrImportKey.htm"
+				},
+				"platform5": {
+					"title": "Platform: Get Key Types",
+					"url": "getKeyTypes.htm"
+				},
+				"platform6": {
+					"title": "Platform: Get Wrapping Key",
+					"url": "getWrappingKey.htm"
+				},
+				"platform7": {
+					"title": "Platform: Get Key By ID",
+					"url": "getKeyById.htm"
+				},
+				"platform8": {
+					"title": "Platform: Delete Key By Key ID",
+					"url": "deleteKeyByKeyId.htm"
+				},
+				"push1": {
+					"title": "Push: Create Push Message",
+					"url": "createPushMessage.htm"
+				},
+				"push2": {
+					"title": "Push: Get Push Messages",
+					"url": "retrieveAllPushMessages.htm"
+				},
+				"push3": {
+					"title": "Push: Create Location",
+					"url": "createLocation.htm"
+				},
+				"push4": {
+					"title": "Push: Get Locations",
+					"url": "getLocations.htm"
+				},
+				"push5": {
+					"title": "Push: Get App Info",
+					"url": "retrieveAppInformation.htm"
+				},
+				"push6": {
+					"title": "Push: Update Push Message",
+					"url": "updatePushMessage.htm"
+				},
+				"push7": {
+					"title": "Push: Delete Push Message",
+					"url": "deletePushMessage.htm"
+				},
+				"push8": {
+					"title": "Push: Get Push Message",
+					"url": "retrieveSinglePushMessage.htm"
+				},
+				"push9": {
+					"title": "Push: Get Specific Location",
+					"url": "getSpecificLocation.htm"
+				},
+				"push10": {
+					"title": "Push: Update Location",
+					"url": "updateLocation.htm"
+				},
+				"push11": {
+					"title": "Push: Delete Location",
+					"url": "deleteLocation.htm"
+				},
+				"push12": {
+					"title": "Push: Get Custom Keys",
+					"url": "retrieveAllCustomKeyValues.htm"
+				},
+				"push13": {
+					"title": "Push: Update Custom Keys",
+					"url": "updateAllCustomKeyValues.htm"
+				},
+				"push14": {
+					"title": "Push: Delete Custom Keys",
+					"url": "deleteAllCustomKeyValues.htm"
+				},
+				"push15": {
+					"title": "Push: Refresh List",
+					"url": "postRefreshAudience.htm"
+				},
+				"push16": {
+					"title": "Push: Send Message to All",
+					"url": "postMessageAppSend.htm"
+				},
+				"push17": {
+					"title": "Push: Send Message to Tagged Users",
+					"url": "postMessageTagSend.htm"
+				},
+				"push18": {
+					"title": "Push: Send Message to List",
+					"url": "postMessageListSend.htm"
+				},
+				"push19": {
+					"title": "Push: Update Custom Key",
+					"url": "updateSpecificCustomKeyValue.htm"
+				},
+				"push20": {
+					"title": "Push: Delete Custom Key",
+					"url": "deleteSpecificCustomKeyValue.htm"
+				},
+				"push21": {
+					"title": "Push: Send Message to Mobile Devices in Batch",
+					"url": "postMessageBatch.htm"
+				},
+				"push22": {
+					"title": "Push: Send Message to Mobile Devices",
+					"url": "postMessageContactSendPush.htm"
+				},
+				"push23": {
+					"title": "Push: Get Refresh List Status",
+					"url": "getRefreshAudience.htm"
+				},
+				"push24": {
+					"title": "Push: Get Delivery Status of MessageApp",
+					"url": "getMessageAppDeliveries.htm"
+				},
+				"push25": {
+					"title": "Push: Get Delivery Status of MessageTag",
+					"url": "getMessageTagDeliveries.htm"
+				},
+				"push26": {
+					"title": "Push: Get Delivery Status of MessageList",
+					"url": "getMessageListDeliveries.htm"
+				},
+				"push27": {
+					"title": "Push: Get Delivery Status of MessageContact",
+					"url": "getMessageContactDeliveries.htm"
+				},
+				"sms": {
+					"title": "SMS: Create Keyword",
+					"url": "createKeyword.htm"
+				},
+				"sms1": {
+					"title": "SMS: Queue MO Message",
+					"url": "postQueueMO.htm"
+				},
+				"sms2": {
+					"title": "SMS: Delete Keyword by ID",
+					"url": "deleteKeywordViaKeywordId.htm"
+				},
+				"sms3": {
+					"title": "SMS: Post Message to List",
+					"url": "postMessageList.htm"
+				},
+				"sms4": {
+					"title": "SMS: Import and Send Message",
+					"url": "importSend.htm"
+				},
+				"sms5": {
+					"title": "SMS: Get Subscription Status",
+					"url": "contactsSubscriptions.htm"
+				},
+				"sms6": {
+					"title": "SMS: Post Message to Number",
+					"url": "postMessageContactSend.htm"
+				},
+				"sms7": {
+					"title": "SMS: Get Tracking History of Queued MO",
+					"url": "getQueueMOHistory.htm"
+				},
+				"sms8": {
+					"title": "SMS: Queue Contact Import",
+					"url": "queueContactImport.htm"
+				},
+				"sms9": {
+					"title": "SMS: Refresh List",
+					"url": "postRefreshSMSAudience.htm"
+				},
+				"sms10": {
+					"title": "SMS: Delete Keyword by Longcode",
+					"url": "deleteKeywordViaKeywordLongCode.htm"
+				},
+				"sms11": {
+					"title": "SMS: Get Delivery Status of Queued MO",
+					"url": "getQueueMODelivery.htm"
+				},
+				"sms12": {
+					"title": "SMS: Get Message List Status",
+					"url": "getMessageList.htm"
+				},
+				"sms13": {
+					"title": "SMS: Get ImportSend Status",
+					"url": "importSendStatus.htm"
+				},
+				"sms14": {
+					"title": "SMS: Create ImportSend Delivery Report",
+					"url": "importSendDeliveryReport.htm"
+				},
+				"sms15": {
+					"title": "SMS: Create MessageList Delivery Report",
+					"url": "messageListDeliveryReport.htm"
+				},
+				"sms16": {
+					"title": "SMS: Get Refresh List Status",
+					"url": "getRefreshSMSAudience.htm"
+				},
+				"sms17": {
+					"title": "SMS: Get Import Status",
+					"url": "getContactImportStatus.htm"
+				},
+				"sms18": {
+					"title": "SMS: Delete Keyword by Shortcode",
+					"url": "deleteKeywordViaKeywordShortCodeCountryCode.htm"
+				},
+				"sms19": {
+					"title": "SMS: Get Message Contact Status",
+					"url": "getMessageContactDelivery.htm"
+				},
+				"sms20": {
+					"title": "SMS: Get Message Contact History",
+					"url": "getMessageContactHistory.htm"
+				},
+				"transactional-messaging1": {
+					"title": "Transactional Messaging: Email - Get Send Definition by Key",
+					"url": "getSendDefinition.htm"
+				},
+				"transactional-messaging2": {
+					"title": "Transactional Messaging: Email - Create Send Definition",
+					"url": "createSendDefinition.htm"
+				},
+				"transactional-messaging3": {
+					"title": "Transactional Messaging: Email - Update Message Definition",
+					"url": "updateMessageDefinition.htm"
+				},
+				"transactional-messaging4": {
+					"title": "Transactional Messaging: Email - Delete Message Definition",
+					"url": "deleteMessageDefinition.htm"
+				},
+				"transactional-messaging5": {
+					"title": "Transactional Messaging: Email - Get a List of Definitions",
+					"url": "getDefinitions.htm"
+				},
+				"transactional-messaging6": {
+					"title": "Transactional Messaging: Email - Get Queue Metrics for a Definition",
+					"url": "getQueueMetricsForDefinition.htm"
+				},
+				"transactional-messaging7": {
+					"title": "Transactional Messaging: Email - Delete Messages Queued for a Definition",
+					"url": "deleteQueuedMessagesForDefinition.htm"
+				},
+				"transactional-messaging8": {
+					"title": "Transactional Messaging: Email - Send a Message to Multiple Recipients",
+					"url": "sendMessageMultipleRecipients.htm"
+				},
+				"transactional-messaging9": {
+					"title": "Transactional Messaging: Email - Send a Message to a Single Recipient",
+					"url": "sendMessageSingleRecipient.htm"
+				},
+				"transactional-messaging10": {
+					"title": "Transactional Messaging: Email - Get Message Send Status for Recipient",
+					"url": "getSendStatusForRecipient.htm"
+				},
+				"transactional-messaging11": {
+					"title": "Transactional Messaging: Email - Get List of Messages Not Sent to Recipients",
+					"url": "getMessagesNotSent.htm"
+				},
+				"transactional-messaging12": {
+					"title": "Transactional Messaging: SMS - Get Send Definition by Key",
+					"url": "getSMSSendDefinition.htm"
+				},
+				"transactional-messaging13": {
+					"title": "Transactional Messaging: SMS - Create Send Definition",
+					"url": "createSMSSendDefinition.htm"
+				},
+				"transactional-messaging14": {
+					"title": "Transactional Messaging: SMS - Update Message Definition",
+					"url": "updateSMSMessageDefinition.htm"
+				},
+				"transactional-messaging15": {
+					"title": "Transactional Messaging: SMS - Delete Message Definition",
+					"url": "deleteSMSMessageDefinition.htm"
+				},
+				"transactional-messaging16": {
+					"title": "Transactional Messaging: SMS - Get a List of Definitions",
+					"url": "getSMSDefinitions.htm"
+				},
+				"transactional-messaging17": {
+					"title": "Transactional Messaging: SMS - Get Queue Metrics for a Definition",
+					"url": "getSMSQueueMetricsForDefinition.htm"
+				},
+				"transactional-messaging18": {
+					"title": "Transactional Messaging: SMS - Delete Messages Queued for a Defintion",
+					"url": "deleteSMSQueuedMessagesForDefinition.htm"
+				},
+				"transactional-messaging19": {
+					"title": "Transactional Messaging: SMS - Send a Message to Multiple Recipients",
+					"url": "sendSMSMessageMultipleRecipients.htm"
+				},
+				"transactional-messaging20": {
+					"title": "Transactional Messaging: SMS - Send a Message to a Single Recipient",
+					"url": "sendSMSMessageSingleRecipient.htm"
+				},
+				"transactional-messaging21": {
+					"title": "Transactional Messaging: SMS - Get Message Send Status for Recipient",
+					"url": "getSMSSendStatusForRecipient.htm"
+				},
+				"transactional-messaging22": {
+					"title": "Transactional Messaging: SMS - Get List of Messages Not Sent to Recipients",
+					"url": "getSMSMessagesNotSent.htm"
+				},
+				"trd": {
+					"title": "REST API Permission IDs and Scopes",
+					"url": "rest-permissions-and-scopes.htm"
+				}
+		}
+	},
+	"c": {
+		"title": "SOAP Web Service API",
+		"url": "web_service_guide.htm",
+		"api-performance": {
+			"title": "SOAP API Performance",
+			"url": "api-performance.htm"
+		},
+		"a": {
+			"title": "Get Started with the SOAP API",
+			"url": "getting_started_developers_and_the_exacttarget_api.htm",
+			"a": {
+				"title": "Authenticate Your SOAP API Calls",
+				"url": "authenticate-soap-api.htm"
+			},
+			"b": {
+				"title": "WSDL and Endpoint Links",
+				"url": "wsdl-endpoint-links.htm"
+			},
+			"c": {
+				"title": "Choose Your Programming Language",
+				"url": "choose-programming-lang.htm",
+				"a": {
+					"title": "Connect to the API Using Java and Axis 1.4",
+					"url": "connecting_to_the_web_service_api_using_java_and_axis_14.htm"
+				},
+				"b": {
+					"title": "Connect to the API Using Java and Axis2",
+					"url": "connecting_to_the_api_using_java_and_axis2.htm"
+				},
+				"c": {
+					"title": "Connect to the API Using Java and CXF",
+					"url": "connecting_to_the_soap_api_using_java_and_cxf.htm"
+				},
+				"d": {
+					"title": "Connect to the API Using Perl",
+					"url": "connecting_to_the_api_using_perl.htm"
+				},
+				"e": {
+					"title": "Connect to the API Using PHP",
+					"url": "connecting_to_the_api_using_php.htm"
+				},
+				"f": {
+					"title": "Connect to the API Using Python",
+					"url": "connecting_to_the_api_using_python.htm"
+				},
+				"g": {
+					"title": "Connect to the API Using Ruby on Rails",
+					"url": "connecting_to_the_api_using_ruby_on_rails.htm"
+				},
+				"h": {
+					"title": "Connect to the API Using WCF",
+					"url": "connecting_to_the_web_service_api_using_wcf.htm"
+				},
+				"i": {
+					"title": "Connect to the API Using WSE 3.0 and .NET 2.0",
+					"url": "connecting_to_the_web_service_api_using_wse_30_and_net_20.htm"
+				}
+			},
+			"d": {
+				"title": "API Starter Kits",
+				"url": "api_starter_kits.htm"
+			}
+		},
+		"b": {
+			"title": "Work with SOAP Web Service API",
+			"url": "working_with_soap_web_service_api.htm"
+		},
+		"c": {
+			"title": "Methods",
+			"url": "soap_web_service_methods.htm",
+			"a": {
+				"title": "Configure",
+				"url": "configure.htm"
+			},
+			"b": {
+				"title": "Create",
+				"url": "create.htm"
+			},
+			"c": {
+				"title": "Delete",
+				"url": "delete.htm"
+			},
+			"d": {
+				"title": "Describe",
+				"url": "describe.htm"
+			},
+			"e": {
+				"title": "Execute",
+				"url": "execute.htm"
+			},
+			"f": {
+				"title": "Extract",
+				"url": "extract.htm"
+			},
+			"g": {
+				"title": "GetSystemStatus",
+				"url": "getsystemstatus.htm"
+			},
+			"h": {
+				"title": "Perform",
+				"url": "perform.htm"
+			},
+			"i": {
+				"title": "Query",
+				"url": "querymethod.htm"
+			},
+			"j": {
+				"title": "Retrieve",
+				"url": "retrieve.htm"
+			},
+			"k": {
+				"title": "Schedule",
+				"url": "schedule.htm"
+			},
+			"l": {
+				"title": "Update",
+				"url": "update.htm"
+			},
+			"m": {
+				"title": "VersionInfo",
+				"url": "versioninfo.htm"
+			}
+		},
+		"d": {
+			"title": "Objects",
+			"url": "soap_web_service_objects.htm",
+			"1": {
+				"title": "Account",
+				"url": "account.htm"
+			},
+			"2": {
+				"title": "AccountDataItem",
+				"url": "accountdataitem.htm"
+			},
+			"3": {
+				"title": "AccountPrivateLabel",
+				"url": "accountprivatelabel.htm"
+			},
+			"4": {
+				"title": "AccountTypeEnum",
+				"url": "accounttypeenum.htm"
+			},
+			"5": {
+				"title": "AccountUser",
+				"url": "accountuser.htm"
+			},
+			"6": {
+				"title": "AddressStatus",
+				"url": "addressstatus.htm"
+			},
+			"7": {
+				"title": "APIObject",
+				"url": "apiobject.htm"
+			},
+			"8": {
+				"title": "APIProperty",
+				"url": "apiproperty.htm"
+			},
+			"9": {
+				"title": "AsyncRequestResult",
+				"url": "asyncrequestresult.htm"
+			},
+			"10": {
+				"title": "AsyncResponse",
+				"url": "asyncresponse.htm"
+			},
+			"11": {
+				"title": "AsyncResponseType",
+				"url": "asyncresponsetype.htm"
+			},
+			"12": {
+				"title": "Attribute",
+				"url": "attribute.htm"
+			},
+			"13": {
+				"title": "AttributeMap",
+				"url": "attributemap.htm"
+			},
+			"14": {
+				"title": "AudienceItem",
+				"url": "audienceitem.htm"
+			},
+			"15": {
+				"title": "Authentication",
+				"url": "authentication.htm"
+			},
+			"16": {
+				"title": "Automation",
+				"url": "automation.htm"
+			},
+			"17": {
+				"title": "AutomationActivity",
+				"url": "automationactivity.htm"
+			},
+			"18": {
+				"title": "AutomationActivityInstance",
+				"url": "automationactivityinstance.htm"
+			},
+			"19": {
+				"title": "AutomationInstance",
+				"url": "automationinstance.htm"
+			},
+			"20": {
+				"title": "AutomationInstances",
+				"url": "automationinstances.htm"
+			},
+			"21": {
+				"title": "AutomationNotification",
+				"url": "automationnotification.htm"
+			},
+			"22": {
+				"title": "AutomationSource",
+				"url": "automationsource.htm"
+			},
+			"23": {
+				"title": "AutomationTask",
+				"url": "automationtask.htm"
+			},
+			"24": {
+				"title": "AutomationTaskInstance",
+				"url": "automationtaskinstance.htm"
+			},
+			"25": {
+				"title": "BaseMOKeyword",
+				"url": "basemokeyword.htm"
+			},
+			"26": {
+				"title": "BounceEvent",
+				"url": "bounceevent.htm"
+			},
+			"27": {
+				"title": "BusinessRule",
+				"url": "businessrule.htm"
+			},
+			"28": {
+				"title": "BusinessUnit",
+				"url": "businessunit.htm"
+			},
+			"29": {
+				"title": "Campaign",
+				"url": "campaign.htm"
+			},
+			"30": {
+				"title": "CampaignPerformOptions",
+				"url": "campaignperformoptions.htm"
+			},
+			"31": {
+				"title": "Certificate",
+				"url": "certificate.htm"
+			},
+			"32": {
+				"title": "ClickEvent",
+				"url": "clickevent.htm"
+			},
+			"33": {
+				"title": "ClientID",
+				"url": "clientid.htm"
+			},
+			"34": {
+				"title": "ComplexFilterPart",
+				"url": "complexfilterpart.htm"
+			},
+			"35": {
+				"title": "CompressionConfiguration",
+				"url": "compressionconfiguration.htm"
+			},
+			"36": {
+				"title": "CompressionEncoding",
+				"url": "compressionencoding.htm"
+			},
+			"37": {
+				"title": "CompressionType",
+				"url": "compressiontype.htm"
+			},
+			"38": {
+				"title": "ConfigureOptions",
+				"url": "configureoptions.htm"
+			},
+			"39": {
+				"title": "ConfigureResult",
+				"url": "configureresult.htm"
+			},
+			"40": {
+				"title": "ContactEvent",
+				"url": "contactevent.htm"
+			},
+			"41": {
+				"title": "ContainerID",
+				"url": "containerid.htm"
+			},
+			"42": {
+				"title": "ContentArea",
+				"url": "contentarea.htm"
+			},
+			"43": {
+				"title": "ContentValidation",
+				"url": "contentvalidation.htm"
+			},
+			"44": {
+				"title": "ContentValidationResult",
+				"url": "contentvalidationresult.htm"
+			},
+			"45": {
+				"title": "ContentValidationTaskResult",
+				"url": "contentvalidationtaskresult.htm"
+			},
+			"46": {
+				"title": "CreateOptions",
+				"url": "createoptions.htm"
+			},
+			"47": {
+				"title": "CreateResult",
+				"url": "createresult.htm"
+			},
+			"48": {
+				"title": "DailyRecurrence",
+				"url": "dailyrecurrence.htm"
+			},
+			"49": {
+				"title": "DailyRecurrencePatternTypeEnum",
+				"url": "dailyrecurrencepatterntypeenum.htm"
+			},
+			"50": {
+				"title": "DataExtension",
+				"url": "dataextension.htm"
+			},
+			"51": {
+				"title": "DataExtensionCreateResult",
+				"url": "dataextensioncreateresult.htm"
+			},
+			"52": {
+				"title": "DataExtensionDeleteResult",
+				"url": "dataextensiondeleteresult.htm"
+			},
+			"53": {
+				"title": "DataExtensionError",
+				"url": "dataextensionerror.htm"
+			},
+			"54": {
+				"title": "DataExtensionField",
+				"url": "dataextensionfield.htm"
+			},
+			"55": {
+				"title": "DataExtensionFieldType",
+				"url": "dataextensionfieldtype.htm"
+			},
+			"56": {
+				"title": "DataExtensionObject",
+				"url": "dataextensionobject.htm"
+			},
+			"57": {
+				"title": "DataExtensionTemplate",
+				"url": "dataextensiontemplate.htm"
+			},
+			"58": {
+				"title": "DataExtensionUpdateResult",
+				"url": "dataextensionupdateresult.htm"
+			},
+			"59": {
+				"title": "DataExtractActivity",
+				"url": "dataextractactivity.htm"
+			},
+			"60": {
+				"title": "DataFolder",
+				"url": "datafolder.htm"
+			},
+			"61": {
+				"title": "DataSourceTypeEnum",
+				"url": "datasourcetypeenum.htm"
+			},
+			"62": {
+				"title": "DateTimeUnitOfMeasure",
+				"url": "datetimeunitofmeasure.htm"
+			},
+			"63": {
+				"title": "DayOfWeekEnum",
+				"url": "dayofweekenum.htm"
+			},
+			"64": {
+				"title": "DeleteOptions",
+				"url": "deleteoptions.htm"
+			},
+			"65": {
+				"title": "DeleteResult",
+				"url": "deleteresult.htm"
+			},
+			"66": {
+				"title": "DeliveryProfile",
+				"url": "deliveryprofile.htm"
+			},
+			"67": {
+				"title": "DeliveryProfileDomainTypeEnum",
+				"url": "deliveryprofiledomaintypeenum.htm"
+			},
+			"68": {
+				"title": "DeliveryProfileSourceAddressTypeEnum",
+				"url": "deliveryprofilesourceaddresstypeenum.htm"
+			},
+			"69": {
+				"title": "DoubleOptInMoKeyword",
+				"url": "doubleoptinmokeyword.htm"
+			},
+			"70": {
+				"title": "Email",
+				"url": "email.htm"
+			},
+			"71": {
+				"title": "EmailAddress",
+				"url": "emailaddress.htm"
+			},
+			"72": {
+				"title": "EmailSendDefinition",
+				"url": "emailsenddefinition.htm"
+			},
+			"73": {
+				"title": "EmailType",
+				"url": "emailtype.htm"
+			},
+			"74": {
+				"title": "EventType",
+				"url": "eventtype.htm"
+			},
+			"75": {
+				"title": "ExecuteRequest",
+				"url": "executerequest.htm"
+			},
+			"76": {
+				"title": "ExecuteResponse",
+				"url": "executeresponse.htm"
+			},
+			"77": {
+				"title": "ExtractDefinition",
+				"url": "extractdefinition.htm"
+			},
+			"78": {
+				"title": "ExtractDescription",
+				"url": "extractdescription.htm"
+			},
+			"79": {
+				"title": "ExtractOptions",
+				"url": "extractoptions.htm"
+			},
+			"80": {
+				"title": "ExtractParameter",
+				"url": "extractparameter.htm"
+			},
+			"81": {
+				"title": "ExtractParameterDataType",
+				"url": "extractparameterdatatype.htm"
+			},
+			"82": {
+				"title": "ExtractParameterDescription",
+				"url": "extractparameterdescription.htm"
+			},
+			"83": {
+				"title": "ExtractRequest",
+				"url": "extractrequest.htm"
+			},
+			"84": {
+				"title": "ExtractResult",
+				"url": "extractresult.htm"
+			},
+			"85": {
+				"title": "ExtractTemplate",
+				"url": "extracttemplate.htm"
+			},
+			"86": {
+				"title": "FieldMap",
+				"url": "fieldmap.htm"
+			},
+			"87": {
+				"title": "FileTransferActivity",
+				"url": "filetransferactivity.htm"
+			},
+			"88": {
+				"title": "FileTransferLocation",
+				"url": "filetransferlocation.htm"
+			},
+			"89": {
+				"title": "FileTrigger",
+				"url": "filetrigger.htm"
+			},
+			"90": {
+				"title": "FileTriggerTypeLastPull",
+				"url": "filetriggertypelastpull.htm"
+			},
+			"91": {
+				"title": "FileType",
+				"url": "filetype.htm"
+			},
+			"92": {
+				"title": "FilterActivity",
+				"url": "filteractivity.htm"
+			},
+			"93": {
+				"title": "FilterDefinition",
+				"url": "filterdefinition.htm"
+			},
+			"94": {
+				"title": "FilterPart",
+				"url": "filterpart.htm"
+			},
+			"95": {
+				"title": "Folder",
+				"url": "folder.htm"
+			},
+			"96": {
+				"title": "ForwardedEmailEvent",
+				"url": "forwardedemailevent.htm"
+			},
+			"97": {
+				"title": "ForwardedEmailOptInEvent",
+				"url": "forwardedemailoptinevent.htm"
+			},
+			"98": {
+				"title": "GlobalUnsubscribeCategory",
+				"url": "globalunsubscribecategory.htm"
+			},
+			"99": {
+				"title": "Group",
+				"url": "group.htm"
+			},
+			"100": {
+				"title": "GroupDefinition",
+				"url": "groupdefinition.htm"
+			},
+			"101": {
+				"title": "HelpMOKeyword",
+				"url": "helpmokeyword.htm"
+			},
+			"102": {
+				"title": "HourlyRecurrence",
+				"url": "hourlyrecurrence.htm"
+			},
+			"103": {
+				"title": "HourlyRecurrencePatternTypeEnum",
+				"url": "hourlyrecurrencepatterntypeenum.htm"
+			},
+			"104": {
+				"title": "ImportDefinition",
+				"url": "importdefinition.htm"
+			},
+			"105": {
+				"title": "ImportDefinitionAutoGenerateDestination",
+				"url": "importdefinitionautogeneratedestination.htm"
+			},
+			"106": {
+				"title": "ImportDefinitionColumnBasedAction",
+				"url": "importdefinitioncolumnbasedaction.htm"
+			},
+			"107": {
+				"title": "ImportDefinitionColumnBasedActionType",
+				"url": "importdefinitioncolumnbasedactiontype.htm"
+			},
+			"108": {
+				"title": "ImportDefinitionFieldMap",
+				"url": "importdefinitionfieldmap.htm"
+			},
+			"109": {
+				"title": "ImportDefinitionFieldMappingType",
+				"url": "importdefinitionfieldmappingtype.htm"
+			},
+			"110": {
+				"title": "ImportDefinitionSubscriberImportType",
+				"url": "importdefinitionsubscriberimporttype.htm"
+			},
+			"111": {
+				"title": "ImportDefinitionUpdateType",
+				"url": "importdefinitionupdatetype.htm"
+			},
+			"112": {
+				"title": "ImportResultsSummary",
+				"url": "importresultssummary.htm"
+			},
+			"113": {
+				"title": "IntegrationProfile",
+				"url": "integrationprofile.htm"
+			},
+			"114": {
+				"title": "IntegrationProfileDefinition",
+				"url": "integrationprofiledefinition.htm"
+			},
+			"115": {
+				"title": "InteractionBaseObject",
+				"url": "interactionbaseobject.htm"
+			},
+			"116": {
+				"title": "InteractionDefinition",
+				"url": "interactiondefinition.htm"
+			},
+			"117": {
+				"title": "Layout",
+				"url": "layout.htm"
+			},
+			"118": {
+				"title": "LayoutType",
+				"url": "layouttype.htm"
+			},
+			"119": {
+				"title": "Link",
+				"url": "link.htm"
+			},
+			"120": {
+				"title": "LinkSend",
+				"url": "linksend.htm"
+			},
+			"121": {
+				"title": "List",
+				"url": "list.htm"
+			},
+			"122": {
+				"title": "ListAttribute",
+				"url": "listattribute.htm"
+			},
+			"123": {
+				"title": "ListAttributeFieldType",
+				"url": "listattributefieldtype.htm"
+			},
+			"124": {
+				"title": "ListAttributeRestrictedValue",
+				"url": "listattributerestrictedvalue.htm"
+			},
+			"125": {
+				"title": "ListClassificationEnum",
+				"url": "listclassificationenum.htm"
+			},
+			"126": {
+				"title": "ListSend",
+				"url": "listsend.htm"
+			},
+			"127": {
+				"title": "ListSubscriber",
+				"url": "listsubscriber.htm"
+			},
+			"128": {
+				"title": "ListTypeEnum",
+				"url": "listtypeenum.htm"
+			},
+			"129": {
+				"title": "Locale",
+				"url": "locale.htm"
+			},
+			"130": {
+				"title": "LogicalOperators",
+				"url": "logicaloperators.htm"
+			},
+			"131": {
+				"title": "Message",
+				"url": "message.htm"
+			},
+			"132": {
+				"title": "MessageDeliveryTypeEnum",
+				"url": "messagedeliverytypeenum.htm"
+			},
+			"133": {
+				"title": "MessageSendActivity",
+				"url": "messagesendactivity.htm"
+			},
+			"134": {
+				"title": "MessagingConfiguration",
+				"url": "messagingconfiguration.htm"
+			},
+			"135": {
+				"title": "MessagingVendorKind",
+				"url": "messagingvendorkind.htm"
+			},
+			"136": {
+				"title": "MinutelyRecurrence",
+				"url": "minutelyrecurrence.htm"
+			},
+			"137": {
+				"title": "MinutelyRecurrencePatternTypeEnum",
+				"url": "minutelyrecurrencepatterntypeenum.htm"
+			},
+			"138": {
+				"title": "MobileConnectRefreshListActivity",
+				"url": "mobileconnectrefreshlistactivity.htm"
+			},
+			"139": {
+				"title": "MobileConnectSendSMSActivity",
+				"url": "mobileconnectsendsmsactivity.htm"
+			},
+			"140": {
+				"title": "MobilePushSendMessageActivity",
+				"url": "mobilepushsendmessageactivity.htm"
+			},
+			"141": {
+				"title": "MonthlyRecurrence",
+				"url": "monthlyrecurrence.htm"
+			},
+			"142": {
+				"title": "MonthlyRecurrencePatternTypeEnum",
+				"url": "monthlyrecurrencepatterntypeenum.htm"
+			},
+			"143": {
+				"title": "MonthOfYearEnum",
+				"url": "monthofyearenum.htm"
+			},
+			"144": {
+				"title": "NotSentEvent",
+				"url": "notsentevent.htm"
+			},
+			"145": {
+				"title": "NullAPIProperty",
+				"url": "nullapiproperty.htm"
+			},
+			"146": {
+				"title": "ObjectDefinition",
+				"url": "objectdefinition.htm"
+			},
+			"147": {
+				"title": "ObjectDefinitionRequest",
+				"url": "objectdefinitionrequest.htm"
+			},
+			"148": {
+				"title": "ObjectExtension",
+				"url": "objectextension.htm"
+			},
+			"149": {
+				"title": "OpenEvent",
+				"url": "openevent.htm"
+			},
+			"150": {
+				"title": "Options",
+				"url": "options.htm"
+			},
+			"151": {
+				"title": "OverrideType",
+				"url": "overridetype.htm"
+			},
+			"152": {
+				"title": "Owner",
+				"url": "owner.htm"
+			},
+			"153": {
+				"title": "ParameterDescription",
+				"url": "parameterdescription.htm"
+			},
+			"154": {
+				"title": "PerformOptions",
+				"url": "performoptions.htm"
+			},
+			"155": {
+				"title": "PerformResult",
+				"url": "performresult.htm"
+			},
+			"156": {
+				"title": "Permission",
+				"url": "permission.htm"
+			},
+			"157": {
+				"title": "PermissionSet",
+				"url": "permissionset.htm"
+			},
+			"158": {
+				"title": "PicklistItem",
+				"url": "picklistitem.htm"
+			},
+			"159": {
+				"title": "PlatformApplication",
+				"url": "platformapplication.htm"
+			},
+			"160": {
+				"title": "PlatformApplicationPackage",
+				"url": "platformapplicationpackage.htm"
+			},
+			"161": {
+				"title": "Portfolio",
+				"url": "portfolio.htm"
+			},
+			"162": {
+				"title": "Priority",
+				"url": "priority.htm"
+			},
+			"163": {
+				"title": "PrivateDomain",
+				"url": "privatedomain.htm"
+			},
+			"164": {
+				"title": "PrivateDomainSet",
+				"url": "privatedomainset.htm"
+			},
+			"165": {
+				"title": "PrivateIP",
+				"url": "privateip.htm"
+			},
+			"166": {
+				"title": "PrivateLabel",
+				"url": "privatelabel.htm"
+			},
+			"167": {
+				"title": "ProgramManifestTemplate",
+				"url": "programmanifesttemplate.htm"
+			},
+			"168": {
+				"title": "PropertyDefinition",
+				"url": "propertydefinition.htm"
+			},
+			"169": {
+				"title": "PropertyType",
+				"url": "propertytype.htm"
+			},
+			"170": {
+				"title": "Publication",
+				"url": "publication.htm"
+			},
+			"171": {
+				"title": "PublicKeyManagement",
+				"url": "publickeymanagement.htm"
+			},
+			"172": {
+				"title": "Query",
+				"url": "query.htm"
+			},
+			"173": {
+				"title": "QueryDefinition",
+				"url": "querydefinition.htm"
+			},
+			"174": {
+				"title": "QueryObject",
+				"url": "queryobject.htm"
+			},
+			"175": {
+				"title": "QueryRequest",
+				"url": "queryrequest.htm"
+			},
+			"176": {
+				"title": "Recurrence",
+				"url": "recurrence.htm"
+			},
+			"177": {
+				"title": "RecurrenceRangeTypeEnum",
+				"url": "recurrencerangetypeenum.htm"
+			},
+			"178": {
+				"title": "RecurrenceTypeEnum",
+				"url": "recurrencetypeenum.htm"
+			},
+			"179": {
+				"title": "ReplyMailManagementConfiguration",
+				"url": "replymailmanagementconfiguration.htm"
+			},
+			"180": {
+				"title": "ReportActivity",
+				"url": "reportactivity.htm"
+			},
+			"181": {
+				"title": "Request",
+				"url": "request.htm"
+			},
+			"182": {
+				"title": "RequestType",
+				"url": "requesttype.htm"
+			},
+			"183": {
+				"title": "ResourceSpecification",
+				"url": "resourcespecification.htm"
+			},
+			"184": {
+				"title": "RespondWhen",
+				"url": "respondwhen.htm"
+			},
+			"185": {
+				"title": "Result",
+				"url": "result.htm"
+			},
+			"186": {
+				"title": "ResultItem",
+				"url": "resultitem.htm"
+			},
+			"187": {
+				"title": "ResultMessage",
+				"url": "resultmessage.htm"
+			},
+			"188": {
+				"title": "RetrieveOptions",
+				"url": "retrieveoptions.htm"
+			},
+			"189": {
+				"title": "RetrieveRequest",
+				"url": "retrieverequest.htm"
+			},
+			"190": {
+				"title": "RetrieveSingleOptions",
+				"url": "retrievesingleoptions.htm"
+			},
+			"191": {
+				"title": "RetrieveSingleRequest",
+				"url": "retrievesinglerequest.htm"
+			},
+			"192": {
+				"title": "Role",
+				"url": "role.htm"
+			},
+			"193": {
+				"title": "SalutationSourceEnum",
+				"url": "salutationsourceenum.htm"
+			},
+			"194": {
+				"title": "SaveAction",
+				"url": "saveaction.htm"
+			},
+			"195": {
+				"title": "SaveOption",
+				"url": "saveoption.htm"
+			},
+			"196": {
+				"title": "ScheduledConversation",
+				"url": "scheduledconversation.htm"
+			},
+			"197": {
+				"title": "ScheduleDefinition",
+				"url": "scheduledefinition.htm"
+			},
+			"198": {
+				"title": "ScheduledRequest",
+				"url": "scheduledrequest.htm"
+			},
+			"199": {
+				"title": "ScheduleOptions",
+				"url": "scheduleoptions.htm"
+			},
+			"200": {
+				"title": "ScheduleResult",
+				"url": "scheduleresult.htm"
+			},
+			"201": {
+				"title": "SecurityObject",
+				"url": "securityobject.htm"
+			},
+			"202": {
+				"title": "Send",
+				"url": "send.htm"
+			},
+			"203": {
+				"title": "SendAdditionalAttribute",
+				"url": "sendadditionalattribute.htm"
+			},
+			"204": {
+				"title": "SendClassification",
+				"url": "sendclassification.htm"
+			},
+			"205": {
+				"title": "SendClassificationTypeEnum",
+				"url": "sendclassificationtypeenum.htm"
+			},
+			"206": {
+				"title": "SendDefinition",
+				"url": "senddefinition.htm"
+			},
+			"207": {
+				"title": "SendDefinitionList",
+				"url": "senddefinitionlist.htm"
+			},
+			"208": {
+				"title": "SendDefinitionListTypeEnum",
+				"url": "senddefinitionlisttypeenum.htm"
+			},
+			"209": {
+				"title": "SendEmailMOKeyword",
+				"url": "sendemailmokeyword.htm"
+			},
+			"210": {
+				"title": "SenderProfile",
+				"url": "senderprofile.htm"
+			},
+			"211": {
+				"title": "SendPriorityEnum",
+				"url": "sendpriorityenum.htm"
+			},
+			"212": {
+				"title": "SendSMSMOKeyword",
+				"url": "sendsmsmokeyword.htm"
+			},
+			"213": {
+				"title": "SendSummary",
+				"url": "sendsummary.htm"
+			},
+			"214": {
+				"title": "SentEvent",
+				"url": "sentevent.htm"
+			},
+			"215": {
+				"title": "SimpleFilterPart",
+				"url": "simplefilterpart.htm"
+			},
+			"216": {
+				"title": "SimpleOperators",
+				"url": "simpleoperators.htm"
+			},
+			"217": {
+				"title": "SoapType",
+				"url": "soaptype.htm"
+			},
+			"218": {
+				"title": "SsoIdentity",
+				"url": "ssoidentity.htm"
+			},
+			"219": {
+				"title": "Subscriber",
+				"url": "subscriber.htm"
+			},
+			"220": {
+				"title": "SubscriberAddress",
+				"url": "subscriberaddress.htm"
+			},
+			"221": {
+				"title": "SubscriberAddressStatus",
+				"url": "subscriberaddressstatus.htm"
+			},
+			"222": {
+				"title": "SubscriberList",
+				"url": "subscriberlist.htm"
+			},
+			"223": {
+				"title": "SubscriberResult",
+				"url": "subscriberresult.htm"
+			},
+			"224": {
+				"title": "SubscriberStatus",
+				"url": "subscriberstatus.htm"
+			},
+			"225": {
+				"title": "SubscriberTypeDefinition",
+				"url": "subscribertypedefinition.htm"
+			},
+			"226": {
+				"title": "Subscription",
+				"url": "subscription.htm"
+			},
+			"227": {
+				"title": "SuppressionListContext",
+				"url": "suppressionlistcontext.htm"
+			},
+			"228": {
+				"title": "SuppressionListContextEnum",
+				"url": "suppressionlistcontextenum.htm"
+			},
+			"229": {
+				"title": "SuppressionListData",
+				"url": "suppressionlistdata.htm"
+			},
+			"230": {
+				"title": "SuppressionListDefinition",
+				"url": "suppressionlistdefinition.htm"
+			},
+			"231": {
+				"title": "SurveyEvent",
+				"url": "surveyevent.htm"
+			},
+			"232": {
+				"title": "SystemStatusResult",
+				"url": "systemstatusresult.htm"
+			},
+			"233": {
+				"title": "SystemStatusType",
+				"url": "systemstatustype.htm"
+			},
+			"234": {
+				"title": "TagFilterPart",
+				"url": "tagfilterpart.htm"
+			},
+			"235": {
+				"title": "TaskResult",
+				"url": "taskresult.htm"
+			},
+			"236": {
+				"title": "Template",
+				"url": "template.htm"
+			},
+			"237": {
+				"title": "TimeZone",
+				"url": "timezone.htm"
+			},
+			"238": {
+				"title": "TrackingEvent",
+				"url": "trackingevent.htm"
+			},
+			"2380": {
+				"title": "TrackingUser",
+				"url": "trackinguser.htm"
+			},
+			"2400": {
+				"title": "TriggeredSend",
+				"url": "triggeredsend.htm"
+			},
+			"2410": {
+				"title": "TriggeredSendCreateResult",
+				"url": "triggeredsendcreateresult.htm"
+			},
+			"2420": {
+				"title": "TriggeredSendDefinition",
+				"url": "triggeredsenddefinition.htm"
+			},
+			"2430": {
+				"title": "TriggeredSendExclusionList",
+				"url": "triggeredsendexclusionlist.htm"
+			},
+			"2440": {
+				"title": "TriggeredSendStatusEnum",
+				"url": "triggeredsendstatusenum.htm"
+			},
+			"2450": {
+				"title": "TriggeredSendSummary",
+				"url": "triggeredsendsummary.htm"
+			},
+			"2460": {
+				"title": "TriggeredSendTypeEnum",
+				"url": "triggeredsendtypeenum.htm"
+			},
+			"2470": {
+				"title": "UnsubEvent",
+				"url": "unsubevent.htm"
+			},
+			"2480": {
+				"title": "UnsubscribeBehaviorEnum",
+				"url": "unsubscribebehaviorenum.htm"
+			},
+			"2490": {
+				"title": "UnsubscribeFromSMSPublicationMOKeyword",
+				"url": "unsubscribefromsmspublicationmokeyword.htm"
+			},
+			"2500": {
+				"title": "UpdateOptions",
+				"url": "updateoptions.htm"
+			},
+			"2510": {
+				"title": "UpdateResult",
+				"url": "updateresult.htm"
+			},
+			"2520": {
+				"title": "UserAccess",
+				"url": "useraccess.htm"
+			},
+			"2530": {
+				"title": "UserMap",
+				"url": "usermap.htm"
+			},
+			"2540": {
+				"title": "UsernameAuthentication",
+				"url": "usernameauthentication.htm"
+			},
+			"2550": {
+				"title": "ValidationAction",
+				"url": "validationaction.htm"
+			},
+			"2560": {
+				"title": "ValidationResult",
+				"url": "validationresult.htm"
+			},
+			"2570": {
+				"title": "VersionInfoResponse",
+				"url": "versioninforesponse.htm"
+			},
+			"2580": {
+				"title": "WeeklyRecurrence",
+				"url": "weeklyrecurrence.htm"
+			},
+			"2590": {
+				"title": "WeeklyRecurrencePatternTypeEnum",
+				"url": "weeklyrecurrencepatterntypeenum.htm"
+			},
+			"2600": {
+				"title": "WeekOfMonthEnum",
+				"url": "weekofmonthenum.htm"
+			},
+			"2610": {
+				"title": "YearlyRecurrence",
+				"url": "yearlyrecurrence.htm"
+			},
+			"2620": {
+				"title": "YearlyRecurrencePatternTypeEnum",
+				"url": "yearlyrecurrencepatterntypeenum.htm"
+			}
+		},
+		"e": {
+			"title": "Simple Development Scenarios",
+			"url": "simple_soap_scenarios.htm",
+			"1": {
+				"title": "Create a List",
+				"url": "create_a_list.htm"
+			},
+			"2": {
+				"title": "Create a Subscriber",
+				"url": "create_a_subscriber.htm"
+			},
+			"3": {
+				"title": "Create an Email",
+				"url": "creating_an_email.htm"
+			},
+			"4": {
+				"title": "Retrieve a Subscriber",
+				"url": "retrieve_a_subscriber.htm"
+			},
+			"5": {
+				"title": "Retrieve the Tracking Information for a Triggered Send",
+				"url": "retrieve_the_tracking_information_for_a_triggered_send.htm"
+			},
+			"6": {
+				"title": "Retrieve the Tracking Information from a Send",
+				"url": "retrieve_the_tracking_information_from_a_send.htm"
+			},
+			"7": {
+				"title": "Send an Email in Response to an Event (Triggered Email Send)",
+				"url": "send_an_email_in_response_to_an_event_triggered_email_send.htm"
+			},
+			"8": {
+				"title": "Send an Email to a Data Extension using an Email Send Definition",
+				"url": "send_an_email_to_a_data_extension_using_an_email_send_definition.htm"
+			},
+			"9": {
+				"title": "Send an Email to a Subscriber List",
+				"url": "send_an_email_to_a_subscriber_list.htm"
+			},
+			"10": {
+				"title": "Update a Subscriber",
+				"url": "update_a_subscriber.htm"
+			}
+		},
+		"f": {
+			"title": "Supported Operations for Objects and Methods",
+			"url": "supported_operations_for_objects_and_methods.htm"
+		},
+		"g": {
+			"title": "Technical Articles",
+			"url": "soap_tech_articles.htm",
+			"a": {
+				"title": "General",
+				"url": "soap_tech_articles_general.htm",
+				"c": {
+					"title": "Check the Results of an API Call",
+					"url": "checking_the_results_of_an_api_call.htm"
+				},
+				"d": {
+					"title": "Perform a Data Extract",
+					"url": "creating_a_data_extract_activity_with_the_soap_web_service_api.htm"
+				},
+				"e": {
+					"title": "Create, Retrieve, Update, and Delete Folders",
+					"url": "creating_retrieving_updating_and_deleting_folders.htm"
+				},
+				"f": {
+					"title": "Get the Fields Available for Retrieval",
+					"url": "getting_the_fields_available_for_retrieval.htm"
+				},
+				"g": {
+					"title": "Incoming Date Normalization",
+					"url": "incoming_date_normalization.htm"
+				},
+				"h": {
+					"title": "Perform a File Transfer",
+					"url": "performing_a_file_transfer_activity_via_the_soap_api.htm"
+				},
+				"i": {
+					"title": "Resolve Retrieve Call Errors",
+					"url": "resolving_retrieve_call_errors.htm"
+				},
+				"j": {
+					"title": "Retrieve All Records Since Last Batch",
+					"url": "retrieving_all_records_since_last_batch.htm"
+				},
+				"k": {
+					"title": "Retrieve More than 2500 Records Using the ContinueRequest Property",
+					"url": "continuerequest_2500records.htm"
+				},
+				"l": {
+					"title": "Retrieve the Availability Status of a Marketing Cloud Account",
+					"url": "retrieving_the_availability_status_of_an_exacttarget_account.htm"
+				},
+				"m": {
+					"title": "Review SOAP Envelopes to Retrieve Information",
+					"url": "reviewing_soap_envelopes_to_retrieve_information.htm"
+				},
+				"n": {
+					"title": "Test SOAP Envelopes",
+					"url": "testing_soap_envelopes.htm"
+				}
+			},
+			"b": {
+				"title": "Administration",
+				"url": "soap_tech_articles_admin.htm",
+				"a": {
+					"title": "Add a User to an Account",
+					"url": "adding_a_new_user_to_an_existing_account.htm"
+				},
+				"b": {
+					"title": "Create an Account",
+					"url": "creating_an_account.htm"
+				},
+				"c": {
+					"title": "Create an Agency Client Object",
+					"url": "creating_an_agency_client_object.htm"
+				},
+				"e": {
+					"title": "Access Child Account Objects",
+					"url": "impersonating_another_user.htm"
+				},
+				"f": {
+					"title": "Manage Enterprise 2.0 Accounts",
+					"url": "managing_enterprise_20_accounts_with_the_web_services_api.htm"
+				},
+				"g": {
+					"title": "Retrieve Account Object Using the CustomerKey Attribute",
+					"url": "retrieving_account_object_using_the_partnerkey_attribute.htm"
+				},
+				"h": {
+					"title": "Set User Permissions",
+					"url": "setting_user_permissions_via_the_web_services_api.htm"
+				},
+				"i": {
+					"title": "Use ClientID for Account Association",
+					"url": "using_clientid_in_your_soap_api_code.htm"
+				},
+				"j": {
+					"title": "Rate Limiting",
+					"url": "rate-limiting.htm"
+				}
+			},
+			"bb": {
+				"title": "Asynchronous Processing",
+				"url": "soap_tech_articles_asynch.htm",
+				"a": {
+					"title": "Asynchronous Processing",
+					"url": "asynchronous_processing.htm",
+					"b": {
+						"title": "Endpoints, Methods, and Objects for Asynchronous Processing",
+						"url": "asynchronous_processing_support.htm"
+					},
+					"c": {
+						"title": "Anatomy of the Options Base Object",
+						"url": "asynchronous_processing_options_object.htm"
+					},
+					"d": {
+						"title": "Callback Handling for Asynchronous Calls",
+						"url": "asynchronous_processing_callback.htm"
+					}
+				},
+				"b": {
+					"title": "Asynchronous Processing Syntax Guide",
+					"url": "asynchronous_processing_syntax_guide.htm",
+					"a": {
+						"title": "Minimum Asynchronous Requirement",
+						"url": "async_guide_min_requirement.htm"
+					},
+					"b": {
+						"title": "Identify One Call",
+						"url": "async_guide_one_call.htm"
+					},
+					"c": {
+						"title": "Identify Multiple Calls",
+						"url": "async_guide_multiple_calls.htm"
+					},
+					"d": {
+						"title": "Convert Existing SOAP Calls to Asynchronous Processing",
+						"url": "async_guide_convert_existing.htm"
+					},
+					"e": {
+						"title": "Asynchronous Response Options",
+						"url": "async_guide_response_options.htm"
+					},
+					"f": {
+						"title": "Result Detail XML Processing",
+						"url": "async_guide_result_xml_processing.htm"
+					}
+				}
+			},
+			"c": {
+				"title": "Automation Studio",
+				"url": "soap_tech_articles_as.htm",
+				"a": {
+					"title": "Interact with Automation Studio",
+					"url": "interacting_with_automation_studio_via_the_web_service_soap_api.htm"
+				}
+			},
+			"d": {
+				"title": "Campaigns and Programs",
+				"url": "soap_tech_articles_campaigns_programs.htm",
+				"a": {
+					"title": "Perform a Campaign",
+					"url": "performing_a_campaign_via_the_web_service_api.htm"
+				},
+				"b": {
+					"title": "Retrieve the Status of Programs Using AsyncActivityStatus",
+					"url": "retrieving_the_status_of_programs_using_asyncactivitystatus.htm"
+				}
+			},
+			"e": {
+				"title": "Code Samples by Language",
+				"url": "soap_tech_articles_by_lang.htm",
+				"a": {
+					"title": ".NET Code Samples",
+					"url": "net_code_samples.htm"
+				},
+				"b": {
+					"title": "Java Code Samples",
+					"url": "java_code_samples.htm"
+				},
+				"c": {
+					"title": "PHP Code Samples",
+					"url": "php_code_samples.htm"
+				}
+			},
+			"f": {
+				"title": "Data Extensions",
+				"url": "soap_tech_articles_de.htm",
+				"a": {
+					"title": "Add Data to a Data Extension",
+					"url": "adding_data_to_data_extension_object.htm"
+				},
+				"b": {
+					"title": "Add Column to a Data Extension",
+					"url": "adding_new_column_to_an_existing_data_extension.htm"
+				},
+				"c": {
+					"title": "Change the Retention Period for a Data Extension",
+					"url": "changing_the_retention_period_for_a_data_extension.htm"
+				},
+				"d": {
+					"title": "Clear Data from a Data Extension",
+					"url": "clearing_data_from_a_data_extension.htm"
+				},
+				"e": {
+					"title": "Copy a Data Extension",
+					"url": "copying_a_data_extension_using_the_soap_web_service_api.htm"
+				},
+				"f": {
+					"title": "Create a Data Extension Using an Existing Template",
+					"url": "creating_a_data_extension_using_an_existing_template.htm"
+				},
+				"g": {
+					"title": "Create a Data Extension",
+					"url": "creating_a_data_extension_using_web_service_api.htm"
+				},
+				"h": {
+					"title": "Create a Row in a Data Extension",
+					"url": "creating_a_row_in_a_data_extension_using_the_web_service_api.htm"
+				},
+				"i": {
+					"title": "Create a Sendable Data Extension",
+					"url": "creating_a_sendable_data_extension.htm"
+				},
+				"j": {
+					"title": "Delete a Data Extension",
+					"url": "deleting_a_data_extension_object.htm"
+				},
+				"k": {
+					"title": "Delete a Row from a Data Extension",
+					"url": "deleting_a_row_from_a_data_extension_via_the_web_service_api.htm"
+				},
+				"l": {
+					"title": "Manage Data in Data Extensions",
+					"url": "managing_data_in_data_extensions.htm"
+				},
+				"m": {
+					"title": "Retrieve Data Extension Object Using Customer Key",
+					"url": "retrieving_dataextension_object.htm"
+				},
+				"n": {
+					"title": "Retrieve Data from a Data Extension",
+					"url": "retrieving_data_from_a_data_extension.htm"
+				},
+				"o": {
+					"title": "Update a Data Extension with a Null Field Value",
+					"url": "updating_a_data_extension_object_with_a_null_field_value.htm"
+				},
+				"p": {
+					"title": "Update Column Properties for a Data Extension",
+					"url": "updating_column_properties_for_an_existing_data_extension.htm"
+				}
+			},
+			"g": {
+				"title": "Emails",
+				"url": "soap_tech_articles_email.htm",
+				"a": {
+					"title": "Create a Text-Only Email",
+					"url": "creating_a_text_only_email_via_the_web_service_api.htm"
+				},
+				"b": {
+					"title": "Create an Email",
+					"url": "creating_an_email_via_the_web_service_api.htm"
+				},
+				"c": {
+					"title": "Manage Reply Mail",
+					"url": "managing_reply_mail_management_via_the_web_service_api.htm"
+				},
+				"d": {
+					"title": "Retrieve Additional Email Attributes",
+					"url": "retrieving_additional_email_attributes.htm"
+				},
+				"e": {
+					"title": "Retrieve and Recreate an Email Message in an HTML Page",
+					"url": "retrieving_an_email_message_and_recreating_that_message_in_an_html_page.htm"
+				},
+				"f": {
+					"title": "Retrieve an Email",
+					"url": "retrieving_an_email_via_the_soap_api.htm"
+				},
+				"g": {
+					"title": "Retrieve the Email Folder Hierarchy",
+					"url": "retrieving_the_email_folder_hierarchy.htm"
+				},
+				"h": {
+					"title": "Update the Subject and Body of an Email Message",
+					"url": "updating_the_subject_and_body_of_an_email_message.htm"
+				}
+			},
+			"h": {
+				"title": "Filters",
+				"url": "soap_tech_articles_filters.htm",
+				"a": {
+					"title": "Apply Filter to Subscriber List",
+					"url": "apply_filteractivity.htm"
+				},
+				"b": {
+					"title": "Create and Update a FilterDefinition Object",
+					"url": "creating_a_filterdefinition_object.htm"
+				},
+				"c": {
+					"title": "Use Complex Filter Parts",
+					"url": "using_complex_filter_parts.htm"
+				}
+			},
+			"i": {
+				"title": "Groups",
+				"url": "soap_tech_articles_group.htm",
+				"a": {
+					"title": "Refresh a Group",
+					"url": "refreshing_a_group.htm"
+				}
+			},
+			"j": {
+				"title": "Import Definition and Activity",
+				"url": "soap_tech_articles_import_definition_activitiy.htm",
+				"a": {
+					"title": "Create an Import Definition",
+					"url": "creating_an_import_definition.htm"
+				},
+				"b": {
+					"title": "Perform an Import without an Existing Import Definition",
+					"url": "performing_an_import_via_the_soap_api_without_an_existing_import_definition.htm"
+				},
+				"c": {
+					"title": "Retrieve the Aggregate Results of an Import Via ImportResultsSummary",
+					"url": "retrieve_the_aggregate_results_of_an_import_via_importresultssummary.htm"
+				},
+				"d": {
+					"title": "Retrieve the Results of an Import",
+					"url": "retrieving_the_results_of_an_import.htm"
+				},
+				"e": {
+					"title": "Start an Import Definition",
+					"url": "starting_an_import_definition_via_the_web_service_api.htm"
+				}
+			},
+			"k": {
+				"title": "Portfolio",
+				"url": "soap_tech_articles_portfolio.htm",
+				"a": {
+					"title": "Copy an Image from a Website into the Portfolio",
+					"url": "copying_an_image_from_a_website_into_the_portfolio.htm"
+				},
+				"b": {
+					"title": "Create a Portfolio Object",
+					"url": "creating_a_portfolio_object_via_the_web_service_api.htm"
+				},
+				"c": {
+					"title": "Retrieve an Item from Your Portfolio",
+					"url": "retrieving_an_item_from_your_portfolio.htm"
+				},
+				"d": {
+					"title": "Select the Contents of a Portfolio Folder",
+					"url": "selecting_the_contents_of_a_portfolio_folder.htm"
+				}
+			},
+			"kk": {
+				"title": "Scheduled Messages",
+				"url": "soap_tech_articles_scheduled_messages.htm",
+				"a": {
+					"title": "Delete Scheduled Async API Conversation",
+					"url": "delete_scheduled_async_api_conversation.htm"
+				},
+				"b": {
+					"title": "Delete Scheduled Async API Non-Conversation Message",
+					"url": "delete_scheduled_async_api_non_conversation_message.htm"
+				},
+				"c": {
+					"title": "Batch Delete Scheduled Async API Conversations and Non-Conversation Messages",
+					"url": "delete_batch_scheduled_async_api_conversations_and_non_conversation_messages.htm"
+				}
+			},
+			"l": {
+				"title": "Send Definitions and Email Message Interactions",
+				"url": "soap_tech_articles_send_def_email_message_interactions.htm",
+				"a": {
+					"title": "Associate Event Data with a Contact",
+					"url": "associate_event_data_with_a_contact.htm"
+				},
+				"b": {
+					"title": "Cancel a Scheduled Send",
+					"url": "canceling_a_scheduled_send.htm"
+				},
+				"c": {
+					"title": "Create Items in and Move Items to a Folder",
+					"url": "creating_items_in_and_moving_items_to_a_folder.htm"
+				},
+				"d": {
+					"title": "Create a List-Based Email Send Definition",
+					"url": "creating_email_send_definition.htm"
+				},
+				"e": {
+					"title": "Create a Send Classification",
+					"url": "creating_a_send_classification.htm"
+				},
+				"f": {
+					"title": "Create a Send Object",
+					"url": "creating_a_send_object.htm"
+				},
+				"g": {
+					"title": "Create a Sender Profile",
+					"url": "creating_a_sender_profile.htm"
+				},
+				"h": {
+					"title": "Create an Email Send Definition",
+					"url": "creating_an_email_send_definition_using_the_web_service_api.htm"
+				},
+				"i": {
+					"title": "Create an Email Send Definition with Dynamic Content",
+					"url": "creating_an_email_send_definition_with_dynamic_content_using_the_web_service_api.htm"
+				},
+				"j": {
+					"title": "Create the GetMaxCount Action for Email Send Definitions",
+					"url": "creating_the_getmaxcount_action_for_email_send_definitions.htm"
+				},
+				"k": {
+					"title": "Create, Perform, and Delete Email Send Definitions",
+					"url": "creating_performing_and_deleting_email_send_definitions.htm"
+				},
+				"l": {
+					"title": "Retrieve the Audience of an Email Send Definition",
+					"url": "retrieving_audience_of_send_definition.htm"
+				},
+				"m": {
+					"title": "Retrieve the Scheduled Send Time and Status of a Send",
+					"url": "retrieving_the_scheduled_send_time_and_status_of_a_send.htm"
+				},
+				"n": {
+					"title": "Schedule a User-Initiated Email Message Send",
+					"url": "scheduling_a_user_initiated_email_message_send_via_the_web_service_api.htm"
+				},
+				"o": {
+					"title": "Schedule an Email Send Definition",
+					"url": "scheduling_an_email_send_definition.htm"
+				},
+				"p": {
+					"title": "Start an Email Send Definition",
+					"url": "starting_an_email_send_definition.htm"
+				},
+				"q": {
+					"title": "Start an Email Send Definition Test Send",
+					"url": "starting_an_email_send_definition_test_send.htm"
+				}
+			},
+			"o": {
+				"title": "Subscriber Attributes",
+				"url": "soap_tech_articles_subscriber_attributes.htm",
+				"a": {
+					"title": "Add an Attribute",
+					"url": "adding_an_attribute_via_the_web_service_api.htm"
+				},
+				"b": {
+					"title": "Create a Subscriber Attribute",
+					"url": "creating_a_subscriber_attribute.htm"
+				},
+				"c": {
+					"title": "Delete a Subscriber Profile Attribute",
+					"url": "deleting_a_subscriber_profile_attribute.htm"
+				},
+				"d": {
+					"title": "Retrieve Profile Attributes on the Subscriber Object",
+					"url": "retrieving_profile_attributes_on_the_subscriber_object.htm"
+				},
+				"e": {
+					"title": "Update Subscriber Attributes using the Update Method",
+					"url": "updating_subscriber_attributes_using_the_update_method.htm"
+				}
+			},
+			"p": {
+				"title": "Subscriber Lists",
+				"url": "soap_tech_articles_subscriber_lists.htm",
+				"a": {
+					"title": "Add Subscribers to a List",
+					"url": "adding_subscribers_to_a_list.htm"
+				},
+				"b": {
+					"title": "Create a Custom Profile Center with AMPscript",
+					"url": "creating_a_custom_profile_center_using_ampscript_and_the_soap_api.htm"
+				},
+				"c": {
+					"title": "Create a List",
+					"url": "creating_a_list.htm"
+				},
+				"d": {
+					"title": "Create a List-Based Email Send Workflow",
+					"url": "creating_a_list_based_email_send_workflow.htm"
+				},
+				"e": {
+					"title": "Create a Suppression List Definition",
+					"url": "creating_a_suppression_list_definition.htm"
+				},
+				"f": {
+					"title": "Delete a Subscriber List",
+					"url": "deleting_a_subscriber_list.htm"
+				},
+				"g": {
+					"title": "Interact with Auto-Suppression Lists",
+					"url": "interacting_with_auto_suppression_lists_via_the_soap_api.htm"
+				},
+				"h": {
+					"title": "Manage Sends to Publication Lists using Email Send Definitions",
+					"url": "managing_sends_to_subscribed_and_unsubscribed_recipients_on_publication_lists_via_email_send_definitions.htm"
+				},
+				"i": {
+					"title": "Manage Subscriber Status for One or All Lists",
+					"url": "managing_subscriber_status_for_one_or_all_lists.htm"
+				},
+				"j": {
+					"title": "Manage Subscribers On Lists",
+					"url": "managing_subscribers_on_lists.htm"
+				},
+				"k": {
+					"title": "Remove a Subscriber from a Suppression List",
+					"url": "removing_a_subscriber_from_a_suppression_list.htm"
+				},
+				"l": {
+					"title": "Retrieve All Lists a Subscriber is On",
+					"url": "retrieving_all_lists_a_subscriber_is_on.htm"
+				},
+				"m": {
+					"title": "Retrieve All Subscribers on a List",
+					"url": "retrieving_all_subscribers_on_a_list.htm"
+				},
+				"n": {
+					"title": "Retrieve Subscribers Using ListID",
+					"url": "retrieving_subscribers_using_listid.htm"
+				},
+				"o": {
+					"title": "Retrieve a List from an Account",
+					"url": "retrieving_a_list_from_an_account.htm"
+				},
+				"p": {
+					"title": "Update a Subscriber List",
+					"url": "updating_a_subscriber_list.htm"
+				}
+			},
+			"q": {
+				"title": "Subscribers",
+				"url": "soap_tech_articles_subscribers.htm",
+				"a": {
+					"title": "Add Subscribers to a Lock and Publish Account",
+					"url": "adding_subscribers_to_a_lock_and_publish_account.htm"
+				},
+				"b": {
+					"title": "Add Subscribers to an On-Your-Behalf Account",
+					"url": "adding_subscribers_to_an_on_your_behalf_account.htm"
+				},
+				"c": {
+					"title": "Create a Subscriber",
+					"url": "creating_a_subscriber.htm"
+				},
+				"d": {
+					"title": "Delete a Subscriber",
+					"url": "deleting_a_subscriber.htm"
+				},
+				"e": {
+					"title": "Describe a Subscriber",
+					"url": "describing_a_subscriber.htm"
+				},
+				"f": {
+					"title": "Retrieve a Subscriber",
+					"url": "retrieve_a_subscriber_via_the_web_service_api.htm"
+				},
+				"g": {
+					"title": "Retrieve Subscribers by Subscriber Key",
+					"url": "retrieving_subscribers_by_subscriber_key.htm"
+				},
+				"h": {
+					"title": "Retrieve the SubscriberStatusEvent",
+					"url": "retrieving_the_subscriberstatusevent.htm"
+				},
+				"i": {
+					"title": "Unsubscribe and Log an UnsubEvent with a LogUnsubEvent Execute Call",
+					"url": "unsubscribing_and_logging_an_unsubevent_with_a_logunsubevent_execute_call.htm"
+				},
+				"j": {
+					"title": "Update a Subscriber",
+					"url": "updating_an_existing_subscriber_using_the_create_method_with_updateadd.htm"
+				},
+				"k": {
+					"title": "Use Regular Expressions to Validate Email Addresses",
+					"url": "using_regular_expressions_to_validate_email_addresses.htm"
+				}
+			},
+			"r": {
+				"title": "Tracking",
+				"url": "soap_tech_articles_tracking.htm",
+				"a": {
+					"title": "Behavioral Data Integration Best Practices",
+					"url": "behavioral_data_integration_best_practices.htm"
+				},
+				"b": {
+					"title": "Create a Query Activity",
+					"url": "creating_a_query_activity.htm"
+				},
+				"c": {
+					"title": "Perform a Query Activity",
+					"url": "performing_a_query_activity_using_the_soap_web_service_api.htm"
+				},
+				"d": {
+					"title": "Retrieve All Links for a Send",
+					"url": "retrieving_all_links_for_a_send.htm"
+				},
+				"e": {
+					"title": "Retrieve All Lists for a Send",
+					"url": "retrieving_all_lists_for_a_send.htm"
+				},
+				"f": {
+					"title": "Retrieve a Tracking Summary of an Email Send Using JobID",
+					"url": "summary_of_send_using_jobid.htm"
+				},
+				"g": {
+					"title": "Retrieve a Triggered Send Summary",
+					"url": "retrieving_a_triggered_send_summary.htm"
+				},
+				"h": {
+					"title": "Retrieve Sent Event Details",
+					"url": "retrieve_sentevent_details_for_job.htm"
+				},
+				"i": {
+					"title": "Retrieve Open Events Details",
+					"url": "retrieving_open_events_details.htm"
+				},
+				"j": {
+					"title": "Update a Query Activity",
+					"url": "updating_a_query_activity.htm"
+				},
+				"k": {
+					"title": "Retrieve Bounce Events Details",
+					"url": "retrieving_bounce_event_details.htm"
+				}
+			},
+			"s": {
+				"title": "Triggered Sends",
+				"url": "soap_tech_articles_triggered_sends.htm",
+				"a": {
+					"title": "Create a Triggered Send Definition",
+					"url": "creating_a_triggered_send_definition.htm"
+				},
+				"aa": {
+					"title": "Delete a Triggered Send Definition",
+					"url": "delete_a_triggered_send_definition.htm"
+				},
+				"b": {
+					"title": "Create a Triggered Send Email Campaign Workflow",
+					"url": "creating_a_triggered_email_campaign_workflow.htm"
+				},
+				"c": {
+					"title": "Create a Triggered Send Using the Async API",
+					"url": "creating_a_triggered_send_using_the_async_api.htm"
+				},
+				"d": {
+					"title": "Create a Triggered Send for a Lock and Publish Account",
+					"url": "creating_a_triggered_send_for_a_lock_and_publish_account_via_the_web_service_api.htm"
+				},
+				"e": {
+					"title": "Create a Triggered Send for an On-Your-Behalf Account",
+					"url": "creating_a_triggered_send_for_an_on_your_behalf_account_via_the_web_service_api.htm"
+				},
+				"f": {
+					"title": "Retrieve Tracking Results for One-to-one Triggered Sends",
+					"url": "retrieving_tracking_results_for_one_to_one_triggered_sends.htm"
+				},
+				"g": {
+					"title": "Send an Email Using a TriggeredSend Object",
+					"url": "send_triggeredsend_email.htm"
+				},
+				"h": {
+					"title": "Start a Triggered Send Definition",
+					"url": "starting_a_triggered_send_definition_via_the_web_service_api.htm"
+				},
+				"i": {
+					"title": "Submit a Triggered Send Definition Call Using the Asynchronous API",
+					"url": "submitting_a_triggered_send_definition_using_the_asynchronous_api.htm"
+				},
+				"j": {
+					"title": "Submit a Triggered Send Definition with Tracking Via HTTPGETWRAP",
+					"url": "submitting_a_triggered_send_definition_with_tracking_via_httpgetwrap.htm"
+				},
+				"k": {
+					"title": "Confirm Purchases with Triggered Sends",
+					"url": "using_triggered_sends_to_confirm_purchases.htm"
+				}
+			}
+		},
+		"h": {
+			"title": "Marketing Cloud for Appexchange API Guide",
+			"url": "exacttarget_for_appexchange_api_guide.htm",
+			"a": {
+				"title": "Scenarios",
+				"url": "scenarios_appex.htm"
+			},
+			"b": {
+				"title": "Parameters",
+				"url": "appexchange_api_parameters.htm",
+				"a": {
+					"title": "RequestID",
+					"url": "requestid_param_appex.htm"
+				},
+				"b": {
+					"title": "OverallStatus",
+					"url": "overallstatus_param_appex.htm"
+				},
+				"c": {
+					"title": "Options",
+					"url": "options_param_appex.htm"
+				},
+				"d": {
+					"title": "Objects",
+					"url": "objects_param_appex.htm"
+				}
+			},
+			"c": {
+				"title": "Appexchange Objects",
+				"url": "appexchange_api_objects.htm",
+				"a": {
+					"title": "AddressStatus",
+					"url": "addressstatus_appex.htm"
+				},
+				"b": {
+					"title": "APIObject",
+					"url": "apiobject_appex.htm"
+				},
+				"c": {
+					"title": "APIProperty",
+					"url": "apiproperty_appex.htm"
+				},
+				"d": {
+					"title": "AsyncResponse",
+					"url": "asyncresponse_appex.htm"
+				},
+				"e": {
+					"title": "AsyncResponseType",
+					"url": "asyncresponsetype_appex.htm"
+				},
+				"f": {
+					"title": "Attribute",
+					"url": "attribute_appex.htm"
+				},
+				"g": {
+					"title": "ClientID",
+					"url": "clientid_appex.htm"
+				},
+				"h": {
+					"title": "ContainerID",
+					"url": "containerid_appex.htm"
+				},
+				"i": {
+					"title": "ContentArea",
+					"url": "contentarea_appex.htm"
+				},
+				"j": {
+					"title": "CreateOptions",
+					"url": "createoptions_appex.htm"
+				},
+				"k": {
+					"title": "CreateResult",
+					"url": "createresult_appex.htm"
+				},
+				"l": {
+					"title": "Email",
+					"url": "email_appex.htm"
+				},
+				"m": {
+					"title": "EmailAddress",
+					"url": "emailaddress_appex.htm"
+				},
+				"n": {
+					"title": "EmailType",
+					"url": "emailtype_appex.htm"
+				},
+				"o": {
+					"title": "GlobalUnsubscribeCategory",
+					"url": "globalunsubscribecategory_appex.htm"
+				},
+				"p": {
+					"title": "Group",
+					"url": "group_appex.htm"
+				},
+				"q": {
+					"title": "LayoutType",
+					"url": "layouttype_appex.htm"
+				},
+				"r": {
+					"title": "List",
+					"url": "list_appex.htm"
+				},
+				"s": {
+					"title": "ListTypeEnum",
+					"url": "listtypeenum_appex.htm"
+				},
+				"t": {
+					"title": "Locale",
+					"url": "locale_appex.htm"
+				},
+				"u": {
+					"title": "ObjectTypes",
+					"url": "objecttypes_appex.htm"
+				},
+				"v": {
+					"title": "Options",
+					"url": "options_appex.htm"
+				},
+				"w": {
+					"title": "Owner",
+					"url": "owner_appex.htm"
+				},
+				"x": {
+					"title": "Priority",
+					"url": "priority_appex.htm"
+				},
+				"y": {
+					"title": "RequestType",
+					"url": "requesttype_appex.htm"
+				},
+				"z": {
+					"title": "RespondWhen",
+					"url": "respondwhen_appex.htm"
+				},
+				"aa": {
+					"title": "Result",
+					"url": "result_appex.htm"
+				},
+				"bb": {
+					"title": "SalesforceSend",
+					"url": "salesforcesend_appex.htm"
+				},
+				"cc": {
+					"title": "SaveAction",
+					"url": "saveaction_appex.htm"
+				},
+				"dd": {
+					"title": "SaveOption",
+					"url": "saveoption_appex.htm"
+				},
+				"ee": {
+					"title": "SMSAddress",
+					"url": "smsaddress_appex.htm"
+				},
+				"ff": {
+					"title": "Subscriber",
+					"url": "subscriber_appex.htm"
+				},
+				"gg": {
+					"title": "SubscriberAddress",
+					"url": "subscriberaddress_appex.htm"
+				},
+				"hh": {
+					"title": "SubscriberAddressStatus",
+					"url": "subscriberaddressstatus_appex.htm"
+				},
+				"ii": {
+					"title": "SubscriberList",
+					"url": "subscriberlist_appex.htm"
+				},
+				"jj": {
+					"title": "SubscriberStatus",
+					"url": "subscriberstatus_appex.htm"
+				},
+				"kk": {
+					"title": "SubscriberTypeDefinition",
+					"url": "subscribertypedefinition_appex.htm"
+				},
+				"ll": {
+					"title": "Target",
+					"url": "target_appex.htm"
+				},
+				"mm": {
+					"title": "UpdateOptions",
+					"url": "updateoptions_appex.htm"
+				},
+				"nn": {
+					"title": "UpdateResult",
+					"url": "updateresult_appex.htm"
+				}
+			},
+			"d": {
+				"title": "Appexchange Methods",
+				"url": "appexchange_api_methods.htm",
+				"a": {
+					"title": "Update",
+					"url": "update_appex.htm"
+				},
+				"b": {
+					"title": "Create",
+					"url": "create_appex.htm"
+				}
+			}
+		}
+	},
+	"d": {
+		"title": "API Best Practices and Use Cases",
+		"url": "api_best_practices_use_cases.htm",
+		"a": {
+			"title": "SOAP API Best Practices",
+			"url": "soap_api_best_practices.htm"
+		},
+		"aa": {
+			"title": "Best Practices to Prevent Rate-Limiting",
+			"url": "rate-limiting-best-practices.htm"
+		},
+		"c": {
+			"title": "Developer Community Integration Scenario",
+			"url": "developer_community_integration_scenario.htm"
+		},
+		"d": {
+			"title": "Developer Community Triggered Send Scenario",
+			"url": "developer_community_triggered_send_scenario.htm"
+		},
+		"e": {
+			"title": "Triggered Email Scenario Guide For Developers",
+			"url": "triggered_email_scenario_guide_for_developers.htm"
+		},
+		"f": {
+			"title": "Optimize API Calls and Data Structures to Improve Performance",
+			"url": "optimizing_api_calls_and_data_structures_to_improve_performance_in_the_salesforce_marketing_cloud.htm"
+		}
+	},
+	"e": {
+		"title": "API Errors",
+		"url": "api_errors.htm",
+		"a": {
+			"title": "Handle Errors in REST API",
+			"url": "error-handling.htm",
+			"a": {
+				"title": "Rate Limiting Errors",
+				"url": "rate-limiting-errors.htm"
+			}
+		},
+		"b": {
+			"title": "SOAP Error Codes",
+			"url": "error_codes.htm",
+			"a": {
+				"title": "1-99 General",
+				"url": "0_99.htm"
+			},
+			"b": {
+				"title": "1000-1999 Account Object",
+				"url": "1000_1999_account_object.htm"
+			},
+			"c": {
+				"title": "100-199 Perform and Schedule Method",
+				"url": "100_199_perform_and_schedule_method.htm"
+			},
+			"d": {
+				"title": "108000-108999 SMS Member Short Code",
+				"url": "108000_108999_sms_member_short_code.htm"
+			},
+			"e": {
+				"title": "110000-110999 SMS Member Shared Short Code",
+				"url": "110000_110999_sms_member_shared_short_code.htm"
+			},
+			"f": {
+				"title": "11000-11999 AccountUser Object",
+				"url": "11000_11999_accountuser_object.htm"
+			},
+			"g": {
+				"title": "111000-111999 Publication",
+				"url": "111000_111999_publication.htm"
+			},
+			"h": {
+				"title": "12000-12099 Subscriber Object",
+				"url": "12000_12099_subscriber_object.htm"
+			},
+			"i": {
+				"title": "13000-13099 List Object",
+				"url": "13000_13099_list_object.htm"
+			},
+			"j": {
+				"title": "14000-14099 Subscriber Validation",
+				"url": "14000_14099_subscriber_validation.htm"
+			},
+			"k": {
+				"title": "17000-17999 TriggeredSendDefinition Object",
+				"url": "17000_17999_triggeredsenddefinition_object.htm"
+			},
+			"l": {
+				"title": "18000 - 18999",
+				"url": "18999.htm"
+			},
+			"m": {
+				"title": "20000-20099 SalesforceSend Object",
+				"url": "20000_20099_salesforcesend_object.htm"
+			},
+			"n": {
+				"title": "200-299 Asynchronous Operation",
+				"url": "200_299_asynchronous_operation.htm"
+			},
+			"o": {
+				"title": "21000-21099 ContentArea Object",
+				"url": "21000_21099_contentarea_object.htm"
+			},
+			"p": {
+				"title": "24000-24999 SendClassification Object",
+				"url": "24000_24999_sendclassification_object.htm"
+			},
+			"q": {
+				"title": "302000-302999 Template",
+				"url": "302000_302999_template.htm"
+			},
+			"r": {
+				"title": "303000-303999 Filter Activity",
+				"url": "303000_303999_filter_activity.htm"
+			},
+			"s": {
+				"title": "310000-310099 DataExtension Object",
+				"url": "310000_310099_dataextension_object.htm"
+			},
+			"t": {
+				"title": "31000-31999 ExtractRequest Object",
+				"url": "31000_31999_extractrequest_object.htm"
+			},
+			"u": {
+				"title": "32000-32099 VoiceTriggeredSend Object",
+				"url": "32000_32099_voicetriggeredsend_object.htm"
+			},
+			"v": {
+				"title": "33000-33999 SMSTriggeredSend Object",
+				"url": "33000_33999_smstriggeredsend_object.htm"
+			},
+			"w": {
+				"title": "332000-332999 Role Validation",
+				"url": "332000_332999_role_validation.htm"
+			},
+			"x": {
+				"title": "333000-333999 FeatureConfig Validation Codes",
+				"url": "333000_333999_featureconfig_validation_codes.htm"
+			},
+			"y": {
+				"title": "346000-346999 SMS Shared Short Code",
+				"url": "346000_346999_sms_shared_short_code.htm"
+			},
+			"z": {
+				"title": "350000-350999 Content Validation",
+				"url": "350000_350999_content_validation.htm"
+			},
+			"aa": {
+				"title": "355000-355999 Program",
+				"url": "355000_355999_program.htm"
+			},
+			"bb": {
+				"title": "373000-373999 FilterDefinition Object Error Codes",
+				"url": "373000_373999_filterdefinition_object_error_codes.htm"
+			},
+			"cc": {
+				"title": "380000-380999 SMS MT Configuration",
+				"url": "380000_380999_sms_mt_configuration.htm"
+			},
+			"dd": {
+				"title": "388000-389999 TimeZone and Locale Objects",
+				"url": "388000_389999_timezone_and_locale_objects.htm"
+			},
+			"ee": {
+				"title": "396000-396999 Data Folder",
+				"url": "396000_396999_data_folder.htm"
+			},
+			"ff": {
+				"title": "40000-40999 SenderProfile Object",
+				"url": "40000_40999_senderprofile_object.htm"
+			},
+			"gg": {
+				"title": "4000-4099 Email Object",
+				"url": "4000_4099_email_object.htm"
+			},
+			"hh": {
+				"title": "400-499 Subscription Validation",
+				"url": "400_499_subscription_validation.htm"
+			},
+			"ii": {
+				"title": "402000-402999 Reply Mail Management Configuration Error Codes",
+				"url": "402000_402999_reply_mail_management_configuration_error_codes.htm"
+			},
+			"jj": {
+				"title": "408000-408999 Navigation Tab",
+				"url": "408000_408999_navigation_tab.htm"
+			},
+			"kk": {
+				"title": "409000-409999 Audience Builder",
+				"url": "409000_409999_audience_builder.htm"
+			},
+			"ll": {
+				"title": "41000-41999 DeliveryProfile Object",
+				"url": "41000_41999_deliveryprofile_object.htm"
+			},
+			"mm": {
+				"title": "42000-42999 EmailSendDefinition Object",
+				"url": "42000_42999_emailsenddefinition_object.htm"
+			},
+			"nn": {
+				"title": "43000-43999 ImportDefinition Object",
+				"url": "43000_43999_importdefinition_object.htm"
+			},
+			"oo": {
+				"title": "435000-435999 Send SMS MO Keyword",
+				"url": "435000_435999_send_sms_mo_keyword.htm"
+			},
+			"pp": {
+				"title": "439000-439999 Help MO Keyword",
+				"url": "439000_439999_help_mo_keyword.htm"
+			},
+			"qq": {
+				"title": "440000-440999 Send Email MO Keyword",
+				"url": "440000_440999_send_email_mo_keyword.htm"
+			},
+			"rr": {
+				"title": "44000-44999 Campaign Object",
+				"url": "44000_44999_campaign_object.htm"
+			},
+			"ss": {
+				"title": "441000-441999 SMS Triggered Send Definition",
+				"url": "441000_441999_sms_triggered_send_definition.htm"
+			},
+			"tt": {
+				"title": "446000-446999 Double Opt In SMS Messages",
+				"url": "446000_446999_double_opt_in_sms_messages.htm"
+			},
+			"uu": {
+				"title": "447000-447999 Unsubscribe From SMS Publication",
+				"url": "447000_447999_unsubscribe_from_sms_publication.htm"
+			},
+			"vv": {
+				"title": "50000-50999 Notifications",
+				"url": "50000_50999_notifications.htm"
+			},
+			"ww": {
+				"title": "54000-54999 User Access",
+				"url": "54000_54999_user_access.htm"
+			},
+			"xx": {
+				"title": "55000-55999 Salutation",
+				"url": "55000_55999_salutation.htm"
+			},
+			"yy": {
+				"title": "56000-56999 Business Rule",
+				"url": "56000_56999_business_rule.htm"
+			},
+			"zz": {
+				"title": "63000-63999 Public Key Management",
+				"url": "63000_63999_public_key_management.htm"
+			},
+			"aaa": {
+				"title": "67000-67999 Property Definition",
+				"url": "67000_67999_property_definition.htm"
+			},
+			"bbb": {
+				"title": "68000-68099 SaveOption Object",
+				"url": "68000_68099_saveoption_object.htm"
+			},
+			"ccc": {
+				"title": "69000-69099 Portfolio Object",
+				"url": "69000_69099_portfolio_object.htm"
+			},
+			"ddd": {
+				"title": "70000-70999 Custom Object",
+				"url": "70000_70999_custom_object.htm"
+			},
+			"eee": {
+				"title": "7000-7099 Send Object",
+				"url": "7000_7099_send_object.htm"
+			},
+			"fff": {
+				"title": "Rate Limiting Errors",
+				"url": "rate-limiting.htm"
+			}
+		},
+		"c": {
+			"title": "SOAP Faults",
+			"url": "soap_faults.htm"
+		}
+	}
+
+}

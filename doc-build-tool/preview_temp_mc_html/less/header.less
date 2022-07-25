@@ -1,0 +1,150 @@
+//
+// Header
+// --------------------------------------------------
+
+body { padding-top: 0px; }
+
+.navbar-default.topbar-brand {
+	font-size: @font-size-base * 1.4;
+	background: @new-gray;
+	border: none;
+	height:100px
+}
+
+
+.navbar-default.topbar-brand a.navbar-brand {
+	background: url("../images/SFMC-code-logo.png") no-repeat scroll transparent 0 0;
+	height:60px;
+	width:336px;
+	padding:0;
+	margin: 20px 0;
+}
+
+.navbar-default.topbar-brand .header-links {
+	list-style-type: none;
+	padding: 0;
+	float:right;
+	& li{
+		color: #959595;
+		display:block;
+		float: left;
+		margin-left: 20px;
+		font-size: 14px;
+		line-height: 30px;
+		font-family: @font-family-reg;
+		& a {
+			color: #959595;
+			&:hover {
+				text-decoration: none;
+				color: lighten(#959595, 20%);
+			}
+		}
+		& .btn{
+			color:#fff;
+			&:hover {
+				background-color: lighten(@brand-sfblue, 10%);
+				color: white;
+			}
+		}
+
+	}
+}
+
+.navbar-default.navbar-secondary {
+	font-size: @font-size-base;
+	position:relative;
+	box-shadow: 0px 4px 0px rgba(79, 79, 79, 0.5);
+	background-color: rgba(79, 79, 79, 0.95);
+	border: none;
+	.navbar-nav > li > a {
+		color: #fff;
+		padding: 15px 20px;
+		border-left: 1px solid lighten(@brand-gray, 10%);
+		&:hover{
+			background-color: lighten(@brand-gray, 10%);
+		}
+		&:last-child{
+			border-right: 1px solid lighten(@brand-gray, 10%);
+		}
+	}
+}
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: lighten(@brand-gray, 10%);
+	color: white;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	color: white;
+	background-color: lighten(@brand-gray, 10%);
+	border: none;
+	border-radius: 0;
+	padding: 15px 0;
+	text-align: left;
+	& .subnav {
+		display: table;
+		& .menu-column{
+			padding: 0 15px;
+			display:table-cell;
+			width: auto;
+		}
+	}
+	&> div >ul >li{
+		> a {
+			color: white;
+			text-align: left;
+			padding: 10px;
+			display: block;
+			width: 140px;
+			clear: both;
+			&:hover {
+				background-color: lighten(@brand-gray, 15%);
+				color:white;
+				text-decoration: none;
+			}
+		}			
+	} 
+}
+
+.container {
+	background: transparent;
+}
+
+.jumbotron.hero {
+	background-color: #bfbfbf;
+	margin-top: -50px;
+	color: white;
+	padding: 20px;
+	margin-bottom:40px;
+	img {display:inline;}
+}
+
+.page-header {
+	background-color: @tertiary-mdGray;
+	margin-top: 0;
+	color: white;
+	z-index:0;
+	padding: 20px;
+	margin-bottom:40px;
+	h1 {
+		font-size: @font-size-base*2;
+	}
+	small {
+		color: darken(white, 10%);
+	}
+}
+
+.announce-banner {
+	height: 24px;
+	width: 100%;
+	line-height: 24px;
+	font-size: 14px;
+	color: white;
+	position:absolute;
+	background-color: @brand-sfblue;
+	.shadow;
+	a {
+		color: white;
+	}
+}

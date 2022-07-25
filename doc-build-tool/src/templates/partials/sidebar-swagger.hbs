@@ -1,0 +1,19 @@
+<div class="panel-group accordion" id="sidebar-accordion">
+{{#with data}}
+	{{#each this.tags}}		
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+				<a data-parent="#sidebar-accordion" class="accordion-toggle {{sidebarActiveGroupIndicator ../this @index ../../this.path ../../this.method}}" data-toggle="collapse" href="#{{this.name}}">{{displayTag this.name}}</a>
+			</div>	
+			<div id="{{this.name}}" class="panel-collapse collapse {{sidebarActivePanelIndicator ../this @index ../../this.path ../../this.method}}">
+				<div class="panel-body">
+					<div class="list-group">	
+						{{listSidebarPaths this.name ../this @index ../../this.path ../../this.method}}            		
+					</div>
+				 </div>
+			</div>	
+		</div>
+	{{/each}}
+{{/with}}	 
+</div>	

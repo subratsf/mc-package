@@ -1,0 +1,9 @@
+{
+    "deliverable" : "mc-getting-started",
+    "default_topic" : "mc-getting-started/index.htm",
+    "locale" : "en-us",
+    "title" : "Get Started, Marketing Cloud Developers",
+    "shortdesc" : "Get started documentation for Marketing Cloud developers",
+    "version" : "noversion",
+    "service" : ["Marketing"] 
+}

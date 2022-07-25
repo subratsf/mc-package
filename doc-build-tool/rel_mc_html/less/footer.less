@@ -1,0 +1,108 @@
+//
+// Footer
+// --------------------------------------------------
+
+footer {
+	padding: 40px 0px;
+	background-color: @new-gray;
+	margin-top: 60px;
+	color: @tertiary-mdGray;
+	border-bottom: 5px solid @brand-etorange;	
+}
+
+footer .logo-blue{
+	background-image: url("../images/SFMC-code-logo.png");
+	width: 336px;
+	height: 60px;
+	margin-bottom: 30px;
+}
+
+footer .phone-number{
+	font-size: @font-size-base * 1.5;
+	font-family: @font-family-bold;
+	color: @brand-gray;
+	margin-bottom: 30px;
+	& i {
+		color: @tertiary-mdGray;
+		padding-right: 5px;
+	}
+}
+
+footer .newsletter-signup {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom:20px;
+	& .vert-center {
+		&> td {
+			vertical-align: middle;
+			padding-top: 20px;
+			padding-bottom:20px;
+			& h3 {
+				font-family: @font-family-bold;
+				font-size: @font-size-base * 1;
+				font-style: italic;
+				padding: 0;
+				margin: 0;
+			}
+		}
+	}
+}
+
+.footer-nav div div {
+	& > a {
+		font-family: @font-family-bold;
+		color: @brand-gray;
+		&:hover {
+			color: @tertiary-mdGray;
+			text-decoration: none;
+		}
+	}
+	& ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		& li{
+			margin-top:8px;
+		}
+		& a{
+			font-size: @font-size-base * .9;
+			color: @tertiary-mdGray;
+			&:hover {
+				color: @brand-sfblue;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+footer .social-icons {
+	margin: 15px 0;
+	font-size: @font-size-base * 1.10;
+	&i{
+		&:hover {
+			color: lighten(@brand-sfblue, 10%)!important;
+			cursor: pointer;
+		}
+	}
+}
+
+footer .footer-legal {
+	margin: 15px 0;
+	& a{
+		padding:0px 8px;
+		border-right: 1px solid @tertiary-mdGray;
+		&:first-child{
+			padding-left: 0;
+		}
+		&:last-child{
+			border-right: none;
+		}
+		&:hover {
+			color: @brand-sfblue;
+			cursor: pointer;
+		}
+	}
+}

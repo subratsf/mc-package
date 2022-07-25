@@ -1,0 +1,32 @@
+<div class="mobile-section-nav">
+      <h3>Section Navigation</h3>
+<div class="panel-group accordion" id="mobile-sidebar-accordion">
+{{#each menu}}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-parent="#mobile-sidebar-accordion" {{#if this.pages}}class="accordion-toggle{{#currentSection ../../page.dest this.pages}} active{{else}} collapsed{{/currentSection}}" data-toggle="collapse" href="#mobile-{{@key}}"{{else}}href="{{relative ../../page.dest this.url}}" class="single{{#currentPage ../../page.dest this.url}} active{{/currentPage}}"{{/if}}>
+          {{#if title}}{{title}}{{else}}{{displayTag @key}}{{/if}}
+        </a>
+    </div>
+    {{#if this.pages}}
+        <div id="mobile-{{@key}}" class="panel-collapse collapse{{#currentSection ../../page.dest this.pages}} in{{else}}{{/currentSection}}">
+          <div class="panel-body">
+            <div class="list-group">
+            {{#if this.restNode}}
+               {{#each this.pages}}
+                <a href="{{relative ../../../../page.dest this.url}}" title="{{getJsonValue this.title ../this.restNode.methods "httpMethod"}} /{{getJsonValue this.title ../this.restNode.methods "path"}}" class="list-group-item{{#currentPage ../../../../page.dest this.url}} active{{/currentPage}}">{{getJsonValue this.title ../this.restNode.methods "httpMethod"}}&nbsp;/{{getJsonValue this.title ../this.restNode.methods "path" limit="27"}}</a>
+               {{/each}}
+            {{else}}
+               {{#each this.pages}}
+               <a href="{{relative ../../../../page.dest this.url}}" class="list-group-item{{#currentPage ../../../../page.dest this.url}} active{{/currentPage}}">{{this.title}}</a>
+               {{/each}} 
+            {{/if}}
+            </div>
+          </div>
+        </div>
+      {{/if}}
+  </div>
+{{/each}} 
+</div>
+</div>

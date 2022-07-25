@@ -1,0 +1,9 @@
+{
+    "deliverable" : "mc-apis",
+    "default_topic" : "mc-apis/index-api.htm",
+    "locale" : "en-us",
+    "title" : "Marketing Cloud API",
+    "shortdesc" : "Developer documentation for Marketing Cloud APIs",
+    "version" : "noversion",
+    "service" : ["Marketing"] 
+}

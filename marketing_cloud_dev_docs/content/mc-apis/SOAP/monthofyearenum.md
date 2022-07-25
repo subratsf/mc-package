@@ -1,0 +1,7 @@
+---
+title: MonthOfYearEnum
+---
+The MonthOfYearEnum object specifies the month of the year using the appropriate property. These months can be used to specify in which month a recurrent event takes place as part of a ScheduleDefinition.
+
+##Properties
+<table class="table table-hover"> <thead align="left"><tr><th>Name</th><th>Data Type</th><th>Description</th></tr></thead> <tbody><tr><td>April</td><td>Enumeration</td><td>Indicates that an action occurs every April.</td></tr><tr><td>August</td><td>Enumeration</td><td>Indicates that an action occurs every August.</td></tr><tr><td>December</td><td>Enumeration</td><td>Indicates that an action occurs every December.</td></tr><tr><td>February</td><td>Enumeration</td><td>Indicates that an action occurs every February.</td></tr><tr><td>January</td><td>Enumeration</td><td>Indicates that an action occurs every January.</td></tr><tr><td>July</td><td>Enumeration</td><td>Indicates that an action occurs every July.</td></tr><tr><td>June</td><td>Enumeration</td><td>Indicates that an action occurs every June.</td></tr><tr><td>March</td><td>Enumeration</td><td>Indicates that an action occurs every March.</td></tr><tr><td>May</td><td>Enumeration</td><td>Indicates that an action occurs every May.</td></tr><tr><td>November</td><td>Enumeration</td><td>Indicates that an action occurs every November.</td></tr><tr><td>October</td><td>Enumeration</td><td>Indicates that an action occurs every October.</td></tr><tr><td>September</td><td>Enumeration</td><td>Indicates that an action occurs every September.</td></tr></tbody></table>

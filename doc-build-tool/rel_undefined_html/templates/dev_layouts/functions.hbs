@@ -1,0 +1,54 @@
+---
+layout: inner.hbs
+---
+{{#each menu}}
+<table class="table table-hover">
+  <caption class="text-left">
+  	<a title="{{@key}}"></a>
+  	<h3><strong>{{displayTag @key}}</strong></h3>
+    {{#with this.restNode}}
+      <p>{{this.description}}</p>
+    {{else}}
+     <p>{{this.description}}</p>
+    {{/with}}
+   </caption>
+   <thead>
+    <tr>
+    	<th class="text-left" width="40%">Resource</th>
+      <th class="text-left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+{{#if this.restNode}}
+  {{#each this.pages}}
+  <tr class="function-title">
+      <td class="">
+        <a href="/{{this.url}}"><span class="{{getJsonValue this.title ../this.restNode.methods "httpMethod" lower="true"}}">{{getJsonValue this.title ../this.restNode.methods "httpMethod"}}</span> /{{getJsonValue this.title ../this.restNode.methods "path" limit="60"}}</a>          
+      </td>
+      <td class="">{{getJsonValue this.title ../this.restNode.methods "description" limit="250"}}</td>
+  </tr>
+  {{/each}} 
+{{else}}
+ {{#if this.ampNode}}
+    {{#each this.pages}}
+    <tr class="function-title">
+        <td class="">
+          <a href="/{{this.url}}">{{getJsonValue this.title ../this.ampNode.functions "title" limit="60"}}</a>          
+        </td>
+        <td class="">{{getJsonValue this.title ../this.ampNode.functions "description" limit="250"}}</td>
+    </tr>
+    {{/each}} 
+  {{else}}
+    {{#each this.pages}}
+    <tr class="function-title">
+        <td class="">
+          <a href="/{{this.url}}">{{this.title}}</a>          
+        </td>
+        <td class="">{{getJsonValue this.title ../../../reference "description" limit="250"}}</td>
+    </tr>
+    {{/each}} 
+  {{/if}}
+{{/if}}
+  </tbody>
+</table>
+{{/each}}

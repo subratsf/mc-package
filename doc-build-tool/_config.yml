@@ -1,0 +1,47 @@
+# Site Source Files
+src: src
+templates: <%= site.src %>/templates
+layouts: <%= site.templates %>/layouts
+devlayouts: <%= site.templates %>/dev_layouts
+less: <%= site.src %>/less
+scripts: <%= site.src %>/scripts
+helpers: <%= site.src %>/helpers
+static_dependency: <%= site.src %>/static_dependency
+github: https://github.com/exacttarget/code-source/blob/master/
+
+# Content Folders
+source: content
+node_modules: node_modules
+target: norelease_html/
+root: root
+assets: <%= site.target %>/assets
+apis: mc-apis
+apisDest: /en-us/noversion/<%= site.apis %>
+apis_rest: <%= site.apis %>/reference
+apis_soap: <%= site.apis %>/SOAP
+appDevelopment: mc-app-development
+appDevelopmentDest: /en-us/noversion/<%= site.appDevelopment %>
+gettingStarted: mc-getting-started
+gettingStartedDest: /en-us/noversion/<%= site.gettingStarted %>
+programmaticContent: mc-programmatic-content
+programmaticContent_func: <%= site.programmaticContent %>/reference
+programmaticContentDest: /en-us/noversion/<%= site.programmaticContent %>
+sdks: mc-sdks
+sdksDest: /en-us/noversion/<%= site.sdks %>
+# restApi: <%= site.apisSdks %>/rest-api
+# restApiv1: <%= site.restApi %>/v1
+# soapApi: <%= site.apisSdks %>/soap-api
+# fuelSdks: <%= site.apisSdks %>/fuel-sdks
+# mobileconnectApi: <%= site.apisSdks %>/mobileconnect-api
+# mobilepushSdks: <%= site.apisSdks %>/mobilepush-sdks
+# jb4a: <%= site.apisSdks %>/journey-builder-for-apps
+# contentScripting: content-scripting
+# ampscript: <%= site.contentScripting %>/ampscript
+# serverSideJavascript: <%= site.contentScripting %>/server-side-javascript
+# guideTemplateLanguage: <%= site.contentScripting %>/guide-template-language
+# marketingCloudApps: <%= site.appDevelopment %>/marketing-cloud-apps/content-html
+# cloudEditor: <%= site.appDevelopment %>/cloud-editor
+# cloudEditorGears: <%= site.appDevelopment %>/cloud-editor-gears
+# journeyBuilderDevelopment: <%= site.appDevelopment %>/journey-builder-development
+# jbAPI: <%= site.journeyBuilderDevelopment %>/interaction-api
+# whatsNew: whats-new 

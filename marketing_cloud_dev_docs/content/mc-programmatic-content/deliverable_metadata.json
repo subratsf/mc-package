@@ -1,0 +1,9 @@
+{
+    "deliverable" : "mc-programmatic-content",
+    "default_topic" : "mc-programmatic-content/index.htm",
+    "locale" : "en-us",
+    "title" : "Programmatic Marketing Content",
+    "shortdesc" : "Developer documentation for Marketing Cloud Programmatic Content",
+    "version" : "noversion",
+    "service" : ["Marketing"] 
+}

@@ -1,0 +1,7 @@
+---
+title: ImportDefinitionUpdateType
+---
+The ImportDefinitionUpdateType object defines how the import definition handles new and existing data during the import process.
+
+##Properties
+<table class="table table-hover"> <thead align="left"><tr><th>Name</th><th>Data Type</th><th>Description</th></tr></thead> <tbody><tr><td>AddAndDoNotUpdate</td><td>Enumeration</td><td>Ignores existing subscribers and only adds new subscribers. This property applies to both subscriber lists and data extensions. It corresponds to the Add Only option in Marketing Cloud.</td></tr><tr><td>AddAndUpdate</td><td>Enumeration</td><td>Adds new subscribers and updates existing subscribers. his property applies to both subscriber lists and data extensions. It corresponds to the Add and Update option in Marketing Cloud.</td></tr><tr><td>ColumnBased</td><td>Enumeration</td><td>Indicates that information in the import is updated based on columns.</td></tr><tr><td>Merge</td><td>Enumeration</td><td>Reserved for future use.</td></tr><tr><td>Overwrite</td><td>Enumeration</td><td>Indicates that imported information overwrites existing data. This property applies to data extensions, and it can be used only if no primary key is available.</td></tr><tr><td>UpdateButDoNotAdd</td><td>Enumeration</td><td>Indicates that any existing values are updated, but no new values can be entered. This property applies to both subscriber lists and data extensions. It corresponds to the Update Only option in Marketing Cloud.</td></tr></tbody></table>

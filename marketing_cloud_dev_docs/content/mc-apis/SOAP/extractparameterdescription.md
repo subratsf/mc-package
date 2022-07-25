@@ -1,0 +1,6 @@
+---
+title: ExtractParameterDescription
+---
+
+##Properties
+<table class="table table-hover"> <thead align="left"><tr><th>Name</th><th>Data Type</th><th>Description</th></tr></thead> <tbody><tr><td>DataType</td><td>ExtractParameterDataType</td><td>This has been deprecated. Use ValueType. (PropertyDefinition) The data type of the parameter to pass to the Data Extract. Use the data type to dynamically build a user interface with some basic data validation. (ExtractParameterDescription)</td></tr><tr><td>DefaultValue</td><td>xsd:string</td><td>The default value for a data extension field if no value is supplied (Include Now() as the default value if you wish to have a field default to today's date). Used by ExtractParameterDescription as the default value for the parameter if not suppliedwhen a data extract is executed. Used by PropertyDefinition if the default value for the attribute if not suppliedfor a data profile attribute.</td></tr><tr><td>DropDownList</td><td>xsd:string</td><td>Specifies the multiple potential values for a dropdown list in an extract parameter.</td></tr><tr><td>IsOptional</td><td>xsd:boolean</td><td>Indicates whether a parameter is optional.</td></tr><tr><td>Name</td><td>xsd:string</td><td>Name of the object or property.</td></tr></tbody></table>

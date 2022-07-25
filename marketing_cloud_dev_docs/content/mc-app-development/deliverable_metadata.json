@@ -1,0 +1,9 @@
+{
+    "deliverable" : "mc-app-development",
+    "default_topic" : "mc-app-development/index.htm",
+    "locale" : "en-us",
+    "title" : "Marketing Cloud Package Development",
+    "shortdesc" : "Developer documentation for managing Marketing Cloud packages",
+    "version" : "noversion",
+    "service" : ["Marketing"]
+}

@@ -1,0 +1,5 @@
+node_modules/**
+yarn.lock
+grunt_working/**
+setup_logs.md
+npm-debug.log

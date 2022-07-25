@@ -1,0 +1,20 @@
+---
+title: ImportResultsSummary
+---
+The ImportResultsSummary object is a retrieve-only object that contains status and aggregate information on an individual import started from an ImportDefinition. Possible values include:</p> <ul> <li><strong>New </strong>- The Retrieve request has yet to be processed by the application.</li> <li><strong>Processing </strong>- The application is processing the Retrieve request.</li> <li><strong>Completed </strong>- The application has completely processed the Retrieve request.</li> <li><strong>Error </strong>- An error occurred while processing the Retrieve request.</li> <li><strong>IOWork </strong>- The application is currently writing information to disk.</li> <li><strong>Unknown </strong>- No status is currently available for the Retrieve request.</li> </ul>
+
+##Properties
+<table class="table table-hover"> <thead align="left"><tr><th>Name</th><th>Data Type</th><th>Description</th></tr></thead> <tbody><tr><td>Client</td><td>ClientID</td><td>Specifies the account ownership and context of an object.</td></tr><tr><td>CorrelationID</td><td>xsd:string</td><td>Identifies correlation of objects across several requests.</td></tr><tr><td>CreatedDate</td><td>xsd:dateTime</td><td>Read-only date and time of the object's creation.</td></tr><tr><td>CustomerKey</td><td>xsd:string</td><td>User-supplied unique identifier for an object within an object type. This property corresponds to the external key assigned to an object in Marketing Cloud.</td></tr><tr><td>DestinationID</td><td>xsd:string</td><td>Specifies the identifier of either the list or the data extension associated with a completed import (lists return a number value for an ID, while data extensions return an GUID).</td></tr><tr><td>EndDate</td><td>xsd:string</td><td>Specifies the end data of an activity.</td></tr><tr><td>ID</td><td>xsd:int</td><td>Read-only identifier for an object. Some objects use the ObjectID property as the Marketing Cloud unique ID.</td></tr><tr><td>ImportDefinitionCustomerKey</td><td>xsd:string</td><td>Specifies customer key associated with import definition used in an import.</td></tr><tr><td>ImportStatus</td><td>xsd:string</td><td>Specifies import status associated with an import.</td></tr><tr><td>ImportType</td><td>xsd:string</td><td>Specfies type of import performed</td></tr><tr><td>ModifiedDate</td><td>Nullable&#96;1</td><td>Indicates the last time object information was modified.</td></tr><tr><td>NumberDuplicated</td><td>xsd:int</td><td>Specifies number of duplicated records resulting from an import.</td></tr><tr><td>NumberErrors</td><td>xsd:int</td><td>Indicates number of errors resulting from an import.</td></tr><tr><td>NumberSuccessful</td><td>xsd:int</td><td>Specifies number of successful record imports resulting from an import action.</td></tr><tr><td>ObjectID</td><td>xsd:string</td><td>System-controlled, read-only text string identifier for object.</td></tr><tr><td>ObjectState</td><td>xsd:string</td><td>Reserved for future use.</td></tr><tr><td>Owner</td><td>Owner</td><td>Describes account ownership of subscriber in an on-your-behalf account.</td></tr><tr><td>PartnerKey</td><td>xsd:string</td><td>Unique identifier provided by partner for an object. This property is accessible only via API.</td></tr><tr><td>PartnerProperties</td><td>APIProperty[]</td><td>A collection of metadata supplied by the client and stored by the system. These properties are accessible only via API.</td></tr><tr><td>StartDate</td><td>xsd:string</td><td>Indicates the start date for the time period for which to retrieve import results.</td></tr><tr><td>TaskResultID</td><td>xsd:int</td><td>Indicates the task result ID associated with a summary of import results.</td></tr><tr><td>TotalRows</td><td>xsd:int</td><td>Indicates the total number of rows included in the summary of an import.</td></tr></tbody></table>
+
+##Methods
+<table class="table table-hover">
+<thead align="left">
+<tr><th>Name</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="retrieve.htm" title="Retrieve">Retrieve</a></td>
+<td>Retrieves an individual object or a batch of objects.</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,182 @@
+{
+    "a": {
+        "title": "Marketing Cloud Packages",
+        "url": "index.htm",
+        "a": {
+            "title": "Installed Package Types",
+            "url": "installed-package-types.htm"
+        },
+        "b": {
+            "title": "Create and Install Packages",
+            "url": "install-packages.htm",
+            "a": {
+            	"title": "Manage Licensing for Installed Packages",
+            	"url": "license-installed-packages.htm"
+            },
+            "b": {
+            	"title": "Installed Package Definitions",
+            	"url": "installed-packages-definitions.htm"
+            }
+        },
+        "c": {
+            "title": "API Integration",
+            "url": "api-integration.htm",
+            "a": {
+              "title": "Create an OAuth 2.0 API Integration in Enhanced Packages",
+              "url": "create-integration-enhanced.htm",
+              "a": {
+                "title": "Server-to-Server Integrations with Client Credentials Grant Type",
+                "url": "integration-s2s-client-credentials.htm"
+              },
+              "b": {
+                "title": "Web and Public App Integrations with Authorization Code Grant Type",
+                "url": "integration-app-auth-code.htm"
+              },
+              "c": {
+                "title": "OAuth 2.0 API Integration Considerations",
+                "url": "integration-considerations.htm"
+              }
+            },
+            "b": {
+              "title": "Create an API Integration in Legacy Packages",
+              "url": "create-integration-legacy.htm"
+            },
+            "c": {
+                "title": "API Integration Permission Scopes",
+                "url": "data-access-permissions.htm"
+            }
+        },
+        "d": {
+            "title": "Create a Marketing Cloud App",
+            "url": "create-a-mc-app.htm",
+            "a": {
+                "title": "Single Sign-On in Legacy Packages",
+                "url": "single-sign-on.htm",
+                "a": {
+                	"title": "Encoded JWT",
+                	"url": "encoded-jwt.htm"
+                },
+                "b": {
+                	"title": "Decode the JWT",
+                	"url": "decode-jwt.htm"
+                },
+                "c": {
+                	"title": "Explanation of the Decoded JWT",
+                	"url": "explanation-decoded-jwt.htm"
+                }
+            },
+            "b": {
+                "title": "Upgrade SSO Claim Version",
+                "url": "upgrade-sso.htm"
+            },
+            "c": {
+                "title": "AppExchange Partners, Upgrade SSO Claim v2",
+                "url": "upgrade-sso-claim-v2-appexchange-apps.htm"
+            }
+        },
+        "e": {
+            "title": "Extend Journey Builder",
+            "url": "getting-started.htm",
+            "a": {
+                "title": "Build Custom Activities and Events",
+                "url": "creating-activities.htm",
+                "a": {
+                    "title": "Create Custom Activity UI",
+                    "url": "custom-activity-ui.htm"
+                },
+                "b": {
+                    "title": "Create Custom Activity Configuration",
+                    "url": "custom-activity-config.htm",
+                    "a": {
+                        "title": "Postmonger Events Reference",
+                        "url": "using-postmonger.htm"
+                    },
+                    "b": {
+                        "title": "Define a Custom Split Activity with Multiple Outcomes",
+                        "url": "extending-activities.htm"
+                    },
+                    "c": {
+                        "title": "Internationalize Branch Labels",
+                        "url": "internationalize-branch-labels.htm"
+                    },
+                    "d": {
+                        "title": "Load Custom UI for Your Activity",
+                        "url": "load-custom-activity-ui.htm"
+                    },
+                    "e": {
+                        "title": "Support Undo and Redo",
+                        "url": "undo-redo.htm"
+                    },
+                    "f": {
+                        "title": "Icon Specifications",
+                        "url": "icon-specifications.htm"
+                    },
+                    "g": {
+                        "title": "Encode Custom Activities Using a JWT",
+                        "url": "encode-custom-activities-using-jwt.htm"
+                                            },
+                        "ga": {
+                            "title": "JWT: Encode with Customer Key",
+                            "url": "encode-custom-activities-using-jwt-customer-key.htm"
+                        },
+                        "gb": {
+                            "title": "Encode with JWT Signing Secret",
+                            "url": "encode-custom-activities-using-jwt-app-signature.htm"
+                        },
+                    "h": {
+                      "title": "Troubleshoot Custom Activities",
+                      "url": "troubleshoot-custom-activities.htm"
+                    }
+                },
+                "c": {
+                    "title": "Register Endpoint for a Custom Component",
+                    "url": "define-jb-extension-app-center.htm"
+                },
+                "d": {
+                    "title": "Example Rest Activity",
+                    "url": "example-rest-activity.htm"
+                }
+            },
+            "b": {
+                "title": "Considerations for Building Custom Events",
+                "url": "creating-events.htm",
+                "b": {
+                    "title": "Internationalize Events",
+                    "url": "internationalize-events.htm"
+                },
+                "c": {
+                    "title": "Create Unique Journey Results using Transaction Keys",
+                    "url": "transaction-key.htm"
+                },
+                "d": {
+                    "title": "Example Contact Event",
+                    "url": "example-contact-decision-event.htm"
+                }
+            }
+        },
+        "f": {
+            "title": "Extend Content Builder",
+            "url": "content-sdk.htm",
+            "a": {
+                "title": "Develop a Custom Block Widget",
+                "url": "develop-block-widget.htm"
+            },
+            "b": {
+                "title": "Register Endpoint for Custom Content Block Component",
+                "url": "create-content-block.htm"
+            },
+            "c": {
+                "title": "Custom Block Widget Example",
+                "url": "example-block-widget.htm"
+            },
+            "d": {
+                "title": "Custom Block Widget Best Practices",
+                "url": "block-widget-best-practices.htm"
+            }
+        },
+        "g": {
+            "title": "List Your App in AppExchange",
+            "url": "list-app-appexchange.htm"
+        }
+    }
+}

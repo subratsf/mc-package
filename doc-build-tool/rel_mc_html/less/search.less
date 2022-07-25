@@ -1,0 +1,148 @@
+form#form-search {
+  padding-right: 15px;
+  font-size: @font-size-base;
+  font-family: @font-family-italic;
+  margin-top:10px;
+  float:right;
+  & .form-control:focus{
+      border-radius:0;
+      border: 0;
+      box-shadow: none;
+      border-color: transparent;
+  }
+  & input.st-search-input {
+    background-image: none;
+    height: 30px;
+    width: 70px;
+    color: #ccc;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color: #666;
+    border-radius: 0;
+    display: table-cell;
+    letter-spacing: -.05em;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    &:hover {
+          width:160px;
+          background-color: #737373;
+    }
+    &:focus {
+          width:160px;
+          background-color: #737373;
+    }
+  }
+  & button {
+    border-radius: 0;
+    height:30px;
+    width: 30px;
+    font-size: 0px;
+    background-color: @brand-sfblue;
+    display: table-cell;
+    padding:0;
+    &:before {
+      font-size: 25px;
+      color:white;
+
+    }
+  }
+}
+
+
+.swiftype-widget .autocomplete {
+  font-family: @font-family-sans-serif;
+  background-color: #fff;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  .box-shadow;
+  position: absolute;
+  text-align: left;
+  z-index:99999;
+}
+
+.swiftype-widget .autocomplete ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.swiftype-widget .autocomplete li {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  padding: 10px 8px;
+  font-size: @font-size-base;
+  list-style-type: none;
+  background-image: none;
+  margin: 0;
+  color: @brand-sfblue;
+  &:first-child {
+    border-top: 1px solid #fff;
+  }
+  &.active{
+    border-top: 1px solid @tertiary-ltBlue;
+    border-bottom: 1px solid @tertiary-ltBlue;
+    background-color: @brand-sfblue;
+    & p.title{
+        font-weight: bold;
+        color: white !important;
+      } 
+  }
+  & p {
+    font-size: @font-size-base;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    &.title{
+      font-weight: bold;
+      color: @brand-sfblue !important;
+    }
+  }
+}
+
+.swiftype-widget .autocomplete li p.title em {
+  color: #0b2644;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.swiftype-widget .autocomplete li.active p.title {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.swiftype-widget .autocomplete li.active p.title em {
+  color: #fff;
+  font-style: normal;
+}
+
+.swiftype-widget .autocomplete li .sections {
+  color: #999;
+  font-size: 11px;
+}
+
+.swiftype-widget .autocomplete li .sections em {
+  color: #666;
+  font-style: normal;
+}
+
+.swiftype-widget .autocomplete li .sections .section {
+  display: inline;
+}
+
+.swiftype-widget .autocomplete li.active .sections {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  color: #a9d7f1;
+}
+
+.swiftype-widget .autocomplete li.active .sections em {
+  color: #a9d7f1;
+  font-style: normal;
+}
+

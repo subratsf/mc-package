@@ -1,0 +1,243 @@
+{
+    "a": {
+        "title": "Introduction to Marketing Cloud Platform SDKs",
+        "url": "index-sdk.htm",
+        "a": {
+            "title": "Get Started with the PHP SDK",
+            "url": "getting-started-with-the-php-sdk.htm"
+        },
+        "b": {
+            "title": "Get Started with the C# SDK",
+            "url": "getting-started-with-the-csharp-sdk.htm"
+        },
+        "c": {
+            "title": "Get Started with the Java SDK",
+            "url": "getting-started-with-the-java-sdk.htm"
+        },
+        "d": {
+            "title": "Get Started with the Python SDK",
+            "url": "getting-started-with-the-python-sdk.htm"
+        },
+        "e": {
+            "title": "Get Started with the Ruby SDK",
+            "url": "getting-started-with-the-ruby-sdk.htm"
+        }
+    },
+    "b": {
+        "title": "Use the Marketing Cloud Platform SDKs",
+        "url": "using-a-client-library.htm",
+
+            "a": {
+                "title": "CreateCampaignAssets",
+                "url": "campaign-asset-create.htm"
+            },
+            "b": {
+                "title": "RetrieveCampaignAssetDetails",
+                "url": "campaign-asset-retrieve.htm"
+            },
+            "c": {
+                "title": "DeleteCampaignAssets",
+                "url": "campaign-asset-delete.htm"
+            },
+
+            "d": {
+                "title": "CreateCampaigns",
+                "url": "campaign-create.htm"
+            },
+            "e": {
+                "title": "RetrieveCampaignDetails",
+                "url": "campaign-retrieve.htm"
+            },
+            "f": {
+                "title": "UpdateCampaigns",
+                "url": "campaign-update.htm"
+            },
+            "f1": {
+                "title": "DeleteCampaigns",
+                "url": "campaign-delete.htm"
+            },
+
+            "g": {
+                "title": "CreateContentAreas",
+                "url": "content-area-create.htm"
+            },
+            "h": {
+                "title": "RetrieveContentAreaDetails",
+                "url": "content-area-retrieve.htm"
+            },
+            "i": {
+                "title": "UpdateContentAreas",
+                "url": "content-area-update.htm"
+            },
+            "j": {
+                "title": "DeleteContentAreas",
+                "url": "content-area-delete.htm"
+            },
+
+            "k": {
+                "title": "AddSubscribertoaList",
+                "url": "add-subscriber-to-list.htm"
+            },
+            "l": {
+                "title": "CreateaDataExtension",
+                "url": "create-data-extension.htm"
+            },
+            "m": {
+                "title": "RetrieveDataExtensionColumns",
+                "url": "data-extension-column-retrieve.htm"
+            },
+
+            "n": {
+                "title": "CreateDataExtensionRows",
+                "url": "data-extension-row-create.htm"
+            },
+            "o": {
+                "title": "RetrieveDataExtensionRows",
+                "url": "data-extension-row-retrieve.htm"
+            },
+            "p": {
+                "title": "UpdateDataExtensionRows",
+                "url": "data-extension-row-update.htm"
+            },
+            "q": {
+                "title": "DeleteDataExtensionRows",
+                "url": "data-extension-row-delete.htm"
+            },
+
+            "r": {
+                "title": "CreateDataExtensions",
+                "url": "data-extension-create.htm"
+            },
+            "s": {
+                "title": "RetrieveDataExtensionDetails",
+                "url": "data-extension-retrieve.htm"
+            },
+            "t": {
+                "title": "UpdateDataExtensions",
+                "url": "data-extension-update.htm"
+            },
+            "u": {
+                "title": "DeleteDataExtensions",
+                "url": "data-extension-delete.htm"
+            },
+
+            "v": {
+                "title": "CreateanEmail",
+                "url": "email-create.htm"
+            },
+            "w": {
+                "title": "RetrieveEmailDetails",
+                "url": "email-retrieve.htm"
+            },
+            "x": {
+                "title": "UpdateEmailMessages",
+                "url": "email-update.htm"
+            },
+            "y": {
+                "title": "DeleteanEmail",
+                "url": "email-delete.htm"
+            },
+
+            "z": {
+                "title": "CreateaFolder",
+                "url": "folder-create.htm"
+            },
+            "z1": {
+                "title": "RetrieveFolderDetails",
+                "url": "folder-retrieve.htm"
+            },
+            "z2": {
+                "title": "UpdateaFolder",
+                "url": "folder-update.htm"
+            },
+            "z3": {
+                "title": "DeleteaFolder",
+                "url": "folder-delete.htm"
+            },
+
+            "z4": {
+                "title": "RetrieveListSubscribers",
+                "url": "list-subscriber-retrieve.htm"
+            },
+
+            "z5": {
+                "title": "Create a List",
+                "url": "list-create.htm"
+            },
+            "z6": {
+                "title": "Delete a List",
+                "url": "list-delete.htm"
+            },
+            "z7": {
+                "title": "Update a List",
+                "url": "list-update.htm"
+            },
+            "z8": {
+                "title": "Retrieve List Details",
+                "url": "list-retrieve.htm"
+            },
+
+            "z9": {
+                "title": "CreateSubscribers",
+                "url": "subscriber-create.htm"
+            },
+            "z10": {
+                "title": "RetrieveSubscriberDetails",
+                "url": "subscriber-retrieve.htm"
+            },
+            "z11": {
+                "title": "UpdateaSubscriber",
+                "url": "subscriber-update.htm"
+            },
+            "z12": {
+                "title": "DeleteaSubscriber",
+                "url": "subscriber-delete.htm"
+            },
+
+            "z13": {
+                "title": "BounceTracking",
+                "url": "bounce-tracking.htm"
+            },
+            "z14": {
+                "title": "ClicksTracking",
+                "url": "click-tracking.htm"
+            },
+            "z15": {
+                "title": "OpensTracking",
+                "url": "open-tracking.htm"
+            },
+            "z16": {
+                "title": "SentTracking",
+                "url": "sent-tracking.htm"
+            },
+            "z17": {
+                "title": "UnsubscribeTracking",
+                "url": "unsubscribe-tracking.htm"
+            },
+
+            "z18": {
+                "title": "CreateaTriggeredSend",
+                "url": "triggered-send-create.htm"
+            },
+            "z19": {
+                "title": "RetrieveTriggeredSendDetails",
+                "url": "triggered-send-retrieve.htm"
+            },
+            "z20": {
+                "title": "UpdateaTriggeredSend",
+                "url": "triggered-send-update.htm"
+            },
+            "z21": {
+                "title": "DeleteaTriggeredSend",
+                "url": "triggered-send-delete.htm"
+            },
+            "z22": {
+                "title": "SendaTriggeredSend",
+                "url": "triggered-send-send.htm"
+            }
+    },
+    "c": {
+        "title": "MobilePush SDKs",
+        "url": "mobile-push-sdk.htm"
+    }
+}

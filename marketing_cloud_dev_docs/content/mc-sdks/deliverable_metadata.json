@@ -1,0 +1,9 @@
+{
+    "deliverable" : "mc-sdks",
+    "default_topic" : "mc-sdks/index-sdk.htm",
+    "locale" : "en-us",
+    "title" : "Marketing Cloud SDKs",
+    "shortdesc" : "Developer documentation for Marketing Cloud SDKs",
+    "version" : "noversion",
+    "service" : ["Marketing"] 
+}

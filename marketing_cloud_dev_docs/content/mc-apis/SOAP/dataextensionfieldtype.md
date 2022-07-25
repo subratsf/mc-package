@@ -1,0 +1,7 @@
+---
+title: DataExtensionFieldType
+---
+The DataExtensionFieldType object indicates the type of field contained within a data extension.
+
+##Properties
+<table class="table table-hover"> <thead align="left"><tr><th>Name</th><th>Data Type</th><th>Description</th></tr></thead> <tbody><tr><td>Boolean</td><td>Enumeration</td><td>Indicates the data extension field contains a Boolean value. Indicates the property is a Boolean value.</td></tr><tr><td>Date</td><td>Enumeration</td><td>Specifies a field in a data extension as a date type.</td></tr><tr><td>Decimal</td><td>Enumeration</td><td>Indicates the data extension field contains numbers in decimal format.</td></tr><tr><td>EmailAddress</td><td>Enumeration</td><td>Contains the email address for a subscriber. Indicates the data extension field contains email address data.</td></tr><tr><td>Locale</td><td>Enumeration</td><td>Contains the locale information for an Account. If no location is set, Locale defaults to en-US.</td></tr><tr><td>Number</td><td>Enumeration</td><td>Indicates phone number to use in conjunction with a triggered send. Indicates number field type for field in a data extension.</td></tr><tr><td>Phone</td><td>Enumeration</td><td>Specifies a phone number. Specifies the phone number of the account owner. Specifies the Phone data type</td></tr><tr><td>Text</td><td>Enumeration</td><td>Indicates the data extension field holds text data. Indicates the email message consists of text-only content.</td></tr></tbody></table>

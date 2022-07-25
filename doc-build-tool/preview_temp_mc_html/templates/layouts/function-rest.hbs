@@ -1,0 +1,68 @@
+---
+layout: sidebar.hbs
+---
+{{#if data.description}}
+<h2><strong>Overview</strong></h2>
+{{/if}}
+{{{data.description}}}
+{{#with data.urlParameters}}
+<table class="table table-hover">
+  <caption class="text-left">
+  	<h3><strong>Request Parameters</strong></h3>
+   </caption>
+   <thead>
+    <tr>
+      <th class="text-left" >Name</th>
+      <th class="text-left" >Type</th>
+      <th class="text-left" ></th>
+      <th class="text-left" >Description</th>
+    </tr>
+  </thead>
+  <tbody>
+{{#each this}}
+<tr class="function-title">
+    <td class=""><strong>{{this.name}}</strong></td>
+    <td class="">{{this.type}}</td>
+    <td class="">{{#if this.required}}<span class="label label-danger">Required</span>{{/if}}</td>
+    <td class="">{{{this.desc}}}</td>
+</tr>
+{{/each}} 
+  </tbody>
+</table>
+{{/with}}
+{{#with data.jsonParameters}}
+<table class="table table-hover">
+  <caption class="text-left">
+    <h3><strong>JSON Parameters</strong></h3>
+   </caption>
+   <thead>
+    <tr>
+      <th class="text-left" >Name</th>
+      <th class="text-left" >Type</th>
+      <th class="text-left" ></th>
+      <th class="text-left" >Description</th>
+    </tr>
+  </thead>
+  <tbody>
+{{#each this}}
+<tr class="function-title">
+    <td class=""><strong>{{this.name}}</strong></td>
+    <td class="">{{this.type}}</td>
+    <td class="">{{#if this.required}}<span class="label label-danger">Required</span>{{/if}}</td>
+    <td class="">{{{this.desc}}}</td>
+</tr>
+{{/each}} 
+  </tbody>
+</table>
+{{/with}}
+{{#markdown}}
+{{> body}}
+{{/markdown}}
+<div class="row timestamp">
+  <div class="col-md-6 text-left">
+{{!--     <small><a target="_blank" href="{{site.github}}{{page.src}}"><i class="fa fa-pencil"></i> Edit Code Sample</a></small>
+ --}}  </div>
+  <div class="col-md-6 text-right">
+    <small>Last Updated: {{#getLastUpdated page.src}}{{/getLastUpdated}}</small>
+  </div>
+</div>

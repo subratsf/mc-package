@@ -1,0 +1,29 @@
+---
+layout: inner.hbs
+title: AMPscript Function Reference
+---
+{{#each menu}}
+<table class="table table-hover">
+  <caption class="text-left">
+  	<a title="{{@key}}"></a>
+  	<h3><strong>{{displayTag @key}}</strong></h3>
+     <p>{{this.description}}</p>
+   </caption>
+   <thead>
+    <tr>
+    	<th class="text-left" width="40%">Function</th>
+      <th class="text-left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each this.pages}}
+    <tr class="function-title">
+        <td class="">
+          <a href="{{this.url}}">{{getJsonValue this.title ../this.ampNode.functions "title"}}</a>          
+        </td>
+        <td class="">{{getJsonValue this.title ../this.ampNode.functions "description"}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+{{/each}}

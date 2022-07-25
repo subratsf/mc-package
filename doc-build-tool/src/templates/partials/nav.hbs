@@ -1,0 +1,63 @@
+<div id="mobile-header" class="visible-xs visible-sm"></div>
+<div id="header-wrap" class="hidden-xs hidden-sm">
+<nav class="navbar-default topbar-brand" role="navigation">
+	<div class="container">
+		<div class="navbar-header col-md-6">
+			<a class="navbar-brand" href="{{relative page.dest "/"}}"><span class="sr-only">Salesforce ExactTarget Marketing Cloud - Code@</span></a>
+		</div>
+		<div class="col-md-6 text-right" style="margin-top:35px;">
+			<ul class="header-links">
+			    <li class="telephone"><a href="tel:8663624538">866.362.4538</a></li>
+			    <li class="contact"><a href="http://www.exacttarget.com/contact-exacttarget">Contact</a></li>
+			    <li>
+					<a href="https://appcenter.s1.marketingcloudapps.com" role="button" class="btn btn-sm btn-default" target="_blank">App Center</a>
+			    </li>
+			    <li>
+			   		<a role="button" class="btn btn-sm btn-default" data-toggle="modal" data-target="#subscribe">Subscribe <i class="mi mi-dedicated-Email"></i></a>
+			    </li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<nav class="navbar-default navbar-secondary" role="navigation">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-9">
+			<ul class="nav navbar-nav">
+			{{#each siteNav}}
+			<li>
+				<a href="{{#if url}}{{#unless this.external}}/{{/unless}}{{this.url}}{{else}}#{{/if}}"{{#if pages}} class="dropdown-toggle{{#if url}} disabled{{/if}}" data-toggle="dropdown"{{/if}}>{{title}}{{#if this.external}}&nbsp;<i class="fa fa-external-link"></i>{{/if}}</a>
+			{{#if pages}}
+				<ul class="dropdown-menu">
+				{{buildSubnav pages}}
+				</ul>
+			{{/if}}
+			</li>
+			{{/each}}
+			</ul>
+		</div>
+		<div class="col-md-3 text-right">
+			
+			<form id="form-search" class="form-inline">
+				<div class="input-group">
+				  	<input type="text" id="st-search-input" placeholder="Search" class="st-search-input form-control form-text">
+					<span style="float:left;">
+					<button class="btn btn-default mi mi-magnifying-glass">Search</button>
+					</span>
+				</div>
+			</form>
+			
+		</div>
+		</div>
+	</div>
+</nav>
+{{!-- <div class="announce-banner">
+		<div class="container">
+		<div class="row">
+		<div class="col-md-12">
+		<a href="https://code.exacttarget.com/developers-connections?pr=ETDVLPR">FREE Developer Zone @ Connections '14 - Sign Up Now! <i class="fa fa-arrow-circle-right fa-1x"></i></a>
+		</div>
+		</div>
+		</div>
+		</div>--}}
+</div> 

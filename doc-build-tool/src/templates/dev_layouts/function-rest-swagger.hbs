@@ -1,0 +1,16 @@
+---
+layout: inner.hbs
+---
+{{#swaggerDetail data path method}}
+{{/swaggerDetail}}
+{{#markdown}}
+{{> body}}
+{{/markdown}}
+<div class="row timestamp">
+  <div class="col-md-6 text-left">
+{{!--     <small><a target="_blank" href="{{site.github}}{{page.src}}"><i class="fa fa-pencil"></i> Edit Code Sample</a></small>
+ --}}  </div>
+  <div class="col-md-6 text-right">
+    <small>Last Updated: {{#getLastUpdated page.src}}{{/getLastUpdated}}</small>
+  </div>
+</div>

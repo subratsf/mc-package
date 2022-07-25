@@ -1,0 +1,2042 @@
+{
+  "a": {
+    "title": "Introduction to Programmatic Marketing Content",
+    "url": "index.htm"
+        },
+    "a1": {
+      "title": "AMPscript",
+      "url": "ampscript.htm",
+      "a": {
+        "title": "AMPscript Syntax Guide",
+        "url": "syntaxGuide.htm",
+        "a": {
+          "title": "AMPscript Function Calls",
+          "url": "functionCalls.htm"
+        },
+        "b": {
+          "title": "AMPscript Language Elements",
+          "url": "languageElements.htm"
+        },
+        "c": {
+          "title": "AMPscript Data Modification Functions",
+          "url": "dataModificationFunctions.htm"
+        },
+        "d": {
+          "title": "AMPscript Execution Context",
+          "url": "executionContext.htm"
+        },
+        "e": {
+          "title": "AMPscript Dynamic Link Names",
+          "url": "dynamicLinkNames.htm"
+        },
+        "f": {
+          "title": "AMPscript Date and Time Formatting",
+          "url": "dateTimeFormatting.htm"
+        },
+        "ff": {
+          "title": "AMPscript Date and Time Formats - Format() and FormatDate()",
+          "url": "formatAndFormatDate.htm"
+        },
+       "fff": {
+          "title": "AMPscript Common String Tokens",
+          "url": "commonStringTokens.htm"
+        },
+        "g": {
+          "title": "Order of Operations",
+          "url": "orderOfOperations.htm"
+        },
+        "h": {
+          "title": "AMPscript Variables to Retrieve GroupConnect Message Content",
+          "url": "groupConnectVariables.htm"
+        },
+        "i": {
+          "title": "AMPscript Variables for Use with Mobile Messages",
+          "url": "mobileVariables.htm"
+        }
+      },
+      "b": {
+        "title": "AMPscript Function Reference",
+        "url": "functions.htm",
+          "APIa": {
+            "title": "API: Add Object Array Item",
+            "url": "addobjectarrayitem.htm"
+          },
+          "APIb": {
+            "title": "API: Create Object",
+            "url": "createobject.htm"
+          },
+          "APIc": {
+            "title": "API: Invoke Create",
+            "url": "invokecreate.htm"
+          },
+          "APId": {
+            "title": "API: Invoke Delete",
+            "url": "invokedelete.htm"
+          },
+          "APIdd": {
+            "title": "API: Invoke Execute",
+            "url": "invokeexecute.htm"
+          },
+          "APIf": {
+            "title": "API: Invoke Perform",
+            "url": "invokeperform.htm"
+          },
+          "APIg": {
+            "title": "API: Invoke Retrieve",
+            "url": "invokeretrieve.htm"
+          },
+          "APIh": {
+            "title": "API: Invoke Update",
+            "url": "invokeupdate.htm"
+          },
+          "APIi": {
+            "title": "API: Raise Error",
+            "url": "raiseerror.htm"
+          },
+          "APIj": {
+            "title": "API: Set Object Property",
+            "url": "setobjectproperty.htm"
+          },
+          "Contactsa": {
+            "title": "Contacts: Upsert Contact",
+            "url": "upsertcontact.htm"
+          },
+          "Contenta": {
+            "title": "Content: Attach File",
+            "url": "attachfile.htm"
+          },
+          "Contentb": {
+            "title": "Content: Barcode URL",
+            "url": "barcodeurl.htm"
+          },
+          "Contentc": {
+            "title": "Content: Begin Impression Region",
+            "url": "beginimpressionregion.htm"
+          },
+          "Contentd": {
+            "title": "Content: Build Option List",
+            "url": "buildoptionlist.htm"
+          },
+          "Contente": {
+            "title": "Content: Build Row Set From String",
+            "url": "buildrowsetfromstring.htm"
+          },
+          "Contentf": {
+            "title": "Content: Build Row Set From XML",
+            "url": "buildrowsetfromxml.htm"
+          },
+          "Contentg": {
+            "title": "Content: Content Area",
+            "url": "contentarea.htm"
+          },
+          "Contenth": {
+            "title": "Content: Content Area by Name",
+            "url": "contentareabyname.htm"
+          },
+          "Contenti": {
+            "title": "Content: Content Block by ID",
+            "url": "contentblockbyid.htm"
+          },
+          "Contentj": {
+            "title": "Content: Content Block by Key",
+            "url": "contentblockbykey.htm"
+          },
+          "Contentk": {
+            "title": "Content: Content Block by Name",
+            "url": "contentblockbyname.htm"
+          },
+          "Contentl": {
+            "title": "Content: Content Image by ID",
+            "url": "contentimagebyid.htm"
+          },
+          "Contentm": {
+            "title": "Content: Content Image by Key",
+            "url": "contentimagebykey.htm"
+          },
+          "Contentn": {
+            "title": "Content: Create SMS Conversation",
+            "url": "CreateSmsConversation.htm"
+          },
+          "Contento": {
+            "title": "Content: End Impression Region",
+            "url": "endimpressionregion.htm"
+          },
+          "Contentp": {
+            "title": "Content: End SMS Conversation",
+            "url": "EndSmsConversation.htm"
+          },
+          "Contentq": {
+            "title": "Content: Get Portfolio Item",
+            "url": "getportfolioitem.htm"
+          },
+          "Contentr": {
+            "title": "Content: Image",
+            "url": "image.htm"
+          },
+          "Contents": {
+            "title": "Content: Set SMS Conversation Next Keyword",
+            "url": "setsmsconversationnextkeyword.htm"
+          },
+          "Contentt": {
+            "title": "Content: Transform XML",
+            "url": "transformxml.htm"
+          },
+          "Contentu": {
+            "title": "Content: Treat as Content",
+            "url": "treatascontent.htm"
+          },
+          "Contentv": {
+            "title": "Content: Treat as Content Area",
+            "url": "treatascontentarea.htm"
+          },
+          "Contentw": {
+            "title": "Content: Wat",
+            "url": "wat.htm"
+          },
+          "DataExtensiona": {
+            "title": "Data Extension: Claim Row",
+            "url": "claimrow.htm"
+          },
+          "DataExtensionb": {
+            "title": "Data Extension: Claim Row Value",
+            "url": "claimrowvalue.htm"
+          },
+          "DataExtensionc": {
+            "title": "Data Extension: Data Extension Row Count",
+            "url": "dataextensionrowcount.htm"
+          },
+          "DataExtensiond": {
+            "title": "Data Extension: Delete Data",
+            "url": "deletedata.htm"
+          },
+          "DataExtensione": {
+            "title": "Data Extension: Delete DE",
+            "url": "deletede.htm"
+          },
+          "DataExtensionf": {
+            "title": "Data Extension: Execute Filter",
+            "url": "executefilter.htm"
+          },
+          "DataExtensiong": {
+            "title": "Data Extension: Execute Filter Ordered Rows",
+            "url": "executefilterorderedrows.htm"
+          },
+          "DataExtensionh": {
+            "title": "Data Extension: Field",
+            "url": "field.htm"
+          },
+          "DataExtensioni": {
+            "title": "Data Extension: Insert Data",
+            "url": "insertdata.htm"
+          },
+          "DataExtensionj": {
+            "title": "Data Extension: Insert DE",
+            "url": "insertde.htm"
+          },
+          "DataExtensionk": {
+            "title": "Data Extension: Lookup",
+            "url": "lookup.htm"
+          },
+          "DataExtensionl": {
+            "title": "Data Extension: Lookup Ordered Rows",
+            "url": "lookuporderedrows.htm"
+          },
+          "DataExtensionm": {
+            "title": "Data Extension: Lookup Ordered Rows CS",
+            "url": "lookuporderedrowscs.htm"
+          },
+          "DataExtensionn": {
+            "title": "Data Extension: Lookup Rows",
+            "url": "lookuprows.htm"
+          },
+          "DataExtensiono": {
+            "title": "Data Extension: Lookup Rows CS",
+            "url": "lookuprowscs.htm"
+          },
+          "DataExtensionp": {
+            "title": "Data Extension: Row",
+            "url": "row.htm"
+          },
+          "DataExtensionq": {
+            "title": "Data Extension: Row Count",
+            "url": "rowcount.htm"
+          },
+          "DataExtensionr": {
+            "title": "Data Extension: Update Data",
+            "url": "updatedata.htm"
+          },
+          "DataExtensions": {
+            "title": "Data Extension: Update DE",
+            "url": "updatede.htm"
+          },
+          "DataExtensiont": {
+            "title": "Data Extension: Upsert Data",
+            "url": "upsertdata.htm"
+          },
+          "DataExtensionu": {
+            "title": "Data Extension: Upsert DE",
+            "url": "upsertde.htm"
+          },
+          "DateTimea": {
+            "title": "Date Time: Date Add",
+            "url": "DateAdd.htm"
+          },
+          "DateTimeb": {
+            "title": "Date Time: Date Diff",
+            "url": "DateDiff.htm"
+          },
+          "DateTimec": {
+            "title": "Date Time: Date Parse",
+            "url": "DateParse.htm"
+          },
+          "DateTimed": {
+            "title": "Date Time: Date Part",
+            "url": "DatePart.htm"
+          },
+          "DateTimee": {
+            "title": "Date Time: Format Date",
+            "url": "FormatDate.htm"
+          },
+          "DateTimeee": {
+            "title": "Date Time: Get Send Time",
+            "url": "GetSendTime.htm"
+          },
+          "DateTimef": {
+            "title": "Date Time: Local Date to System Date",
+            "url": "LocalDateToSystemDate.htm"
+          },
+          "DateTimeg": {
+            "title": "Date Time: Now",
+            "url": "Now.htm"
+          },
+          "DateTimeh": {
+            "title": "Date Time: System Date to Local Date",
+            "url": "SystemDateToLocalDate.htm"
+          },
+          "encryptiona": {
+            "title": "Encryption: Base 64 Decode",
+            "url": "Base64Decode.htm"
+          },
+          "encryptionb": {
+            "title": "Encryption: Base 64 Encode",
+            "url": "Base64Encode.htm"
+          },
+          "encryptionc": {
+            "title": "Encryption: Decrypt Symmetic",
+            "url": "DecryptSymmetric.htm"
+          },
+          "encryptiond": {
+            "title": "Encryption: Encrypt Symmetric",
+            "url": "EncryptSymmetric.htm"
+          },
+          "encryptione": {
+            "title": "Encryption: GUID",
+            "url": "GUID.htm"
+          },
+          "encryptionf": {
+            "title": "Encryption: MD5",
+            "url": "MD5.htm"
+          },
+          "encryptiong": {
+            "title": "Encryption: SHA1",
+            "url": "SHA1.htm"
+          },
+          "encryptionh": {
+            "title": "Encryption: SHA256",
+            "url": "SHA256.htm"
+          },
+          "encryptioni": {
+            "title": "Encryption: SHA512",
+            "url": "SHA512.htm"
+          },
+          "HTTPa": {
+            "title": "HTTP Get",
+            "url": "httpget.htm"
+          },
+          "HTTPb": {
+            "title": "HTTP Post",
+            "url": "httppost.htm"
+          },
+          "HTTPc": {
+            "title": "HTTP Post 2",
+            "url": "httppost2.htm"
+          },
+          "HTTPd": {
+            "title": "HTTP Request Header",
+            "url": "httprequestheader.htm"
+          },
+          "HTTPe": {
+            "title": "HTTP: Is CHTML Browser",
+            "url": "IsCHTMLBrowser.htm"
+          },
+          "HTTPf": {
+            "title": "HTTP: Redirect To",
+            "url": "redirectto.htm"
+          },
+          "HTTPg": {
+            "title": "HTTP: URL Encode",
+            "url": "urlencode.htm"
+          },
+          "HTTPh": {
+            "title": "HTTP: Wrap Long URL",
+            "url": "wraplongurl.htm"
+          },
+          "Matha": {
+            "title": "Math: Add",
+            "url": "Add.htm"
+          },
+          "Mathb": {
+            "title": "Math: Divide",
+            "url": "Divide.htm"
+          },
+          "Mathc": {
+            "title": "Math: Format Currency",
+            "url": "FormatCurrency.htm"
+          },
+          "Mathd": {
+            "title": "Math: Format Number",
+            "url": "FormatNumber.htm"
+          },
+          "Mathe": {
+            "title": "Math: Mod",
+            "url": "Mod.htm"
+          },
+          "Mathf": {
+            "title": "Math: Multiply",
+            "url": "Multiply.htm"
+          },
+          "Mathg": {
+            "title": "Math: Random",
+            "url": "random.htm"
+          },
+          "Mathh": {
+            "title": "Math: Subtract",
+            "url": "Subtract.htm"
+          },
+          "Microsofta": {
+            "title": "Microsoft Dynamics CRM: Add MSCRM List Member",
+            "url": "addmscrmlistmember.htm"
+          },
+          "Microsoftb": {
+            "title": "Microsoft Dynamics CRM: Create MSCRM Record",
+            "url": "createmscrmrecord.htm"
+          },
+          "Microsoftc": {
+            "title": "Microsoft Dynamics CRM: Describe MSCRM Entities",
+            "url": "describemscrmentities.htm"
+          },
+          "Microsoftd": {
+            "title": "Microsoft Dynamics CRM: Describe MSCRM Entity Attributes",
+            "url": "describemscrmentityattributes.htm"
+          },
+          "Microsofte": {
+            "title": "Microsoft Dynamics CRM: Retrieve MSCRM Records",
+            "url": "retrievemscrmrecords.htm"
+          },
+          "Microsoftf": {
+            "title": "Microsoft Dynamics CRM: Retrieve MSCRM Records Fetch XML",
+            "url": "retrievemscrmrecordsfetchxml.htm"
+          },
+          "Microsoftg": {
+            "title": "Microsoft Dynamics CRM: Set State MSCRM Record",
+            "url": "setstatemscrmrecord.htm"
+          },
+          "Microsofth": {
+            "title": "Microsoft Dynamics CRM: Update MSCRM Records",
+            "url": "updatemscrmrecords.htm"
+          },
+          "Microsofti": {
+            "title": "Microsoft Dynamics CRM: Upsert MSCRM Record",
+            "url": "upsertmscrmrecord.htm"
+          },
+          "Salesforcea": {
+            "title": "Salesforce: Create Salesforce Object",
+            "url": "createsalesforceobject.htm"
+          },
+          "Salesforceb": {
+            "title": "Salesforce: Long SFID",
+            "url": "longsfid.htm"
+          },
+          "Salesforcec": {
+            "title": "Salesforce: Retrieve Salesforce Job Sources",
+            "url": "retrievesalesforcejobsources.htm"
+          },
+          "Salesforced": {
+            "title": "Salesforce: Retrieve Salesforce Objects",
+            "url": "retrievesalesforceobjects.htm"
+          },
+          "Salesforcee": {
+            "title": "Salesforce: Update Single Salesforce Object",
+            "url": "updatesinglesalesforceobject.htm"
+          },
+          "Sitesa": {
+            "title": "Sites: Authenticated Employee ID",
+            "url": "authenticatedemployeeid.htm"
+          },
+          "Sitesb": {
+            "title": "Sites: Authenticated Employee Notification Address",
+            "url": "authenticatedemployeenotificationaddress.htm"
+          },
+          "Sitesc": {
+            "title": "Sites: Authenticated Employee Username",
+            "url": "authenticatedemployeeusername.htm"
+          },
+          "Sitesd": {
+            "title": "Sites: Authenticated Enterprise ID",
+            "url": "authenticatedenterpriseid.htm"
+          },
+          "Sitese": {
+            "title": "Sites: Authenticated Member ID",
+            "url": "authenticatedmemberid.htm"
+          },
+          "Sitesf": {
+            "title": "Sites: Authenticated Member Name",
+            "url": "authenticatedmembername.htm"
+          },
+          "Sitesg": {
+            "title": "Sites: Cloud Pages URL",
+            "url": "cloudpagesurl.htm"
+          },
+          "Sitesh": {
+            "title": "Sites: Is Null Default",
+            "url": "isnulldefault.htm"
+          },
+          "Sitesi": {
+            "title": "Sites: Live Content Microsite URL",
+            "url": "livecontentmicrositeurl.htm"
+          },
+          "Sitesj": {
+            "title": "Sites: Microsite URL",
+            "url": "MicrositeURL.htm"
+          },
+          "Sitesk": {
+            "title": "Sites: Query Parameters",
+            "url": "queryparameter.htm"
+          },
+          "Sitesl": {
+            "title": "Sites: Redirect",
+            "url": "redirect.htm"
+          },
+          "Sitesm": {
+            "title": "Sites: Request Parameter",
+            "url": "requestparameter.htm"
+          },
+          "Sociala": {
+            "title": "Social: Get Published Social Content",
+            "url": "GetPublishedSocialContent.htm"
+          },
+          "Socialb": {
+            "title": "Social: Get Social Publish URL",
+            "url": "getsocialpublishurl.htm"
+          },
+          "Socialc": {
+            "title": "Social: Get Social Publish URL By Name",
+            "url": "GetSocialPublishURLByName.htm"
+          },
+          "Stringa": {
+            "title": "String: Char",
+            "url": "Char.htm"
+          },
+          "Stringb": {
+            "title": "String: Concat",
+            "url": "Concat.htm"
+          },
+          "Stringc": {
+            "title": "String: Format",
+            "url": "Format.htm"
+          },
+          "Stringd": {
+            "title": "String: Index Of",
+            "url": "IndexOf.htm"
+          },
+          "Stringe": {
+            "title": "String: Length",
+            "url": "Length.htm"
+          },
+          "Stringf": {
+            "title": "String: Lowercase",
+            "url": "Lowercase.htm"
+          },
+          "Stringg": {
+            "title": "String: Propercase",
+            "url": "ProperCase.htm"
+          },
+          "Stringh": {
+            "title": "String: Reg Ex Match",
+            "url": "RegExMatch.htm"
+          },
+          "Stringi": {
+            "title": "String: Replace",
+            "url": "Replace.htm"
+          },
+          "Stringj": {
+            "title": "String: Replace List",
+            "url": "ReplaceList.htm"
+          },
+          "Stringk": {
+            "title": "String: String To Date",
+            "url": "StringToDate.htm"
+          },
+          "Stringl": {
+            "title": "String: String To Hex",
+            "url": "StringToHex.htm"
+          },
+          "Stringm": {
+            "title": "String: Substring",
+            "url": "Substring.htm"
+          },
+          "Stringn": {
+            "title": "String: Trim",
+            "url": "Trim.htm"
+          },
+          "Stringo": {
+            "title": "String: Uppercase",
+            "url": "Uppercase.htm"
+          },
+          "Utilitiesa": {
+            "title": "Utilities: Attribute Value",
+            "url": "attributevalue.htm"
+          },
+          "Utilitiesb": {
+            "title": "Utilities: Domain",
+            "url": "domain.htm"
+          },
+          "Utilitiesc": {
+            "title": "Utilities: Empty",
+            "url": "empty.htm"
+          },
+          "Utilitiesd": {
+            "title": "Utilities: IIF",
+            "url": "iif.htm"
+          },
+          "Utilitiese": {
+            "title": "Utilities: Is Email Address",
+            "url": "isemailaddress.htm"
+          },
+          "Utilitiesf": {
+            "title": "Utilities: Is Null",
+            "url": "isnull.htm"
+          },
+          "Utilitiesg": {
+            "title": "Utilities: Is Phone Number",
+            "url": "isphonenumber.htm"
+          },
+          "Utilitiesh": {
+            "title": "Utilities: Output",
+            "url": "output.htm"
+          },
+          "Utilitiesi": {
+            "title": "Utilities: Output Line",
+            "url": "OutputLine.htm"
+          },
+          "Utilitiesj": {
+            "title": "Utilities: V",
+            "url": "v.htm"
+        }
+      },
+      "c": {
+        "title": "AMPscript Examples",
+        "url": "examples.htm",
+        "a": {
+          "title": "Create an Impression Region in an Email Message",
+          "url": "impressionRegionEmail.htm"
+        },
+        "b": {
+          "title": "Create a PasteHTML Email Content Area",
+          "url": "createPasteHTMLContentArea.htm"
+        },
+        "c": {
+          "title": "Change Social Content Slots if Viewed As A Webpage",
+          "url": "sharedSocialContent.htm"
+        },
+        "d": {
+          "title": "Create a Triggered Send for an On-Your-Behalf Account",
+          "url": "triggeredSendOYB.htm"
+        },
+        "e": {
+          "title": "Display Send-Time Content Contextually",
+          "url": "sendTimeContent.htm"
+        },
+        "f": {
+          "title": "Include an RSS Feed in an Email Message",
+          "url": "rssFeedEmail.htm"
+        },
+        "g": {
+          "title": "Microsoft Dynamics CRM AMPscript Examples",
+          "url": "dynamicsCRMExamples.htm"
+        },
+        "h": {
+          "title": "Retrieve Channel Member Names and IDs",
+          "url": "retrieveChannelMember.htm"
+        },
+        "i": {
+          "title": "Create an HTML Content Block with AMPscript",
+          "url": "create_html_content_block.htm"
+        },
+        "j": {
+          "title": "Update an HTML Content Block with AMPscript",
+          "url": "update_html_content_block.htm"
+        }
+      },
+      "d": {
+        "title": "Personalization Strings and AMPscript",
+        "url": "personalizationStringsAMPscript.htm",
+        "a": {
+          "title": "Suggested Car Listings",
+          "url": "suggestedCarListings.htm"
+        },
+        "b": {
+          "title": "Concerts in Your Area",
+          "url": "concerts.htm"
+        }
+      },
+      "e": {
+        "title": "Get Started with AMPscript",
+        "url": "getStarted-AMPscript.htm",
+        "a": {
+          "title": "AMPscript 101",
+          "url": "AMPscript101.htm"
+        },
+        "b": {
+          "title": "AMPscript 201",
+          "url": "AMPscript201.htm"
+        },
+        "c": {
+          "title": "AMPscript 301",
+          "url": "AMPscript301.htm"
+        },
+        "d": {
+          "title": "AMPscript 401",
+          "url": "AMPscript401.htm"
+        }
+      },
+      "f": {
+        "title": "AMPscript Update, Insert, and Delete Calls Processing During Sending",
+        "url": "ampscriptProcessing.htm"
+      },
+      "g": {
+        "title": "Impression Tracking",
+        "url": "impressionTracking.htm"
+      },
+      "h": {
+        "title": "AMPscript and the SOAP Web Service API",
+        "url": "ampscriptSOAPAPI.htm",
+        "a": {
+          "title": "Retrieve Triggered Send Definition Properties using AMPscript and the SOAP Web Service API",
+          "url": "retrieveTriggeredSend.htm"
+        },
+        "b": {
+          "title": "Create a Complex Filter Via AMPscript",
+          "url": "createComplexFilter.htm"
+        },
+        "c": {
+          "title": "Create a Data Extension Using AMPscript and the SOAP Web Service API",
+          "url": "createDataExtension.htm"
+        },
+        "d": {
+          "title": "Create an Import Definition with Manual Field Mapping Using AMPscript and the SOAP Web Service API",
+          "url": "createImportDefinition.htm"
+        },
+        "e": {
+          "title": "Create a Triggered Send Using AMPscript and the SOAP Web Service API",
+          "url": "createTriggeredSend.htm"
+        },
+        "f": {
+          "title": "Create Folders Within Data Extensions, Filter Definitions, and Query Activities",
+          "url": "createFolders.htm"
+        },
+        "g": {
+          "title": "Pass Content to a Triggered Send Message at Send Time",
+          "url": "passContent.htm"
+        },
+        "h": {
+          "title": "Place a New Email Message Into a Folder using AMPscript and the SOAP Web Service API",
+          "url": "placeNewEmail.htm"
+        },
+        "i": {
+          "title": "Retrieve Rows from a Data Extension Using AMPscript and the SOAP Web Service API",
+          "url": "retrieveRows.htm"
+        },
+        "j": {
+          "title": "Unsubscribe and Log an UnsubEvent with a LogUnsubEvent Execute Call",
+          "url": "unsubEvent.htm"
+        },
+        "k": {
+          "title": "Update a Dynamic List of Fields within a Single Data Extension Record",
+          "url": "updateDynamicList.htm"
+        }
+      }
+    },
+    "b": {
+      "title": "Guide Template Language",
+      "url": "guideTemplateLanguage.htm",
+      "a": {
+        "title": "Guide Template Language Syntax Guide",
+        "url": "gtlSyntaxGuide.htm",
+        "a": {
+          "title": "Tags",
+          "url": "gtlTags.htm",
+          "a": {
+            "title": "Simple Tags",
+            "url": "gtlSimpleTags.htm"
+          },
+          "b": {
+            "title": "Comments",
+            "url": "gtlComments.htm"
+          },
+          "c": {
+            "title": "Block Tags",
+            "url": "gtlBlockTags.htm"
+          }
+        },
+        "b": {
+          "title": "Set Delimiters",
+          "url": "gtlSetDelimiters.htm"
+        },
+        "c": {
+          "title": "Built-In Block Helpers",
+          "url": "gtlBlockHelpers.htm",
+          "a": {
+            "title": "Each",
+            "url": "gtlEach.htm"
+          },
+          "b": {
+            "title": "If",
+            "url": "gtlIf.htm"
+          },
+          "c": {
+            "title": "Switch",
+            "url": "gtlSwitch.htm"
+          },
+          "d": {
+            "title": "Unless",
+            "url": "gtlUnless.htm"
+          },
+          "e": {
+            "title": "With",
+            "url": "gtlWith.htm"
+          }
+        },
+        "d": {
+          "title": "Options",
+          "url": "gtlOptions.htm"
+        },
+        "e": {
+          "title": "Escape Rendered Content Tag Syntax",
+          "url": "gtlEscaped.htm"
+        },
+        "f": {
+          "title": "Remove Whitespace Tag Syntax",
+          "url": "gtlRemoveWhitespace.htm"
+        },
+        "g": {
+          "title": "Variables",
+          "url": "gtlVariables.htm"
+        }
+      },
+      "b": {
+        "title": "Content Areas Within Template and Layout",
+        "url": "gtlContentAreas.htm",
+        "a": {
+          "title": "Blocks",
+          "url": "gtlBlocks.htm"
+        },
+        "b": {
+          "title": "Slots",
+          "url": "gtlSlots.htm"
+        }
+      },
+      "c": {
+        "title": "User-Defined Data Sources",
+        "url": "gtlUserDefinedDataSources.htm",
+        "a": {
+          "title": "Dataobject",
+          "url": "gtlDataobject.htm",
+          "a": {
+            "title": "Dataobject Tag Examples",
+            "url": "gtlDataobjectTagExamples.htm"
+          }
+        },
+          "b": {
+          "title": "Datasource",
+          "url": "gtlDatasource.htm",
+          "a": {
+            "title": "Datasource Tag Examples",
+            "url": "gtlDatasourceTagExamples.htm"
+          }
+        }
+      },
+      "d": {
+        "title": "Impression Regions",
+        "url": "gtlImpressionRegions.htm"
+      },
+      "e": {
+        "title": "Sections",
+        "url": "gtlSections.htm",
+        "a": {
+          "title": "Section Tag Examples",
+          "url": "gtlSectionTagExamples.htm"
+        }
+      },
+      "f": {
+        "title": "Partials",
+        "url": "gtlPartials.htm"
+      },
+      "g": {
+        "title": "Guide Template Language Usage with AMPscript and Server-Side JavaScript",
+        "url": "gtlUsage.htm"
+      },
+      "h": {
+        "title": "Guide Template Language Workbook",
+        "url": "gtlWorkbook.htm",
+        "a": {
+          "title": "Basic Personalization",
+          "url": "gtlBasicPersonalization.htm"
+        },
+        "b": {
+          "title": "Dynamic Content Based on Attribute Values",
+          "url": "gtlDynamicContent.htm"
+        },
+        "c": {
+          "title": "Data Relationships",
+          "url": "gtlDataRelationships.htm"
+        },
+        "d": {
+          "title": "Data Lookup",
+          "url": "gtlDataLookup.htm"
+        }
+      }
+    },
+    "c": {
+      "title": "Server-Side JavaScript",
+      "url": "ssjs_serverSideJavaScript.htm",
+      "a": {
+        "title": "Server-Side JavaScript Syntax Guide",
+        "url": "ssjs_syntaxGuide.htm",
+        "a": {
+            "title": "Account Functions",
+            "url": "ssjs_accountFunctions.htm",
+            "a": {
+              "title": "Retrieve",
+              "url": "ssjs_accountRetrieve.htm"
+            },
+            "b": {
+              "title": "Tracking.Retrieve",
+              "url": "ssjs_accountTrackingRetrieve.htm"
+            },
+            "c": {
+              "title": "Update",
+              "url": "ssjs_accountUpdate.htm"
+            }
+          },
+          "b": {
+            "title": "AccountUser Functions",
+            "url": "ssjs_accountUserFunctions.htm",
+            "a": {
+              "title": "Activate",
+              "url": "ssjs_accountUserActivate.htm"
+            },
+            "b": {
+              "title": "Add",
+              "url": "ssjs_accountUserAdd.htm"
+            },
+            "c": {
+              "title": "Deactivate",
+              "url": "ssjs_accountUserDeactivate.htm"
+            },
+            "d": {
+              "title": "Retrieve",
+              "url": "ssjs_accountUserRetrieve.htm"
+            },
+            "e": {
+              "title": "Update",
+              "url": "ssjs_accountUserUpdate.htm"
+            }
+          },
+          "c": {
+            "title": "Content Area Functions",
+            "url": "ssjs_contentAreaFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_contentAreaAdd.htm"
+            },
+            "b": {
+              "title": "Remove",
+              "url": "ssjs_contentAreaRemove.htm"
+            },
+            "c": {
+              "title": "Retrieve",
+              "url": "ssjs_contentAreaRetrieve.htm"
+            },
+            "d": {
+              "title": "Update",
+              "url": "ssjs_contentAreaUpdate.htm"
+            }
+          },
+          "d": {
+            "title": "Data Extension Functions",
+            "url": "ssjs_dataExtensionFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_dataExtensionAdd.htm"
+            },
+            "b": {
+              "title": "Fields",
+              "url": "ssjs_dataExtensionFields.htm",
+              "a": {
+                "title": "Fields.Add",
+                "url": "ssjs_dataExtensionFieldsAdd.htm"
+              },
+              "b": {
+                "title": "Fields.Retrieve",
+                "url": "ssjs_dataExtensionFieldsRetrieve.htm"
+              },
+              "c": {
+                "title": "Fields.UpdateSendableField",
+                "url": "ssjs_dataExtensionFieldsUpdateSendableField.htm"
+              }
+            },
+            "c": {
+              "title": "Retrieve",
+              "url": "ssjs_dataExtensionRetrieve.htm"
+            },
+            "d": {
+              "title": "Rows",
+              "url": "ssjs_dataExtensionRows.htm",
+              "a": {
+                "title": "Rows.Add",
+                "url": "ssjs_dataExtensionRowsAdd.htm"
+              },
+              "b": {
+                "title": "Rows.Lookup",
+                "url": "ssjs_dataExtensionRowsLookup.htm"
+              },
+              "c": {
+                "title": "Rows.Remove",
+                "url": "ssjs_dataExtensionRowsRemove.htm"
+              },
+              "d": {
+                "title": "Rows.Retrieve",
+                "url": "ssjs_dataExtensionRowsRetrieve.htm"
+              },
+              "e": {
+                "title": "Rows.Update",
+                "url": "ssjs_dataExtensionRowsUpdate.htm"
+              }
+            }
+          },
+          "e": {
+            "title": "DateTime Functions",
+            "url": "ssjs_dateTimeFunctions.htm",
+            "a": {
+              "title": "LocalDateToSystemDate",
+              "url": "ssjs_dateTimeLocalDateToSystemDate.htm"
+            },
+            "b": {
+              "title": "Now",
+              "url": "ssjs_dateTimeNow.htm"
+            },
+            "c": {
+              "title": "Retrieve",
+              "url": "ssjs_dateTimeRetrieve.htm"
+            },
+            "d": {
+              "title": "SystemDateToLocalDate",
+              "url": "ssjs_dateTimeSystemDateToLocalDate.htm"
+            }
+          },
+          "f": {
+            "title": "Delivery Profile Functions",
+            "url": "ssjs_deliveryProfileFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_deliveryProfileAdd.htm"
+            },
+            "b": {
+              "title": "Remove",
+              "url": "ssjs_deliveryProfileRemove.htm"
+            },
+            "c": {
+              "title": "Update",
+              "url": "ssjs_deliveryProfileUpdate.htm"
+            }
+          },
+          "g": {
+            "title": "Email Functions",
+            "url": "ssjs_emailFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_emailAdd.htm"
+            },
+            "b": {
+              "title": "Check Content",
+              "url": "ssjs_emailCheckContent.htm"
+            },
+            "c": {
+              "title": "Remove",
+              "url": "ssjs_emailRemove.htm"
+            },
+            "d": {
+              "title": "Retrieve",
+              "url": "ssjs_emailRetrieve.htm"
+            },
+            "e": {
+              "title": "Update",
+              "url": "ssjs_emailUpdate.htm"
+            },
+            "f": {
+              "title": "Validate",
+              "url": "ssjs_emailValidate.htm"
+            }
+          },
+          "h": {
+            "title": "Events Functions",
+            "url": "ssjs_eventsFunctions.htm",
+            "a": {
+              "title": "Retrieve",
+              "url": "ssjs_eventsRetrieve.htm"
+            }
+          },
+          "i": {
+            "title": "Filter Defintion Functons",
+            "url": "ssjs_filterDefinitionFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_filterDefinitionAdd.htm"
+            },
+            "b": {
+              "title": "Remove",
+              "url": "ssjs_filterDefinitionRemove.htm"
+            },
+            "c": {
+              "title": "Retrieve",
+              "url": "ssjs_filterDefinitionRetrieve.htm"
+            },
+            "d": {
+              "title": "Update",
+              "url": "ssjs_filterDefinitionUpdate.htm"
+            }
+          },
+          "j": {
+            "title": "Folder Functions",
+            "url": "ssjs_folderFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_folderAdd.htm"
+            },
+            "b": {
+              "title": "Remove",
+              "url": "ssjs_folderRemove.htm"
+            },
+            "c": {
+              "title": "Retrieve",
+              "url": "ssjs_folderRetrieve.htm"
+            },
+            "d": {
+              "title": "Update",
+              "url": "ssjs_folderUpdate.htm"
+            }
+          },
+          "k": {
+            "title": "HTTP Functions",
+            "url": "ssjs_httpFunctions.htm",
+            "a": {
+              "title": "Get",
+              "url": "ssjs_httpGet.htm"
+            },
+            "b": {
+              "title": "IsCHTMLBrowser",
+              "url": "ssjs_httpIsCHTMLBrowser.htm"
+            },
+            "c": {
+              "title": "Post",
+              "url": "ssjs_httpPost.htm"
+            }
+          },
+          "l": {
+            "title": "List Functions",
+            "url": "ssjs_listFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_listAdd.htm"
+            },
+            "b": {
+              "title": "Remove",
+              "url": "ssjs_listRemove.htm"
+            },
+            "c": {
+              "title": "Retrieve",
+              "url": "ssjs_listRetrieve.htm"
+            },
+            "d": {
+              "title": "Subscribers",
+              "url": "ssjs_listSubscribers.htm",
+              "a": {
+                "title": "Subscribers.Add",
+                "url": "ssjs_listSubscribersAdd.htm"
+              },
+              "b": {
+                "title": "Subscribers.Retrieve",
+                "url": "ssjs_listSubscribersRetrieve.htm"
+              },
+              "c": {
+                "title": "Subscribers.Tracking.Retrieve",
+                "url": "ssjs_listSubscribersTrackingRetrieve.htm"
+              },
+              "d": {
+                "title": "Subscribers.Unsubscribe",
+                "url": "ssjs_listSubscribersUnsubscribe.htm"
+              },
+              "e": {
+                "title": "Subscribers.Update",
+                "url": "ssjs_listSubscribersUpdate.htm"
+              },
+              "f": {
+                "title": "Subscribers.Upsert",
+                "url": "ssjs_listSubscribersUpsert.htm"
+              }
+            }
+          },
+          "m": {
+            "title": "Portfolio Functions",
+            "url": "ssjs_portfolioFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_portfolioAdd.htm"
+            },
+            "b": {
+              "title": "Remove",
+              "url": "ssjs_portfolioRemove.htm"
+            },
+            "c": {
+              "title": "Retrieve",
+              "url": "ssjs_portfolioRetrieve.htm"
+            },
+            "d": {
+              "title": "Update",
+              "url": "ssjs_portfolioUpdate.htm"
+            }
+          },
+          "n": {
+            "title": "Query Definition Functions",
+            "url": "ssjs_queryDefinitionFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_queryDefinitionAdd.htm"
+            },
+            "b": {
+              "title": "Perform",
+              "url": "ssjs_queryDefinitionPerform.htm"
+            },
+            "c": {
+              "title": "Remove",
+              "url": "ssjs_queryDefinitionRemove.htm"
+            },
+            "d": {
+              "title": "Retrieve",
+              "url": "ssjs_queryDefinitionRetrieve.htm"
+            },
+            "e": {
+              "title": "Update",
+              "url": "ssjs_queryDefinitionUpdate.htm"
+            }
+          },
+          "o": {
+            "title": "Recipient Functions",
+            "url": "ssjs_recipientFunctions.htm",
+            "a": {
+              "title": "Attribute",
+              "url": "ssjs_recipientAttribute.htm",
+              "a": {
+                "title": "GetValue",
+                "url": "ssjs_recipientGetValue.htm"
+              }
+            }
+          },
+          "p": {
+            "title": "Send Classification Functions",
+            "url": "ssjs_sendClassificationFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_sendClassificationAdd.htm"
+            },
+            "b": {
+              "title": "Remove",
+              "url": "ssjs_sendClassificationRemove.htm"
+            },
+            "c": {
+              "title": "Retrieve",
+              "url": "ssjs_sendClassificationRetrieve.htm"
+            },
+            "d": {
+              "title": "Update",
+              "url": "ssjs_sendClassificationUpdate.htm"
+            }
+          },
+          "q": {
+            "title": "Send Functions",
+            "url": "ssjs_sendFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_sendAdd.htm"
+            },
+            "b": {
+              "title": "CancelSend",
+              "url": "ssjs_sendCancelSend.htm"
+            },
+            "c": {
+              "title": "Send Definition",
+              "url": "ssjs_sendDefinition.htm",
+              "a": {
+                "title": "Definition.Add",
+                "url": "ssjs_sendDefinitionAdd.htm"
+              },
+              "b": {
+                "title": "Definition.AddWithDE",
+                "url": "ssjs_sendDefinitionAddWithDE.htm"
+              },
+              "c": {
+                "title": "Definition.AddWithFilterDefinition",
+                "url": "ssjs_sendDefinitionAddWithFilterDefinition.htm"
+              },
+              "d": {
+                "title": "Definition.Remove",
+                "url": "ssjs_sendDefinitionRemove.htm"
+              },
+              "e": {
+                "title": "Definition.Retrieve",
+                "url": "ssjs_sendDefinitionRetrieve.htm"
+              },
+              "f": {
+                "title": "Definition.Send",
+                "url": "ssjs_sendDefinitionSend.htm"
+              },
+              "g": {
+                "title": "Definition.Update",
+                "url": "ssjs_sendDefinitionUpdate.htm"
+              }
+            },
+            "d": {
+              "title": "Remove",
+              "url": "ssjs_sendRemove.htm"
+            },
+            "e": {
+              "title": "Retrieve",
+              "url": "ssjs_sendRetrieve.htm"
+            },
+            "f": {
+              "title": "RetrieveLists",
+              "url": "ssjs_sendRetrieveLists.htm"
+            },
+            "g": {
+              "title": "Tracking",
+              "url": "ssjs_sendTracking.htm",
+              "a": {
+                "title": "Tracking.ClicksRetrieve",
+                "url": "ssjs_sendTrackingClicksRetrieve.htm"
+              },
+              "b": {
+                "title": "Tracking.Retrieve",
+                "url": "ssjs_sendTrackingRetrieve.htm"
+              },
+              "c": {
+                "title": "Tracking.TotalByIntervalRetrieve",
+                "url": "ssjs_sendTrackingTotalByIntervalRetrieve.htm"
+              }
+            }
+          },
+          "r": {
+            "title": "Sender Profile Functions",
+            "url": "ssjs_senderProfileFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_senderProfileAdd.htm"
+            },
+            "b": {
+              "title": "Remove",
+              "url": "ssjs_senderProfileRemove.htm"
+            },
+            "c": {
+              "title": "Update",
+              "url": "ssjs_senderProfileUpdate.htm"
+            }
+          },
+          "s": {
+            "title": "Subscriber Functions",
+            "url": "ssjs_subscriberFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_subscriberAdd.htm"
+            },
+            "b": {
+              "title": "Attributes.Retrieve",
+              "url": "ssjs_subscriberAttributesRetrieve.htm"
+            },
+            "c": {
+              "title": "Lists.Retrieve",
+              "url": "ssjs_subscriberListsRetrieve.htm"
+            },
+            "d": {
+              "title": "Remove",
+              "url": "ssjs_subscriberRemove.htm"
+            },
+            "e": {
+              "title": "Retrieve",
+              "url": "ssjs_subscriberRetrieve.htm"
+            },
+            "f": {
+              "title": "Statistics",
+              "url": "ssjs_subscriberStatistics.htm"
+            },
+            "g": {
+              "title": "Unsubscribe",
+              "url": "ssjs_subscriberUnsubscribe.htm"
+            },
+            "h": {
+              "title": "Update",
+              "url": "ssjs_subscriberUpdate.htm"
+            },
+            "i": {
+              "title": "Upsert",
+              "url": "ssjs_subscriberUpsert.htm"
+            }
+          },
+          "t": {
+            "title": "Template Functions",
+            "url": "ssjs_templateFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_templateAdd.htm"
+            },
+            "b": {
+              "title": "Retrieve",
+              "url": "ssjs_templateRetrieve.htm"
+            },
+            "c": {
+              "title": "Update",
+              "url": "ssjs_templateUpdate.htm"
+            }
+          },
+          "u": {
+            "title": "Triggered Send Functions",
+            "url": "ssjs_triggeredSendFunctions.htm",
+            "a": {
+              "title": "Add",
+              "url": "ssjs_triggeredSendAdd.htm"
+            },
+            "b": {
+              "title": "Pause",
+              "url": "ssjs_triggeredSendPause.htm"
+            },
+            "c": {
+              "title": "Publish",
+              "url": "ssjs_triggeredSendPublish.htm"
+            },
+            "d": {
+              "title": "Retrieve",
+              "url": "ssjs_triggeredSendRetrieve.htm"
+            },
+            "e": {
+              "title": "Send",
+              "url": "ssjs_triggeredSendSend.htm"
+            },
+            "f": {
+              "title": "Start",
+              "url": "ssjs_triggeredSendStart.htm"
+            },
+            "g": {
+              "title": "Tracking",
+              "url": "ssjs_triggeredSendTracking.htm",
+              "a": {
+                "title": "Clicks.Retrieve",
+                "url": "ssjs_triggeredSendTrackingClicksRetrieve.htm"
+              },
+              "b": {
+                "title": "Retrieve",
+                "url": "ssjs_triggeredSendTrackingRetrieve.htm"
+              },
+              "c": {
+                "title": "TotalByInterval.Retrieve",
+                "url": "ssjs_triggeredSendTrackingTotalByIntervalRetrieve.htm"
+              }
+            },
+            "h": {
+              "title": "Update",
+              "url": "ssjs_triggeredSendUpdate.htm"
+            }
+          },
+          "v": {
+            "title": "Utilities Functions",
+            "url": "ssjs_utilitiesFunctions.htm",
+            "a": {
+              "title": "Application Utility Functions",
+              "url": "ssjs_utilitiesApplication.htm",
+              "a":{
+                "title": "Logout",
+                "url": "ssjs_utilitiesLogout.htm"
+              },
+              "b":{
+                "title": "Redirect",
+                "url": "ssjs_utilitiesRedirect.htm"
+              }
+            },
+            "b": {
+              "title": "Base64 Utility Functions",
+              "url": "ssjs_utilitiesBase64.htm",
+              "a":{
+                "title": "Base64Decode",
+                "url": "ssjs_utilitiesBase64Decode.htm"
+              },
+              "b":{
+                "title": "Base64Encode",
+                "url": "ssjs_utilitiesBase64Encode.htm"
+              }
+            },
+            "c": {
+              "title": "Content Area Utility Functions",
+              "url": "ssjs_utilitiesContentAreaFunctions.htm",
+              "a":{
+                "title": "ContentArea",
+                "url": "ssjs_utilitiesContentArea.htm"
+              },
+              "b":{
+                "title": "ContentAreaByName",
+                "url": "ssjs_utilitiesContentAreaByName.htm"
+              }
+            },
+            "d": {
+              "title": "HTTPHeader Object Utility Functions",
+              "url": "ssjs_utilitiesHTTPHeaderObject.htm",
+              "a":{
+                "title": "GetValue",
+                "url": "ssjs_utilitiesGetValue.htm"
+              },
+              "b":{
+                "title": "Remove",
+                "url": "ssjs_utilitiesRemove.htm"
+              },
+              "c":{
+                "title": "SetValue",
+                "url": "ssjs_utilitiesSetValue.htm"
+              }
+            },
+            "e": {
+              "title": "Impression Region Utility Functions",
+              "url": "ssjs_utilitiesImpressionRegion.htm",
+              "a":{
+                "title": "BeginImpressionRegion",
+                "url": "ssjs_utilitiesBeginImpressionRegion.htm"
+              },
+              "b":{
+                "title": "EndImpressionRegion",
+                "url": "ssjs_utilitiesEndImpressionRegion.htm"
+              }
+            },
+            "f": {
+              "title": "Request Object Utility Functions",
+              "url": "ssjs_utilitiesRequestObject.htm",
+              "a":{
+                "title": "GetFormField",
+                "url": "ssjs_utilitiesGetFormField.htm"
+              },
+              "b":{
+                "title": "GetQueryStringParameters",
+                "url": "ssjs_utilitiesGetQueryStringParameters.htm"
+              }
+            },
+            "g": {
+              "title": "String Utility Functions",
+              "url": "ssjs_utilitiesString.htm",
+              "a":{
+                "title": "Format",
+                "url": "ssjs_utilitiesFormat.htm"
+              },
+              "b":{
+                "title": "GUID",
+                "url": "ssjs_utilitiesGUID.htm"
+              },
+              "c":{
+                "title": "IsEmailAddress",
+                "url": "ssjs_utilitiesIsEmailAddress.htm"
+              },
+              "d":{
+                "title": "IsPhoneNumber",
+                "url": "ssjs_utilitiesIsPhoneNumber.htm"
+              },
+              "e":{
+                "title": "Stringify",
+                "url": "ssjs_utilitiesStringify.htm"
+              },
+              "f":{
+                "title": "Write",
+                "url": "ssjs_utilitiesWrite.htm"
+              }
+            },
+            "h": {
+              "title": "Variable Utility Functions",
+              "url": "ssjs_utilitiesVariable.htm",
+              "a":{
+                "title": "Variable GetValue",
+                "url": "ssjs_utilitiesVariableGetValue.htm"
+              },
+              "b":{
+                "title": "Variable SetValue",
+                "url": "ssjs_utilitiesVariableSetValue.htm"
+              }
+            }
+          },
+          "w": {
+          "title": "Platform Functions",
+          "url": "ssjs_platformFunctions.htm",
+          "a": {
+            "title": "API Functions",
+            "url": "ssjs_platformAPIFunctions.htm",
+            "a": {
+              "title": "AddObjectArrayItem",
+              "url": "ssjs_platformAPIAddObjectArrayItem.htm"
+            },
+            "b": {
+              "title": "CreateObject",
+              "url": "ssjs_platformAPICreateObject.htm"
+            },
+            "c": {
+              "title": "InvokeConfigure",
+              "url": "ssjs_platformAPIInvokeConfigure.htm"
+            },
+            "d": {
+              "title": "InvokeCreate",
+              "url": "ssjs_platformAPIInvokeCreate.htm"
+            },
+            "e": {
+              "title": "InvokeDelete",
+              "url": "ssjs_platformAPIInvokeDelete.htm"
+            },
+            "f": {
+              "title": "InvokeExecute",
+              "url": "ssjs_platformAPIInvokeExecute.htm"
+            },
+            "g": {
+              "title": "InvokeExtract",
+              "url": "ssjs_platformAPIInvokeExtract.htm"
+            },
+            "h": {
+              "title": "InvokePerform",
+              "url": "ssjs_platformAPIInvokePerform.htm"
+            },
+            "i": {
+              "title": "InvokeRetrieve",
+              "url": "ssjs_platformAPIInvokeRetrieve.htm"
+            },
+            "j": {
+              "title": "InvokeSchedule",
+              "url": "ssjs_platformAPIInvokeSchedule.htm"
+            },
+            "k": {
+              "title": "InvokeUpdate",
+              "url": "ssjs_platformAPIInvokeUpdate.htm"
+            },
+            "l": {
+              "title": "SetObjectProperty",
+              "url": "ssjs_platformAPISetObjectProperty.htm"
+            }
+          },
+          "b": {
+            "title": "Field and Attribute Functions",
+            "url": "ssjs_platformFieldAttributeFunctions.htm",
+            "a": {
+              "title": "GetAttributeValue",
+              "url": "ssjs_platformFieldAttributeGetAttributeValue.htm"
+            }
+          },
+          "c": {
+            "title": "HTTP Functions",
+            "url": "ssjs_platformHTTPFunctions.htm",
+            "a": {
+              "title": "RedirectTo",
+              "url": "ssjs_platformHTTPRedirectTo.htm"
+            },
+            "b": {
+              "title": "UrlEncode",
+              "url": "ssjs_platformHTTPUrlEncode.htm"
+            }
+          },
+          "d": {
+            "title": "Content Functions",
+            "url": "ssjs_platformContentFunctions.htm",
+            "a": {
+              "title": "BeginImpressionRegion",
+              "url": "ssjs_platformContentBeginImpressionRegion.htm"
+            },
+            "b": {
+              "title": "ContentArea",
+              "url": "ssjs_platformContentContentArea.htm"
+            },
+            "c": {
+              "title": "ContentAreaByName",
+              "url": "ssjs_platformContentContentAreaByName.htm"
+            },
+            "d": {
+              "title": "ContentBlockById",
+              "url": "ssjs_platformContentContentBlockByID.htm"
+            },
+            "e": {
+              "title": "ContentBlockByKey",
+              "url": "ssjs_platformContentContentBlockByKey.htm"
+            },
+            "f": {
+              "title": "ContentBlockByName",
+              "url": "ssjs_platformContentContentBlockByName.htm"
+            },
+            "g": {
+              "title": "ContentImagebyID",
+              "url": "ssjs_platformContentContentImageByID.htm"
+            },
+            "h": {
+              "title": "ContentImagebyKey",
+              "url": "ssjs_platformContentContentImageByKey.htm"
+            },
+            "i": {
+              "title": "EndImpressionRegion",
+              "url": "ssjs_platformContentEndImpressionRegion.htm"
+            },
+            "j": {
+              "title": "TreatAsContent",
+              "url": "ssjs_platformContentTreatAsContent.htm"
+            }
+          },
+          "e": {
+            "title": "Data Extension Functions",
+            "url": "ssjs_platformDataExtensionFunctions.htm",
+            "a": {
+              "title": "DeleteData",
+              "url": "ssjs_platformDataExtensionDeleteData.htm"
+            },
+            "b": {
+              "title": "DeleteDE",
+              "url": "ssjs_platformDataExtensionDeleteDE.htm"
+            },
+            "c": {
+              "title": "InsertData",
+              "url": "ssjs_platformDataExtensionInsertData.htm"
+            },
+            "d": {
+              "title": "InsertDE",
+              "url": "ssjs_platformDataExtensionInsertDE.htm"
+            },
+            "e": {
+              "title": "Lookup",
+              "url": "ssjs_platformDataExtensionLookup.htm"
+            },
+            "f": {
+              "title": "LookupOrderedRows",
+              "url": "ssjs_platformDataExtensionLookupOrderedRows.htm"
+            },
+            "g": {
+              "title": "LookupRows",
+              "url": "ssjs_platformDataExtensionLookupRows.htm"
+            },
+            "h": {
+              "title": "UpdateData",
+              "url": "ssjs_platformDataExtensionUpdateData.htm"
+            },
+            "i": {
+              "title": "UpdateDE",
+              "url": "ssjs_platformDataExtensionUpdateDE.htm"
+            },
+            "j": {
+              "title": "UpsertData",
+              "url": "ssjs_platformDataExtensionUpsertData.htm"
+            },
+            "k": {
+              "title": "UpsertDE",
+              "url": "ssjs_platformDataExtensionUpsertDE.htm"
+            }
+          },
+          "f": {
+            "title": "Date and Time Functions",
+            "url": "ssjs_platformDateTimeFunctions.htm",
+            "a": {
+              "title": "LocalDateToSystemDate",
+              "url": "ssjs_platformDateTimeLocalDateToSystemDate.htm"
+            },
+            "b": {
+              "title": "Now",
+              "url": "ssjs_platformDateTimeNow.htm"
+            },
+            "c": {
+              "title": "SystemDateToLocalDate",
+              "url": "ssjs_platformDateTimeSystemDateToLocalDate.htm"
+            }
+          },
+          "g": {
+            "title": "Client Browser Functions",
+            "url": "ssjs_platformClientBrowserFunctions.htm",
+            "a": {
+              "title": "Redirect",
+              "url": "ssjs_platformClientBrowserRedirect.htm"
+            },
+            "b": {
+              "title": "RemoveCookie",
+              "url": "ssjs_platformClientBrowserRemoveCookie.htm"
+            },
+            "c": {
+              "title": "RemoveResponseHeader",
+              "url": "ssjs_platformClientBrowserRemoveResponseHeader.htm"
+            },
+            "d": {
+              "title": "SetCookie",
+              "url": "ssjs_platformClientBrowserSetCookie.htm"
+            },
+            "e": {
+              "title": "SetResponseHeader",
+              "url": "ssjs_platformClientBrowserSetResponseHeader.htm"
+            },
+            "f": {
+              "title": "Write",
+              "url": "ssjs_platformClientBrowserWrite.htm"
+            }
+          },
+          "h": {
+            "title": "Utility Functions",
+            "url": "ssjs_platformUtilityFunctions.htm",
+            "a": {
+              "title": "Base64Decode",
+              "url": "ssjs_platformUtilityBase64Decode.htm"
+            },
+            "b": {
+              "title": "Base64Encode",
+              "url": "ssjs_platformUtilityBase64Encode.htm"
+            },
+            "c": {
+              "title": "GUID",
+              "url": "ssjs_platformUtilityGUID.htm"
+            },
+            "d": {
+              "title": "IsEmailAddress",
+              "url": "ssjs_platformUtilityIsEmailAddress.htm"
+            },
+            "e": {
+              "title": "IsPhoneNumber",
+              "url": "ssjs_platformUtilityIsPhoneNumber.htm"
+            },
+            "f": {
+              "title": "MD5",
+              "url": "ssjs_platformUtilityMD5.htm"
+            },
+            "g": {
+              "title": "ParseJSON",
+              "url": "ssjs_platformUtilityParseJSON.htm"
+            },
+            "h": {
+              "title": "RaiseError",
+              "url": "ssjs_platformUtilityRaiseError.htm"
+            },
+            "i": {
+              "title": "Stringify",
+              "url": "ssjs_platformUtilityStringify.htm"
+            }
+          },
+          "i": {
+            "title": "AMPscript Variable Functions",
+            "url": "ssjs_platformAMPscriptVariableFunctions.htm",
+            "a": {
+              "title": "GetValue",
+              "url": "ssjs_platformAMPscriptVariableGetValue.htm"
+            },
+            "b": {
+              "title": "SetValue",
+              "url": "ssjs_platformAMPscriptVariableSetValue.htm"
+            }
+          },
+          "j": {
+            "title": "HTTP Property Functions",
+            "url": "ssjs_platformHTTPPropertyFunctions.htm",
+            "a": {
+              "title": "GetCookieValue",
+              "url": "ssjs_platformHTTPPropertyGetCookieValue.htm"
+            },
+            "b": {
+              "title": "GetFormField",
+              "url": "ssjs_platformHTTPPropertyGetFormField.htm"
+            },
+            "c": {
+              "title": "GetPostData",
+              "url": "ssjs_platformHTTPPropertyGetPostData.htm"
+            },
+            "d": {
+              "title": "GetQueryStringParameter",
+              "url": "ssjs_platformHTTPPropertyGetQueryStringParameter.htm"
+            },
+            "e": {
+              "title": "GetRequestHeader",
+              "url": "ssjs_platformHTTPPropertyGetRequestHeader.htm"
+            },
+            "f": {
+              "title": "GetUserLanguages",
+              "url": "ssjs_platformHTTPPropertyGetUserLanguages.htm"
+            }
+          },
+          "k": {
+            "title": "Content Syndication Functions",
+            "url": "ssjs_platformContentSyndicationFunctions.htm",
+            "a": {
+              "title": "Content Syndication Objects",
+              "url": "ssjs_platformContentSyndicationObjects.htm",
+              "a": {
+                "title": "Script.Util.HttpResponse",
+                "url": "ssjs_platformContentSyndicationScriptUtilHttpResponse.htm"
+              },
+              "b": {
+                "title": "Script.Util.HttpRequest",
+                "url": "ssjs_platformContentSyndicationScriptUtilHttpRequest.htm"
+              },
+              "c": {
+                "title": "Script.Util.HttpGet",
+                "url": "ssjs_platformContentSyndicationScriptUtilHttpGet.htm"
+              }
+            },
+            "b": {
+              "title": "HTTPGet",
+              "url": "ssjs_platformContentSyndicationHTTPGet.htm"
+            },
+            "c": {
+              "title": "HTTPPost",
+              "url": "ssjs_platformContentSyndicationHTTPPost.htm"
+            }
+          }
+        },
+          "x": {
+          "title": "Server-Side JavaScript Sample Code",
+          "url": "ssjs_sampleCode.htm",
+          "a": {
+            "title": "Add Data to a Data Extension",
+            "url": "ssjs_addDatatoDE.htm"
+          },
+          "b": {
+            "title": "Add Subscribers to a List",
+            "url": "ssjs_addSubscriberstoList.htm"
+          },
+          "c": {
+            "title": "Create a Business Unit Inside an Enterprise 2.0 Account",
+            "url": "ssjs_createBU.htm"
+          },
+          "d": {
+            "title": "Create a Subscriber Thank You Page",
+            "url": "ssjs_createThankYouPage.htm"
+          },
+          "e": {
+            "title": "Create an HTML Email and Send to All Lists in an Account",
+            "url": "ssjs_createHTMLEmailandSend.htm"
+          },
+          "f": {
+            "title": "Create an Unsubscribe Page",
+            "url": "ssjs_createUnsubPage.htm"
+          },
+          "g": {
+            "title": "Display Profile Attribute Values in an Email",
+            "url": "ssjs_displayProfileattributeValues.htm"
+          },
+          "h": {
+            "title": "Perform a Send Preview Test Send",
+            "url": "ssjs_performTestSend.htm"
+          },
+          "i": {
+            "title": "Perform a Triggered Send Defintion",
+            "url": "ssjs_performTSD.htm"
+          },
+          "j": {
+            "title": "Retrieve and De-Duplicate Content Areas",
+            "url": "ssjs_retrieveDeDupeContentAreas.htm"
+          },
+          "k": {
+            "title": "Retrieve Lists from an Account",
+            "url": "ssjs_retrieveLists.htm"
+          },
+          "l": {
+            "title": "Retrieve Rows from a Data Extension",
+            "url": "ssjs_retrieveRows.htm"
+          },
+          "m": {
+            "title": "Retrieve the External Key of a User-Initiated Send at Send Time",
+            "url": "ssjs_retrieveExternalKey.htm"
+          },
+          "n": {
+            "title": "Server-Side JavaScript Concert in Your Area Scenario",
+            "url": "ssjs_concertScenario.htm"
+          },
+          "o": {
+            "title": "Unsubscribe and Log an UnsubEvent with a LogUnsubEvent Execute Call",
+            "url": "ssjs_unsubLogUnsubEvent.htm"
+          },
+          "p": {
+            "title": "Create an HTML Content Block with Server-Side JavaScript",
+            "url": "ssjs_create_html_content_block.htm"
+          },
+          "q": {
+            "title": "Update an HTML Content Block with Server-Side JavaScript",
+            "url": "ssjs_update_html_content_block.htm"
+          }
+        }
+          },
+        "bb": {
+        "title": "Use Server-Side JavaScript with AMPscript",
+        "url": "ssjs_useSSJSAMPscript.htm",
+          "a": {
+          "title": "Pass Variables from AMPscript to Server-Side JavaScript",
+          "url": "ssjs_passVariables.htm"
+          },
+          "b": {
+          "title": "Perform a Triggered Send to a List Using AMPscript and Server-Side JavaScript",
+          "url": "ssjs_performTriggeredSend.htm"
+          },
+          "c": {
+          "title": "Span Server-Side JavaScript Blocks with AMPScript Control Statements",
+          "url": "ssjs_spanSSJSBlocks.htm"
+          }
+          },
+        "c": {
+        "title": "Use Server-Side Javascript via WSProxy with the SOAP API",
+        "url": "ssjs_WSProxy_useSSJS.htm",
+        "a": {
+          "title": "Impersonation via WSProxy",
+          "url": "ssjs_WSProxy_impersonate.htm"
+        },
+        "b": {
+          "title": "Create via WSProxy",
+          "url": "ssjs_WSProxy_create.htm"
+        },
+        "c": {
+          "title": "Update via WSProxy",
+          "url": "ssjs_WSProxy_update.htm"
+        },
+        "d": {
+          "title": "Delete via WSProxy",
+          "url": "ssjs_WSProxy_delete.htm"
+        },
+        "e": {
+          "title": "Basic Retrieves via WSProxy",
+          "url": "ssjs_WSProxy_basic_retrieve.htm"
+        },
+        "f": {
+          "title": "Advanced Retrieves via WSProxy",
+          "url": "ssjs_WSProxy_advanced_retrieve.htm"
+        },
+        "g": {
+          "title": "Perform via WSProxy",
+          "url": "ssjs_WSProxy_perform.htm"
+        },
+        "h": {
+          "title": "Configure via WSProxy",
+          "url": "ssjs_WSProxy_configure.htm"
+        },
+        "i": {
+          "title": "Execute via WSProxy",
+          "url": "ssjs_WSProxy_execute.htm"
+        },
+        "j": {
+          "title": "Describe via WSProxy",
+          "url": "ssjs_WSProxy_describe.htm"
+        }
+      }
+    			}
+				}

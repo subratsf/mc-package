@@ -1,0 +1,131 @@
+//
+// Sidebar
+// --------------------------------------------------
+
+.panel-group {
+	
+}
+
+
+.active-state {
+	background-color: #f2f2f2;
+	border-right: 2px solid @brand-sfblue;
+	color: @brand-gray;
+}
+
+.inactive-state {
+	background-color: #fff;
+	border: 0;
+}
+
+
+.panel-group .panel {
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	&+ .panel{
+		margin-top:0px;
+	};
+	& .panel-heading {
+		padding: 0px;
+		& a{
+			display: block;
+			.inactive-state;
+			border-radius: 0px;
+			padding: 10px 15px;
+			color: @brand-gray;
+			margin-bottom:0px;
+			font-size: 18px;
+			&:before{
+				color: @tertiary-mdGray;
+			    content: @fa-var-minus;
+			    font-size: @font-size-base;
+				.fa;
+				margin-right: 12px;
+			};
+			&.collapsed:before{
+				color: @tertiary-mdGray;
+				content: @fa-var-plus;
+			};
+			&.active{
+				.active-state;
+				box-shadow: none;
+				border-bottom: 0px;
+			};
+			&:hover{
+				.active-state;
+				text-decoration: none;
+			};
+		};
+	};
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body{
+	padding: 0px;
+	border: none;
+}
+
+.panel-body .list-group {
+	margin: 0;
+	.list-group-item {
+		border-radius: 0px;
+		border: none;
+		padding: 5px 10px;
+		/*margin-left:30px;*/
+		margin-left:6px;
+		&:hover{
+			.active-state;
+		}
+		&.active {
+			.active-state;
+		}
+	}
+}
+
+.list-group a:hover .type:after{
+	border-right:17px solid @list-group-hover-bg;
+}
+
+.list-group a.active:hover .type:after{
+	border-right:17px solid #fff;
+}
+
+
+
+.post, .put, .get, .patch, .delete {
+	margin-left:-10px;
+	display:block;
+	float:left;
+	width: 50px;
+	margin-top: -5px;
+	padding: 5px;
+	height: 100%;
+	background-color:grey;
+	margin-right:10px;
+	font-weight: bold;
+	color:#fff;
+	.shadow;
+}
+
+tr.function-title {
+	& .post,& .put,& .get,& .patch,& .delete{
+	margin-left: 0px;
+	width: 70px;
+	}
+}
+
+.get {
+	background-color: @tertiary-dkGreen;
+}
+.post {
+	background-color: @tertiary-dkBlue;
+}
+.put {
+	background-color: @tertiary-dkYellow;
+}
+.patch {
+	background-color: @tertiary-mdTurquoise;
+}
+.delete {
+	background-color: @tertiary-dkOrange;
+}

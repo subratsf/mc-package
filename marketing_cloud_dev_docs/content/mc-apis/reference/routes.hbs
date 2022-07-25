@@ -1,0 +1,32 @@
+---
+layout: inner.hbs
+title: REST API v1 Reference
+---
+{{#with swaggerdoc}}
+	{{#each this.tags}}
+	<table class="table table-hover">
+	  <caption class="text-left">
+    <a name="{{getJsonValue "x-sfdc-group-id" this}}"></a>
+    <h3>{{displayTag (getJsonValue "x-sfdc-group-id" this)}}</h3>
+    <p>{{getJsonValue "x-base-path" this}}</p>
+	   </caption>
+	   <thead align="left">
+		<tr>
+			<th class="text-left" width="40%">Resource</th>
+		  <th class="text-left">Description</th>
+		</tr>
+	  </thead>
+	  <tbody>
+	  {{#listPaths ../this this limit="60"}}
+
+	  {{/listPaths}}
+	  </tbody>
+	</table>
+	{{/each}}
+{{/with}}
+
+
+
+
+
+
