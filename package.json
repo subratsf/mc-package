@@ -38,7 +38,7 @@
     "yarn": "latest"
   },
   "scripts": {
-    "build": "npm install && cd doc-build-tool && npm generate",
+    "build": "npm install && cd doc-build-tool && npm run generate",
     "start": "http-server ./marketing_cloud_dev_docs/preview_temp_mc_html"
   }
 }
