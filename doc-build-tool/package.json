@@ -14,9 +14,7 @@
     "font-awesome": "4.0.3",
     "holderjs": "^2.9.6",
     "jquery": "2.1.0",
-    "swiftype-autocomplete-jquery": "^1.2.0"
-  },
-  "devDependencies": {
+    "swiftype-autocomplete-jquery": "^1.2.0",
     "assemble": "^0.4.37",
     "cheerio": "^0.16.0",
     "grunt": "^0.4.5",
