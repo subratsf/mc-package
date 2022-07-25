@@ -395,7 +395,6 @@ module.exports = function(grunt) {
                 options: {
                     hostname: 'localhost',
                     base: '<%= dest %>',
-                    port: 3000,
                     open: {
                         target: 'http://localhost:3000/en-us/noversion'
                     }
