@@ -1,5 +1,5 @@
 <html lang="en"><head>
-    <title>Intro to Marketing Cloud APIs</title>
+    <title>Intro to Marketing Cloud APIs Preview</title>
     <link rel="stylesheet" href="/resource/styles/default.css">
     <link rel="stylesheet" href="/resource/styles/default+en.css">
     <link rel="stylesheet" href="/resource/styles/dsc-default-font.css">
@@ -190,5 +190,22 @@
     </div>
 
     <script src="http://localhost:35729/livereload.js"></script>
+    <script>
+      window.onload = (event) => {
+          var coll = document.getElementsByClassName("function-title");
+          var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            var content = this.nextElementSibling;
+            if (content.style.display === "block" || content.style.display !== 'none') {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+      }
+</script>
 
  </body></html>

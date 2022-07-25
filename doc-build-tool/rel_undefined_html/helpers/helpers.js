@@ -97,6 +97,7 @@ function getParameters(method, data) {
 				isBody = true;
 
 				var schema = getSchema(data, param.schema.$ref);
+				console.log(param.schema.$ref + "---->"+ JSON.stringify(schema));
 				for (var key in schema.properties) {
 
 					var propId = method.summary+'_body_'+key;
@@ -163,6 +164,7 @@ function newResp(data, code, resp, methodName) {
 		  ,'<tbody>'
 		];
 	var schema = getSchema(data, resp.schema.$ref);
+	console.log(resp.schema.$ref + "--newResp-->"+ JSON.stringify(schema));
 	for (var key in schema.properties) {
 
 		var propId = methodName+'_resp_'+code+'_'+key;
@@ -757,7 +759,7 @@ module.exports.register = function (Handlebars, options, params) {
 			}
 
 		}
-
+console.log(out);
 	  	return out;
 	});
 

@@ -35,7 +35,8 @@
     "lodash": "^2.4.1",
     "make-livereload": "^0.1.2",
     "moment": "^2.6.0",
-    "yarn": "latest"
+    "yarn": "latest",
+    "http-server": "14.1.1"
   },
   "scripts": {
     "build": "npm install && cd doc-build-tool && npm run generate",
