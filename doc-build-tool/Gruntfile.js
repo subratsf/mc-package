@@ -12,6 +12,11 @@ function getTarget(docContentSource, docTeam,targetEnv)
     }  
 }
 
+function getPort() {
+    console.log("Heroku Port : "+process.env.port)
+    return process.env.port;
+}
+
 var assembleFn = function(targetEnv) {
     return {
         options: {
@@ -394,6 +399,7 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     hostname: 'localhost',
+                    port: getPort(),
                     base: '<%= dest %>',
                     open: {
                         target: 'http://localhost:3000/en-us/noversion'
